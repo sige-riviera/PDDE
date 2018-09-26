@@ -1058,9 +1058,9 @@
         </ComposerItem>
       </ComposerShape>
       <ComposerItemGroup>
+        <ComposerItemGroupElement uuid="{63bc6072-c1df-4f0c-9b87-b07991a48880}"/>
         <ComposerItemGroupElement uuid="{6ea33090-b13f-4cb8-8fc4-bcd16eacef20}"/>
         <ComposerItemGroupElement uuid="{b25a7e2d-eab5-43b0-b80e-e3bfa03cb6bd}"/>
-        <ComposerItemGroupElement uuid="{63bc6072-c1df-4f0c-9b87-b07991a48880}"/>
         <ComposerItem pagey="171.845" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="353.345" y="171.845" visibility="1" zValue="11" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="7.67972" outlineWidth="0.3" excludeFromExports="0" uuid="{e83d086a-de72-4508-ba98-99cefc0ed7b3}" height="5.209" itemRotation="0" frame="false" pagex="353.345">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -1377,13 +1377,13 @@
         </layer>
       </symbol>
       <ComposerItemGroup>
-        <ComposerItemGroupElement uuid="{d610f762-212b-4074-8506-7ca0ec420084}"/>
         <ComposerItemGroupElement uuid="{36543ea8-af33-47e8-8f6f-c355bcb05747}"/>
-        <ComposerItemGroupElement uuid="{82d5a7f3-fc65-454d-b45b-d196bae4515e}"/>
-        <ComposerItemGroupElement uuid="{baac8bf4-779e-4f9c-a268-5db1948a85fc}"/>
-        <ComposerItemGroupElement uuid="{478bd758-249f-4aeb-b158-9fba28473d04}"/>
+        <ComposerItemGroupElement uuid="{d610f762-212b-4074-8506-7ca0ec420084}"/>
         <ComposerItemGroupElement uuid="{fa100bf1-a489-427e-88ed-5c1e81b7900b}"/>
         <ComposerItemGroupElement uuid="{88c76dca-33e0-4c8a-a856-b855fc721720}"/>
+        <ComposerItemGroupElement uuid="{478bd758-249f-4aeb-b158-9fba28473d04}"/>
+        <ComposerItemGroupElement uuid="{82d5a7f3-fc65-454d-b45b-d196bae4515e}"/>
+        <ComposerItemGroupElement uuid="{baac8bf4-779e-4f9c-a268-5db1948a85fc}"/>
         <ComposerItem pagey="220.55" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="12.8902" y="220.55" visibility="1" zValue="23" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="14.9352" outlineWidth="0.3" excludeFromExports="0" uuid="{4acc8cb8-bc16-44c7-9b81-08d9fbb873a2}" height="31.7241" itemRotation="0" frame="false" pagex="12.8902">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -1604,21 +1604,13 @@
           </layer-tree-layer>
           <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="vw_pipe_schema20180903104110130" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry) sql=" name="Conduites par zone de consommation PDDE">
             <customproperties>
-              <property key="legend/label-1" value="* St-Pierre actuel devient Bignières PDDE sous CR Fontanivent"/>
-              <property key="legend/node-order" value="empty"/>
-              <property key="legend/title-label" value="* St-Pierre actuel devient Bignières PDDE sous CR Fontanivent"/>
-              <property key="legend/title-style" value="subgroup"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="vw_pipe_schema20180903104110130" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry) sql=" name="Conduites par zone de consommation PDDE">
-            <customproperties>
               <property key="legend/node-order" value="11,12,13"/>
               <property key="legend/title-label" value="Interconnexions réseaux"/>
               <property key="legend/title-style" value="group"/>
             </customproperties>
           </layer-tree-layer>
         </layer-tree-group>
-        <ComposerItem pagey="81.2171" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="11.493" y="81.2171" visibility="1" zValue="13" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="163" outlineWidth="0.2" excludeFromExports="0" uuid="{674516c6-a9c7-42bb-bee2-bf56b4fecbe1}" height="206.7" itemRotation="0" frame="false" pagex="11.493">
+        <ComposerItem pagey="81.2171" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="11.493" y="81.2171" visibility="1" zValue="13" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="151.9" outlineWidth="0.2" excludeFromExports="0" uuid="{674516c6-a9c7-42bb-bee2-bf56b4fecbe1}" height="206.7" itemRotation="0" frame="false" pagex="11.493">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -1841,7 +1833,7 @@
           <annotationFontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="0" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="5" page="1" id="" lastValidViewScaleFactor="3.77953" positionMode="0" positionLock="false" x="210" y="5" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="410" outlineWidth="0.2" excludeFromExports="0" uuid="{57486683-0664-4663-912d-5507f67db4ac}" height="283.542" itemRotation="0" frame="true" pagex="210">
+        <ComposerItem pagey="5" page="1" id="" lastValidViewScaleFactor="1.21951" positionMode="0" positionLock="false" x="210" y="5" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="410" outlineWidth="0.2" excludeFromExports="0" uuid="{57486683-0664-4663-912d-5507f67db4ac}" height="283.542" itemRotation="0" frame="true" pagex="210">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -1850,7 +1842,7 @@
       <customproperties/>
     </Composition>
   </Composer>
-  <Composer title="PDDE - extrait 2" visible="0">
+  <Composer title="PDDE - extrait 2" visible="1">
     <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="" alignmentSnap="1" printResolution="300" paperWidth="630" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="10" printAsRaster="1" generateWorldFile="0" paperHeight="297" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
@@ -1876,12 +1868,12 @@
         </layer>
       </symbol>
       <ComposerItemGroup>
-        <ComposerItemGroupElement uuid="{69e82cbc-0bce-41e8-b77e-f2176942a0bb}"/>
-        <ComposerItemGroupElement uuid="{65107ea0-c65b-4d70-b6e6-fa7c9400ba8d}"/>
-        <ComposerItemGroupElement uuid="{22e43ad3-e9cf-4730-99e1-fe2b9ed71837}"/>
         <ComposerItemGroupElement uuid="{3ce439e1-42d2-4eb1-aacf-75c0af153bac}"/>
-        <ComposerItemGroupElement uuid="{49af758e-0eeb-43e4-8217-8ebd00b72ad0}"/>
+        <ComposerItemGroupElement uuid="{69e82cbc-0bce-41e8-b77e-f2176942a0bb}"/>
         <ComposerItemGroupElement uuid="{c177893b-856c-437a-9964-5c88f2f83bb7}"/>
+        <ComposerItemGroupElement uuid="{65107ea0-c65b-4d70-b6e6-fa7c9400ba8d}"/>
+        <ComposerItemGroupElement uuid="{49af758e-0eeb-43e4-8217-8ebd00b72ad0}"/>
+        <ComposerItemGroupElement uuid="{22e43ad3-e9cf-4730-99e1-fe2b9ed71837}"/>
         <ComposerItemGroupElement uuid="{72bb1a32-b370-447e-b5ca-5bb75834c9bf}"/>
         <ComposerItem pagey="220.783" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="15.6173" y="220.783" visibility="1" zValue="27" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="13.6387" outlineWidth="0.3" excludeFromExports="0" uuid="{3273298d-d533-4869-95b0-9a9078fd50bf}" height="32.5131" itemRotation="0" frame="false" pagex="15.6173">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
@@ -2219,21 +2211,13 @@
           </layer-tree-layer>
           <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="vw_pipe_schema20180903104110130" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry) sql=" name="Conduites par zone de consommation PDDE">
             <customproperties>
-              <property key="legend/label-1" value="* St-Pierre actuel devient Bignières PDDE sous CR Fontanivent"/>
-              <property key="legend/node-order" value="empty"/>
-              <property key="legend/title-label" value="* St-Pierre actuel devient Bignières PDDE sous CR Fontanivent"/>
-              <property key="legend/title-style" value="subgroup"/>
-            </customproperties>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="vw_pipe_schema20180903104110130" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry) sql=" name="Conduites par zone de consommation PDDE">
-            <customproperties>
               <property key="legend/node-order" value="11,12,13"/>
               <property key="legend/title-label" value="Interconnexions réseaux"/>
               <property key="legend/title-style" value="group"/>
             </customproperties>
           </layer-tree-layer>
         </layer-tree-group>
-        <ComposerItem pagey="81.2171" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="12.7722" y="81.2171" visibility="1" zValue="13" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="163" outlineWidth="0.2" excludeFromExports="0" uuid="{8ba3a648-9d6c-4eed-bc26-bf8d9a35486a}" height="206.7" itemRotation="0" frame="false" pagex="12.7722">
+        <ComposerItem pagey="81.2171" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="12.7722" y="81.2171" visibility="1" zValue="13" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="151.9" outlineWidth="0.2" excludeFromExports="0" uuid="{8ba3a648-9d6c-4eed-bc26-bf8d9a35486a}" height="206.7" itemRotation="0" frame="false" pagex="12.7722">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -2456,7 +2440,7 @@
           <annotationFontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="0" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="5" page="1" id="" lastValidViewScaleFactor="4.87805" positionMode="0" positionLock="false" x="210" y="5" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="410" outlineWidth="0.2" excludeFromExports="0" uuid="{f341e548-f827-4b3f-93a2-ce74c947ffd8}" height="283.542" itemRotation="0" frame="true" pagex="210">
+        <ComposerItem pagey="5" page="1" id="" lastValidViewScaleFactor="3.77953" positionMode="0" positionLock="false" x="210" y="5" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="410" outlineWidth="0.2" excludeFromExports="0" uuid="{f341e548-f827-4b3f-93a2-ce74c947ffd8}" height="283.542" itemRotation="0" frame="true" pagex="210">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -10283,7 +10267,6 @@ def my_form_open(dialog, layer, feature):
               <rule key="{240ccb35-8b43-427d-93a7-63e37e079599}" symbol="4" label="Grandchamp, Perrettaz"/>
               <rule key="{b94a1f6a-e78b-439e-b88e-1f71e05bcd8e}" symbol="5" label="Maison-Jean, St-Pierre"/>
               <rule key="{4dd0475b-ccc3-44c9-bc41-395c7eca3f2f}" symbol="6" label="St-Pierre - Fontanivent"/>
-              <rule key="{9bf884f3-0814-4447-94a7-1bfa6287058b}" label="* St-Pierre actuel devient Bignières PDDE sous CR Fontanivent"/>
             </rule>
             <rule filter="false" key="{b948f6fc-cdf7-4829-b2cc-abc130968fa2}" label="Interconnexions réseaux">
               <rule key="{3a6c1642-2ef8-4cc2-bae7-01af0092b51b}" symbol="7" label="Unidirectionnelle en service"/>
