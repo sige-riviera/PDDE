@@ -65,10 +65,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>2552981.28315109573304653</xmin>
-      <ymin>1147624.95127918967045844</ymin>
-      <xmax>2554388.3541713934391737</xmax>
-      <ymax>1149670.40567955770529807</ymax>
+      <xmin>2554384.67403073143213987</xmin>
+      <ymin>1147235.20323783229105175</ymin>
+      <xmax>2557198.8160713417455554</xmax>
+      <ymax>1151326.11203855345956981</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -1377,14 +1377,14 @@
         </layer>
       </symbol>
       <ComposerItemGroup>
-        <ComposerItemGroupElement uuid="{88c76dca-33e0-4c8a-a856-b855fc721720}"/>
-        <ComposerItemGroupElement uuid="{36543ea8-af33-47e8-8f6f-c355bcb05747}"/>
-        <ComposerItemGroupElement uuid="{478bd758-249f-4aeb-b158-9fba28473d04}"/>
-        <ComposerItemGroupElement uuid="{baac8bf4-779e-4f9c-a268-5db1948a85fc}"/>
-        <ComposerItemGroupElement uuid="{82d5a7f3-fc65-454d-b45b-d196bae4515e}"/>
-        <ComposerItemGroupElement uuid="{fa100bf1-a489-427e-88ed-5c1e81b7900b}"/>
         <ComposerItemGroupElement uuid="{d610f762-212b-4074-8506-7ca0ec420084}"/>
-        <ComposerItem pagey="220.55" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="12.8902" y="220.55" visibility="1" zValue="90" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="14.9352" outlineWidth="0.3" excludeFromExports="0" uuid="{4acc8cb8-bc16-44c7-9b81-08d9fbb873a2}" height="31.7241" itemRotation="0" frame="false" pagex="12.8902">
+        <ComposerItemGroupElement uuid="{36543ea8-af33-47e8-8f6f-c355bcb05747}"/>
+        <ComposerItemGroupElement uuid="{82d5a7f3-fc65-454d-b45b-d196bae4515e}"/>
+        <ComposerItemGroupElement uuid="{baac8bf4-779e-4f9c-a268-5db1948a85fc}"/>
+        <ComposerItemGroupElement uuid="{478bd758-249f-4aeb-b158-9fba28473d04}"/>
+        <ComposerItemGroupElement uuid="{fa100bf1-a489-427e-88ed-5c1e81b7900b}"/>
+        <ComposerItemGroupElement uuid="{88c76dca-33e0-4c8a-a856-b855fc721720}"/>
+        <ComposerItem pagey="220.55" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="12.8902" y="220.55" visibility="1" zValue="23" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="14.9352" outlineWidth="0.3" excludeFromExports="0" uuid="{4acc8cb8-bc16-44c7-9b81-08d9fbb873a2}" height="31.7241" itemRotation="0" frame="false" pagex="12.8902">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -1876,14 +1876,14 @@
         </layer>
       </symbol>
       <ComposerItemGroup>
-        <ComposerItemGroupElement uuid="{c177893b-856c-437a-9964-5c88f2f83bb7}"/>
-        <ComposerItemGroupElement uuid="{3ce439e1-42d2-4eb1-aacf-75c0af153bac}"/>
-        <ComposerItemGroupElement uuid="{72bb1a32-b370-447e-b5ca-5bb75834c9bf}"/>
         <ComposerItemGroupElement uuid="{69e82cbc-0bce-41e8-b77e-f2176942a0bb}"/>
-        <ComposerItemGroupElement uuid="{49af758e-0eeb-43e4-8217-8ebd00b72ad0}"/>
         <ComposerItemGroupElement uuid="{65107ea0-c65b-4d70-b6e6-fa7c9400ba8d}"/>
         <ComposerItemGroupElement uuid="{22e43ad3-e9cf-4730-99e1-fe2b9ed71837}"/>
-        <ComposerItem pagey="220.783" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="15.6173" y="220.783" visibility="1" zValue="90" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="13.6388" outlineWidth="0.3" excludeFromExports="0" uuid="{3273298d-d533-4869-95b0-9a9078fd50bf}" height="32.5131" itemRotation="0" frame="false" pagex="15.6173">
+        <ComposerItemGroupElement uuid="{3ce439e1-42d2-4eb1-aacf-75c0af153bac}"/>
+        <ComposerItemGroupElement uuid="{49af758e-0eeb-43e4-8217-8ebd00b72ad0}"/>
+        <ComposerItemGroupElement uuid="{c177893b-856c-437a-9964-5c88f2f83bb7}"/>
+        <ComposerItemGroupElement uuid="{72bb1a32-b370-447e-b5ca-5bb75834c9bf}"/>
+        <ComposerItem pagey="220.783" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="15.6173" y="220.783" visibility="1" zValue="27" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="13.6387" outlineWidth="0.3" excludeFromExports="0" uuid="{3273298d-d533-4869-95b0-9a9078fd50bf}" height="32.5131" itemRotation="0" frame="false" pagex="15.6173">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -5996,7 +5996,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="marker" name="4">
             <layer pass="0" class="SvgMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="255,0,0,255"/>
+              <prop k="color" v="38,150,224,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="//S4laveyre/comm_tech$/05_CADASTRE/PROJETS CADASTRE/Symbologie PDEE/Chambre coupe-pression.svg"/>
               <prop k="offset" v="0,0"/>
@@ -6118,8 +6118,8 @@ def my_form_open(dialog, layer, feature):
         </symbols>
       </renderer-v2>
       <labeling type="rule-based">
-        <rules key="{30d48246-db76-4167-bc76-b18dd7570b18}">
-          <rule description="CR Chambre de régulation" filter="&quot;installation_type&quot; = 'pressurecontrol' AND (&quot;fk_pressurecontrol_type&quot; =  2801 OR  &quot;fk_pressurecontrol_type&quot; =  2803)" key="{4e62ae08-a656-44f3-bc4a-3e3cdaa2ecd9}">
+        <rules key="{db8f8205-c49a-4e24-ad4c-3e5bc5f306fa}">
+          <rule description="CR Chambre de régulation" filter="&quot;installation_type&quot; = 'pressurecontrol' AND (&quot;fk_pressurecontrol_type&quot; =  2801 OR  &quot;fk_pressurecontrol_type&quot; =  2803)" key="{f343c6e0-800e-4e25-b627-52f84b01b5cd}">
             <settings>
               <text-style fontItalic="0" fontFamily="MS Shell Dlg 2" fontLetterSpacing="0" fontUnderline="0" fontWeight="75" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="0" isExpression="1" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="7" fieldName="'CR ' || coalesce(&quot;name&quot;) || '\n' || &#xd;coalesce( &quot;altitude&quot;, ' ')" namedStyle="Bold" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -6135,7 +6135,7 @@ def my_form_open(dialog, layer, feature):
               </data-defined>
             </settings>
           </rule>
-          <rule description="CCP Chambre coupe-pression projetée ou modifiée" filter="&quot;installation_type&quot; = 'pressurecontrol' AND &quot;fk_pressurecontrol_type&quot; =  2802" key="{e6879adb-85d6-4bf1-8a10-4c8ce8012f46}">
+          <rule description="CCP Chambre coupe-pression projetée ou modifiée" filter="&quot;installation_type&quot; = 'pressurecontrol' AND &quot;fk_pressurecontrol_type&quot; =  2802" key="{0bf0a464-61b5-46c8-8ee4-4c6afd29d46b}">
             <settings>
               <text-style fontItalic="0" fontFamily="MS Shell Dlg 2" fontLetterSpacing="0" fontUnderline="0" fontWeight="75" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="0" isExpression="1" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="7" fieldName="'CCP ' || coalesce(&quot;name&quot;) || '\n' || &#xd;coalesce( &quot;altitude&quot;, ' ')" namedStyle="Bold" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -6151,7 +6151,7 @@ def my_form_open(dialog, layer, feature):
               </data-defined>
             </settings>
           </rule>
-          <rule description="Chambre de vannes en service" filter="&quot;installation_type&quot; = 'chamber' AND &quot;qwat_ext_ch_vd_sire_etat_exploitation&quot; = 1" key="{3c261de2-2d92-4106-b014-ca70cc12bea6}">
+          <rule description="Chambre de vannes en service" filter="&quot;installation_type&quot; = 'chamber' AND &quot;qwat_ext_ch_vd_sire_etat_exploitation&quot; = 1" key="{91edda17-3f0b-45f1-a7ea-5a719c8180ae}">
             <settings>
               <text-style fontItalic="0" fontFamily="MS Shell Dlg 2" fontLetterSpacing="0" fontUnderline="0" fontWeight="75" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="0" isExpression="1" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="7" fieldName="'CV ' || coalesce(&quot;name&quot;) || '\n' || &#xd;coalesce( &quot;altitude&quot;, ' ')" namedStyle="Bold" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -6167,7 +6167,7 @@ def my_form_open(dialog, layer, feature):
               </data-defined>
             </settings>
           </rule>
-          <rule description="Chambre de compteurs en service" filter="(&quot;installation_type&quot; = 'chamber' AND (&quot;flow_meter&quot;='t' OR &quot;water_meter&quot; = 't' OR &quot;manometer&quot; = 't')) AND&quot;qwat_ext_ch_vd_sire_etat_exploitation&quot; = 1" key="{ee417eb0-fcc9-45ab-b073-445c83651c60}">
+          <rule description="Chambre de compteurs en service" filter="(&quot;installation_type&quot; = 'chamber' AND (&quot;flow_meter&quot;='t' OR &quot;water_meter&quot; = 't' OR &quot;manometer&quot; = 't')) AND&quot;qwat_ext_ch_vd_sire_etat_exploitation&quot; = 1" key="{ae109e0d-d31b-4fba-882e-ca4b585925ea}">
             <settings>
               <text-style fontItalic="0" fontFamily="MS Shell Dlg 2" fontLetterSpacing="0" fontUnderline="0" fontWeight="75" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="0" isExpression="1" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="7" fieldName="'CC ' || coalesce(&quot;name&quot;) || '\n' || &#xd;coalesce( &quot;altitude&quot;, ' ')" namedStyle="Bold" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -6183,7 +6183,22 @@ def my_form_open(dialog, layer, feature):
               </data-defined>
             </settings>
           </rule>
-          <rule description="autres" filter="ELSE" key="{e4e9956a-0d95-4190-80c0-aa3c9653a549}"/>
+          <rule description="autres" filter="ELSE" key="{68057fd9-1210-4f4d-917d-941405569ca4}">
+            <settings>
+              <text-style fontItalic="0" fontFamily="MS Shell Dlg 2" fontLetterSpacing="0" fontUnderline="0" fontWeight="75" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="0" isExpression="1" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="7" fieldName="coalesce(&quot;name&quot;) || '\n' || &#xd;coalesce( &quot;altitude&quot;, ' ')" namedStyle="Bold" fontWordSpacing="0" useSubstitutions="0">
+                <substitutions/>
+              </text-style>
+              <text-format placeDirectionSymbol="0" multilineAlign="3" rightDirectionSymbol=">" multilineHeight="1" plussign="0" addDirectionSymbol="0" leftDirectionSymbol="&lt;" formatNumbers="0" decimals="3" wrapChar="" reverseDirectionSymbol="0"/>
+              <text-buffer bufferSize="1" bufferSizeMapUnitScale="0,0,0,0,0,0" bufferColor="255,255,255,255" bufferDraw="1" bufferBlendMode="0" bufferTransp="0" bufferSizeInMapUnits="0" bufferNoFill="0" bufferJoinStyle="128"/>
+              <background shapeSizeUnits="1" shapeType="0" shapeSVGFile="" shapeOffsetX="0" shapeOffsetY="0" shapeBlendMode="0" shapeFillColor="255,255,255,255" shapeTransparency="0" shapeSizeMapUnitScale="0,0,0,0,0,0" shapeSizeType="0" shapeJoinStyle="64" shapeDraw="0" shapeBorderWidthUnits="1" shapeSizeX="0" shapeSizeY="0" shapeOffsetMapUnitScale="0,0,0,0,0,0" shapeRadiiX="0" shapeRadiiY="0" shapeOffsetUnits="1" shapeRotation="0" shapeBorderWidth="0" shapeBorderColor="128,128,128,255" shapeRotationType="0" shapeBorderWidthMapUnitScale="0,0,0,0,0,0" shapeRadiiMapUnitScale="0,0,0,0,0,0" shapeRadiiUnits="1"/>
+              <shadow shadowOffsetMapUnitScale="0,0,0,0,0,0" shadowOffsetGlobal="1" shadowRadiusUnits="1" shadowTransparency="30" shadowColor="0,0,0,255" shadowUnder="0" shadowScale="100" shadowOffsetDist="1" shadowDraw="0" shadowOffsetAngle="135" shadowRadius="1.5" shadowRadiusMapUnitScale="0,0,0,0,0,0" shadowBlendMode="6" shadowRadiusAlphaOnly="0" shadowOffsetUnits="1"/>
+              <placement repeatDistanceUnit="1" placement="0" maxCurvedCharAngleIn="25" repeatDistance="0" distInMapUnits="0" labelOffsetInMapUnits="1" xOffset="0" distMapUnitScale="0,0,0,0,0,0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" preserveRotation="1" repeatDistanceMapUnitScale="0,0,0,0,0,0" centroidWhole="0" priority="10" yOffset="0" offsetType="0" placementFlags="10" centroidInside="0" dist="10" angleOffset="0" maxCurvedCharAngleOut="-25" fitInPolygonOnly="0" quadOffset="4" labelOffsetMapUnitScale="0,0,0,0,0,0"/>
+              <rendering fontMinPixelSize="3" scaleMax="10000000" fontMaxPixelSize="10000" scaleMin="1" upsidedownLabels="0" limitNumLabels="0" obstacle="1" obstacleFactor="1" scaleVisibility="0" fontLimitPixelSize="0" mergeLines="0" obstacleType="0" labelPerPart="0" zIndex="0" maxNumLabels="2000" displayAll="0" minFeatureSize="0"/>
+              <data-defined>
+                <Color expr="@symbol_color" field="" active="true" useExpr="true"/>
+              </data-defined>
+            </settings>
+          </rule>
         </rules>
       </labeling>
       <customproperties>
