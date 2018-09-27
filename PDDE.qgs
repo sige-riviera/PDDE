@@ -65,10 +65,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>2556520.09013502486050129</xmin>
-      <ymin>1149027.11172930570319295</ymin>
-      <xmax>2557927.16115533001720905</xmax>
-      <ymax>1151072.56612966628745198</ymax>
+      <xmin>2554335.94961439492180943</xmin>
+      <ymin>1147857.91591494088061154</ymin>
+      <xmax>2554894.25687091471627355</xmax>
+      <ymax>1148669.52529077534563839</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -1377,8 +1377,8 @@
         </layer>
       </symbol>
       <ComposerItemGroup>
-        <ComposerItemGroupElement uuid="{842913a6-9b7a-454b-a023-54a62a43a130}"/>
         <ComposerItemGroupElement uuid="{ed7c867d-fe3c-4bf6-8a56-9fd6749b6aad}"/>
+        <ComposerItemGroupElement uuid="{842913a6-9b7a-454b-a023-54a62a43a130}"/>
         <ComposerItem pagey="182.906" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="74.52" y="182.906" visibility="1" zValue="35" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="42.64" outlineWidth="0.3" excludeFromExports="0" uuid="{fae17adb-c1e5-4c0c-997b-e89aa3de7c48}" height="21.2689" itemRotation="0" frame="false" pagex="74.52">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -1395,8 +1395,8 @@
         </ComposerItem>
       </ComposerItemGroup>
       <ComposerItemGroup>
-        <ComposerItemGroupElement uuid="{d502cd94-2077-41c9-a783-223f3a8dd784}"/>
         <ComposerItemGroupElement uuid="{c686d98e-540a-43cf-810f-641db6b31712}"/>
+        <ComposerItemGroupElement uuid="{d502cd94-2077-41c9-a783-223f3a8dd784}"/>
         <ComposerItem pagey="96.8708" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="74.52" y="96.8708" visibility="1" zValue="33" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="42.64" outlineWidth="0.3" excludeFromExports="0" uuid="{bec036f7-d182-4ecf-9924-ad6cb34c6e4c}" height="21.2691" itemRotation="0" frame="false" pagex="74.52">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -1479,13 +1479,13 @@
         </ComposerItem>
       </ComposerItemGroup>
       <ComposerItemGroup>
-        <ComposerItemGroupElement uuid="{82d5a7f3-fc65-454d-b45b-d196bae4515e}"/>
-        <ComposerItemGroupElement uuid="{36543ea8-af33-47e8-8f6f-c355bcb05747}"/>
         <ComposerItemGroupElement uuid="{d610f762-212b-4074-8506-7ca0ec420084}"/>
-        <ComposerItemGroupElement uuid="{478bd758-249f-4aeb-b158-9fba28473d04}"/>
-        <ComposerItemGroupElement uuid="{fa100bf1-a489-427e-88ed-5c1e81b7900b}"/>
-        <ComposerItemGroupElement uuid="{baac8bf4-779e-4f9c-a268-5db1948a85fc}"/>
         <ComposerItemGroupElement uuid="{88c76dca-33e0-4c8a-a856-b855fc721720}"/>
+        <ComposerItemGroupElement uuid="{478bd758-249f-4aeb-b158-9fba28473d04}"/>
+        <ComposerItemGroupElement uuid="{82d5a7f3-fc65-454d-b45b-d196bae4515e}"/>
+        <ComposerItemGroupElement uuid="{baac8bf4-779e-4f9c-a268-5db1948a85fc}"/>
+        <ComposerItemGroupElement uuid="{fa100bf1-a489-427e-88ed-5c1e81b7900b}"/>
+        <ComposerItemGroupElement uuid="{36543ea8-af33-47e8-8f6f-c355bcb05747}"/>
         <ComposerItem pagey="220.55" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="12.8902" y="220.55" visibility="1" zValue="23" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="14.9352" outlineWidth="0.3" excludeFromExports="0" uuid="{4acc8cb8-bc16-44c7-9b81-08d9fbb873a2}" height="31.7241" itemRotation="0" frame="false" pagex="12.8902">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -1970,8 +1970,8 @@
         </layer>
       </symbol>
       <ComposerItemGroup>
-        <ComposerItemGroupElement uuid="{8a5903d2-d461-41b7-9385-5af0ef32590d}"/>
         <ComposerItemGroupElement uuid="{22df9054-fafd-4ba3-8f47-a7d0c525cf48}"/>
+        <ComposerItemGroupElement uuid="{8a5903d2-d461-41b7-9385-5af0ef32590d}"/>
         <ComposerItem pagey="182.832" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="74.52" y="182.832" visibility="1" zValue="37" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="42.64" outlineWidth="0.3" excludeFromExports="0" uuid="{3731a31e-57dd-4397-bc70-e8ad32af185c}" height="21.2689" itemRotation="0" frame="false" pagex="74.52">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -1979,8 +1979,8 @@
         </ComposerItem>
       </ComposerItemGroup>
       <ComposerItemGroup>
-        <ComposerItemGroupElement uuid="{b75f2e0b-69c0-410d-8b96-d1fe250fcdad}"/>
         <ComposerItemGroupElement uuid="{99595c69-3a48-40fa-9ee4-6b57ceded6cc}"/>
+        <ComposerItemGroupElement uuid="{b75f2e0b-69c0-410d-8b96-d1fe250fcdad}"/>
         <ComposerItem pagey="127.659" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="74.52" y="127.659" visibility="1" zValue="36" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="42.64" outlineWidth="0.3" excludeFromExports="0" uuid="{0865c8d2-450a-4eb0-ade9-19be425f58a8}" height="21.2689" itemRotation="0" frame="false" pagex="74.52">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -2062,11 +2062,11 @@
       <ComposerItemGroup>
         <ComposerItemGroupElement uuid="{72bb1a32-b370-447e-b5ca-5bb75834c9bf}"/>
         <ComposerItemGroupElement uuid="{22e43ad3-e9cf-4730-99e1-fe2b9ed71837}"/>
-        <ComposerItemGroupElement uuid="{c177893b-856c-437a-9964-5c88f2f83bb7}"/>
+        <ComposerItemGroupElement uuid="{3ce439e1-42d2-4eb1-aacf-75c0af153bac}"/>
         <ComposerItemGroupElement uuid="{49af758e-0eeb-43e4-8217-8ebd00b72ad0}"/>
         <ComposerItemGroupElement uuid="{69e82cbc-0bce-41e8-b77e-f2176942a0bb}"/>
+        <ComposerItemGroupElement uuid="{c177893b-856c-437a-9964-5c88f2f83bb7}"/>
         <ComposerItemGroupElement uuid="{65107ea0-c65b-4d70-b6e6-fa7c9400ba8d}"/>
-        <ComposerItemGroupElement uuid="{3ce439e1-42d2-4eb1-aacf-75c0af153bac}"/>
         <ComposerItem pagey="220.783" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="15.6173" y="220.783" visibility="1" zValue="27" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="13.6387" outlineWidth="0.3" excludeFromExports="0" uuid="{3273298d-d533-4869-95b0-9a9078fd50bf}" height="32.5131" itemRotation="0" frame="false" pagex="15.6173">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -2685,8 +2685,8 @@
         </ComposerItem>
       </ComposerItemGroup>
       <ComposerItemGroup>
-        <ComposerItemGroupElement uuid="{1d6ff8d1-7cec-4eae-87d6-391a33a228a4}"/>
         <ComposerItemGroupElement uuid="{40545000-7eac-40b6-9a50-2834353d8d1b}"/>
+        <ComposerItemGroupElement uuid="{1d6ff8d1-7cec-4eae-87d6-391a33a228a4}"/>
         <ComposerItem pagey="96.739" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="74.52" y="96.739" visibility="1" zValue="33" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="42.64" outlineWidth="0.3" excludeFromExports="0" uuid="{1e2ac8b1-dae5-4904-8052-126024005215}" height="21.2689" itemRotation="0" frame="false" pagex="74.52">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -2769,12 +2769,12 @@
         </ComposerItem>
       </ComposerItemGroup>
       <ComposerItemGroup>
-        <ComposerItemGroupElement uuid="{b9f438b0-0a9d-4c60-9a7c-1b1e664a7d44}"/>
-        <ComposerItemGroupElement uuid="{4ec7c009-04a5-4820-b6ea-15f32fcf3e6a}"/>
+        <ComposerItemGroupElement uuid="{3f62b785-fc1e-44f2-9fd1-135e542d67e7}"/>
         <ComposerItemGroupElement uuid="{55924f65-3322-4b92-a7ad-3ad6f10d9a68}"/>
         <ComposerItemGroupElement uuid="{20839718-ec50-4349-be2d-ad9447cc0c86}"/>
-        <ComposerItemGroupElement uuid="{3f62b785-fc1e-44f2-9fd1-135e542d67e7}"/>
+        <ComposerItemGroupElement uuid="{b9f438b0-0a9d-4c60-9a7c-1b1e664a7d44}"/>
         <ComposerItemGroupElement uuid="{e1e6d68e-2310-490b-beee-cbc3085f7460}"/>
+        <ComposerItemGroupElement uuid="{4ec7c009-04a5-4820-b6ea-15f32fcf3e6a}"/>
         <ComposerItemGroupElement uuid="{d21bb55a-cc47-435a-915d-157b005764cd}"/>
         <ComposerItem pagey="220.55" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="12.8902" y="220.55" visibility="1" zValue="23" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="14.9352" outlineWidth="0.3" excludeFromExports="0" uuid="{7d5f5213-5d75-4ae0-8e74-044e3490a718}" height="31.7241" itemRotation="0" frame="false" pagex="12.8902">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
@@ -3055,7 +3055,7 @@
           <customproperties/>
         </ComposerItem>
       </ComposerLabel>
-      <ComposerLabel valign="128" marginX="0" marginY="0" labelText="Mise à jour du 24 septembre 2018 pour interconnexion de secours&#xa;avec Châtel-St-Denis, Remaufens et AVGG." htmlState="0" halign="4">
+      <ComposerLabel valign="128" marginX="0" marginY="0" labelText="Mise à jour du 27 septembre 2018 pour interconnexion de secours&#xa;avec Châtel-St-Denis, Remaufens et AVGG." htmlState="0" halign="4">
         <LabelFont description="MS Shell Dlg 2,18,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="255" blue="0" green="0"/>
         <ComposerItem pagey="56.5387" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="5" y="56.5387" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="205" outlineWidth="0.3" excludeFromExports="0" uuid="{6d1a1ddf-91d0-4f9e-bad4-33e80d0c0e47}" height="24.827" itemRotation="0" frame="false" pagex="5">
@@ -3259,9 +3259,101 @@
           </effect>
         </layer>
       </symbol>
+      <ComposerLabel valign="32" marginX="1" marginY="1" labelText="STAP Montimbert (AVGG)&#xa;-/1800/80" htmlState="0" halign="1">
+        <LabelFont description="MS Shell Dlg 2,7,-1,5,75,0,0,0,0,0" style=""/>
+        <FontColor red="255" blue="0" green="0"/>
+        <ComposerItem pagey="71.2544" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="453.352" y="71.2544" visibility="1" zValue="43" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="34.0393" outlineWidth="0.3" excludeFromExports="0" uuid="{5c1b2fe6-5945-4cb0-a55c-2c4d646a508e}" height="8.46667" itemRotation="0" frame="false" pagex="453.352">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLabel>
+      <ComposerPolyline>
+        <symbol alpha="1" clip_to_extent="1" type="line" name="">
+          <layer pass="0" class="ArrowLine" locked="0">
+            <prop k="arrow_start_width" v="1"/>
+            <prop k="arrow_start_width_unit" v="MM"/>
+            <prop k="arrow_start_width_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="arrow_type" v="0"/>
+            <prop k="arrow_width" v="3"/>
+            <prop k="arrow_width_unit" v="MM"/>
+            <prop k="arrow_width_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="head_length" v="4"/>
+            <prop k="head_length_unit" v="MM"/>
+            <prop k="head_length_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="head_thickness" v="4"/>
+            <prop k="head_thickness_unit" v="MM"/>
+            <prop k="head_thickness_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="head_type" v="2"/>
+            <prop k="is_curved" v="1"/>
+            <prop k="is_repeated" v="1"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="offset_unit_scale" v="0,0,0,0,0,0"/>
+            <symbol alpha="1" clip_to_extent="1" type="fill" name="@@0">
+              <layer pass="0" class="SimpleFill" locked="0">
+                <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="color" v="255,0,0,255"/>
+                <prop k="joinstyle" v="bevel"/>
+                <prop k="offset" v="0,0"/>
+                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="outline_color" v="255,0,0,255"/>
+                <prop k="outline_style" v="solid"/>
+                <prop k="outline_width" v="0.3"/>
+                <prop k="outline_width_unit" v="MM"/>
+                <prop k="style" v="solid"/>
+              </layer>
+            </symbol>
+          </layer>
+        </symbol>
+        <nodes>
+          <node x="0" y="4.49738"/>
+          <node x="15.8907" y="0"/>
+        </nodes>
+        <ComposerItem pagey="83.869" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="424.65" y="83.869" visibility="1" zValue="42" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="15.8907" outlineWidth="0.3" excludeFromExports="0" uuid="{f8c1e3a3-d484-4e98-a1d2-cae7e5f963cd}" height="4.49738" itemRotation="0" frame="false" pagex="424.65">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerPolyline>
+      <ComposerLabel valign="32" marginX="1" marginY="1" labelText="AVGG / Châtel-St-Denis / Remaufens&#xa;R. et STAP Montimbert&#xa;Qimport : 1800 l/min&#xa;Qexport : 1800l/min" htmlState="0" halign="1">
+        <LabelFont description="MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0" style=""/>
+        <FontColor red="255" blue="0" green="0"/>
+        <ComposerItem pagey="60.0893" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="409.177" y="60.0893" visibility="1" zValue="41" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="43.1748" outlineWidth="0.3" excludeFromExports="0" uuid="{2fb3b386-d4ad-46d6-8814-5313f84e4f1d}" height="20.3303" itemRotation="0" frame="false" pagex="409.177">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLabel>
+      <ComposerLabel valign="32" marginX="1" marginY="1" labelText="R. Montimbert (AVGG)&#xa;899/500/500" htmlState="0" halign="1">
+        <LabelFont description="MS Shell Dlg 2,7,-1,5,75,0,0,0,0,0" style=""/>
+        <FontColor red="93" blue="227" green="201"/>
+        <ComposerItem pagey="63.5583" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="450.142" y="63.5583" visibility="1" zValue="40" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="34.0393" outlineWidth="0.3" excludeFromExports="0" uuid="{100c267d-ae84-49be-b487-bcd114d93602}" height="8.46667" itemRotation="0" frame="false" pagex="450.142">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLabel>
+      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="6.61458" svgFillColor="255,0,0,255" svgBorderColor="255,0,0,255" northMode="0" file="../Symbologie PDEE/Station de pompage.svg" northOffset="0" pictureHeight="6.61458" mapId="-1" anchorPoint="0">
+        <ComposerItem pagey="77.1123" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="445.59" y="77.1123" visibility="1" zValue="39" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="10.5833" outlineWidth="0.3" excludeFromExports="0" uuid="{1168a118-fccb-49f5-9da8-e3655096336b}" height="6.61458" itemRotation="0" frame="false" pagex="445.59">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerPicture>
+      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="7.15104" svgFillColor="93,201,227,255" svgBorderColor="0,0,0,255" northMode="0" file="../Symbologie PDEE/Reservoir.svg" northOffset="0" pictureHeight="7.15104" mapId="-1" anchorPoint="0">
+        <ComposerItem pagey="74.2154" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="442.827" y="74.2154" visibility="1" zValue="38" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="9.525" outlineWidth="0.3" excludeFromExports="0" uuid="{1fac9d61-ba00-4dcb-b924-677d2393dfbf}" height="7.15104" itemRotation="0" frame="false" pagex="442.827">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerPicture>
       <ComposerItemGroup>
-        <ComposerItemGroupElement uuid="{c8884462-fe5e-4582-92d9-5fe49652138a}"/>
         <ComposerItemGroupElement uuid="{e5f6b33b-d320-4616-984e-4f7606ec9f36}"/>
+        <ComposerItemGroupElement uuid="{c8884462-fe5e-4582-92d9-5fe49652138a}"/>
         <ComposerItem pagey="182.567" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="74.52" y="182.567" visibility="1" zValue="37" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="42.64" outlineWidth="0.3" excludeFromExports="0" uuid="{f36b92e8-06a5-4cb8-b6cb-4bbde43be468}" height="21.2689" itemRotation="0" frame="false" pagex="74.52">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -3269,9 +3361,9 @@
         </ComposerItem>
       </ComposerItemGroup>
       <ComposerItemGroup>
-        <ComposerItemGroupElement uuid="{7e96ea58-0874-481a-a255-b220c76ede5b}"/>
         <ComposerItemGroupElement uuid="{a3115c62-a685-43b6-8447-bd548f7ca6f0}"/>
-        <ComposerItem pagey="128.188" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="74.52" y="128.188" visibility="1" zValue="36" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="42.64" outlineWidth="0.3" excludeFromExports="0" uuid="{52f9e2a3-bc1b-44f4-9985-de02051f70b9}" height="21.2689" itemRotation="0" frame="false" pagex="74.52">
+        <ComposerItemGroupElement uuid="{7e96ea58-0874-481a-a255-b220c76ede5b}"/>
+        <ComposerItem pagey="127.453" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="74.52" y="127.453" visibility="1" zValue="36" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="42.64" outlineWidth="0.3" excludeFromExports="0" uuid="{52f9e2a3-bc1b-44f4-9985-de02051f70b9}" height="21.2689" itemRotation="0" frame="false" pagex="74.52">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -3298,7 +3390,7 @@
       <ComposerItemGroup>
         <ComposerItemGroupElement uuid="{0ef09d19-d3b4-425b-896d-466bc19f43d0}"/>
         <ComposerItemGroupElement uuid="{55647164-eaf3-497c-b290-4b5035cb94a3}"/>
-        <ComposerItem pagey="98.4" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="74.52" y="98.4" visibility="1" zValue="33" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="42.64" outlineWidth="0.3" excludeFromExports="0" uuid="{e74ed87d-81b3-4bae-be39-bb88e947e681}" height="21.2689" itemRotation="0" frame="false" pagex="74.52">
+        <ComposerItem pagey="97.1354" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="74.52" y="97.1354" visibility="1" zValue="33" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="42.64" outlineWidth="0.3" excludeFromExports="0" uuid="{e74ed87d-81b3-4bae-be39-bb88e947e681}" height="21.2685" itemRotation="0" frame="false" pagex="74.52">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -3307,7 +3399,7 @@
       <ComposerItemGroup>
         <ComposerItemGroupElement uuid="{0ef09d19-d3b4-425b-896d-466bc19f43d0}"/>
         <ComposerItemGroupElement uuid="{55647164-eaf3-497c-b290-4b5035cb94a3}"/>
-        <ComposerItem pagey="98.4" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="74.52" y="98.4" visibility="1" zValue="32" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="42.64" outlineWidth="0.3" excludeFromExports="0" uuid="{08c7f6dd-5d5d-461f-87f1-b1731d86092f}" height="21.2689" itemRotation="0" frame="false" pagex="74.52">
+        <ComposerItem pagey="97.1354" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="74.52" y="97.1354" visibility="1" zValue="32" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="42.64" outlineWidth="0.3" excludeFromExports="0" uuid="{08c7f6dd-5d5d-461f-87f1-b1731d86092f}" height="21.2685" itemRotation="0" frame="false" pagex="74.52">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -3316,7 +3408,7 @@
       <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Abbréviations :&#xa;- Alt : altitude du trop-plein [m]&#xa;- RA : réserve d'alimentation [m3]&#xa;- RI : réserve d'incendie [m3]" htmlState="0" halign="1">
         <LabelFont description="MS Shell Dlg 2,7,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="133.214" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="74.52" y="133.214" visibility="1" zValue="31" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="42.64" outlineWidth="0.3" excludeFromExports="0" uuid="{7e96ea58-0874-481a-a255-b220c76ede5b}" height="16.2429" itemRotation="0" frame="false" pagex="74.52">
+        <ComposerItem pagey="132.479" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="74.52" y="132.479" visibility="1" zValue="31" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="42.64" outlineWidth="0.3" excludeFromExports="0" uuid="{7e96ea58-0874-481a-a255-b220c76ede5b}" height="16.2429" itemRotation="0" frame="false" pagex="74.52">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -3325,7 +3417,7 @@
       <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Alt. / RA / RI" htmlState="0" halign="1">
         <LabelFont description="MS Shell Dlg 2,7,-1,5,75,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="128.188" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="74.52" y="128.188" visibility="1" zValue="30" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="23.78" outlineWidth="0.3" excludeFromExports="0" uuid="{a3115c62-a685-43b6-8447-bd548f7ca6f0}" height="5.0265" itemRotation="0" frame="false" pagex="74.52">
+        <ComposerItem pagey="127.453" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="74.52" y="127.453" visibility="1" zValue="30" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="23.78" outlineWidth="0.3" excludeFromExports="0" uuid="{a3115c62-a685-43b6-8447-bd548f7ca6f0}" height="5.0265" itemRotation="0" frame="false" pagex="74.52">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -3334,7 +3426,7 @@
       <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Abbréviations :&#xa;- Alt : altitude surface de l'eau [m]&#xa;- Qe : débit étiage [l/min]&#xa;- Qm : débit moyen [l/min]" htmlState="0" halign="1">
         <LabelFont description="MS Shell Dlg 2,7,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="103.426" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="74.52" y="103.426" visibility="1" zValue="29" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="42.64" outlineWidth="0.3" excludeFromExports="0" uuid="{0ef09d19-d3b4-425b-896d-466bc19f43d0}" height="16.2429" itemRotation="0" frame="false" pagex="74.52">
+        <ComposerItem pagey="102.161" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="74.52" y="102.161" visibility="1" zValue="29" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="42.64" outlineWidth="0.3" excludeFromExports="0" uuid="{0ef09d19-d3b4-425b-896d-466bc19f43d0}" height="16.2429" itemRotation="0" frame="false" pagex="74.52">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -3343,20 +3435,20 @@
       <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Alt. / Qe / Qm" htmlState="0" halign="1">
         <LabelFont description="MS Shell Dlg 2,7,-1,5,75,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="98.4" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="74.52" y="98.4" visibility="1" zValue="28" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="23.78" outlineWidth="0.3" excludeFromExports="0" uuid="{55647164-eaf3-497c-b290-4b5035cb94a3}" height="5.0265" itemRotation="0" frame="false" pagex="74.52">
+        <ComposerItem pagey="97.1354" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="74.52" y="97.1354" visibility="1" zValue="28" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="23.78" outlineWidth="0.3" excludeFromExports="0" uuid="{55647164-eaf3-497c-b290-4b5035cb94a3}" height="5.0265" itemRotation="0" frame="false" pagex="74.52">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
       </ComposerLabel>
       <ComposerItemGroup>
+        <ComposerItemGroupElement uuid="{12dd4cdf-c60c-403e-a890-cad4e56f0acb}"/>
+        <ComposerItemGroupElement uuid="{e71f14ad-d677-475e-a219-7f0d2e3a5f18}"/>
         <ComposerItemGroupElement uuid="{d1400701-5e44-4ecd-8e8a-904e4bc925ab}"/>
         <ComposerItemGroupElement uuid="{a924bcc8-d36e-4bc5-9c2d-9fecba854d14}"/>
-        <ComposerItemGroupElement uuid="{cc9ff53f-0803-4f99-a713-aa3fc96cfe93}"/>
         <ComposerItemGroupElement uuid="{b8a5d667-03dc-4052-8761-baca1ac65474}"/>
-        <ComposerItemGroupElement uuid="{e71f14ad-d677-475e-a219-7f0d2e3a5f18}"/>
         <ComposerItemGroupElement uuid="{1b897ba7-9b0e-409d-8044-338c9715842c}"/>
-        <ComposerItemGroupElement uuid="{12dd4cdf-c60c-403e-a890-cad4e56f0acb}"/>
+        <ComposerItemGroupElement uuid="{cc9ff53f-0803-4f99-a713-aa3fc96cfe93}"/>
         <ComposerItem pagey="220.783" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="15.6173" y="220.783" visibility="1" zValue="27" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="13.6387" outlineWidth="0.3" excludeFromExports="0" uuid="{10302c46-6ddd-4b57-b6a7-20e34ee0de87}" height="32.5131" itemRotation="0" frame="false" pagex="15.6173">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -3489,7 +3581,7 @@
         </ComposerItem>
       </ComposerArrow>
       <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Remaufens&#xa;Marmite&#xa;Qimport : 200 à 400 l/min" htmlState="0" halign="1">
-        <LabelFont description="MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0" style=""/>
+        <LabelFont description="MS Shell Dlg 2,8,-1,5,75,0,0,1,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
         <ComposerItem pagey="89.6269" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="462.352" y="89.6269" visibility="1" zValue="21" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="43.1748" outlineWidth="0.3" excludeFromExports="0" uuid="{6556579a-0ccb-4baa-ba89-2f0037303160}" height="14.6352" itemRotation="0" frame="false" pagex="462.352">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
@@ -3752,7 +3844,7 @@
           <customproperties/>
         </ComposerItem>
       </ComposerLabel>
-      <ComposerLabel valign="128" marginX="0" marginY="0" labelText="Mise à jour du 24 septembre 2018 pour interconnexion de secours&#xa;avec Châtel-St-Denis, Remaufens et AVGG." htmlState="0" halign="4">
+      <ComposerLabel valign="128" marginX="0" marginY="0" labelText="Mise à jour du 27 septembre 2018 pour interconnexion de secours&#xa;avec Châtel-St-Denis, Remaufens et AVGG." htmlState="0" halign="4">
         <LabelFont description="MS Shell Dlg 2,18,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="255" blue="0" green="0"/>
         <ComposerItem pagey="56.5387" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="5" y="56.5387" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="205" outlineWidth="0.3" excludeFromExports="0" uuid="{dd1ba9c1-e5cc-4b31-a3a5-4ad93cc9006e}" height="24.827" itemRotation="0" frame="false" pagex="5">
@@ -9010,7 +9102,7 @@ def my_form_open(dialog, layer, feature):
           <column width="-1" hidden="0" type="field" name="_schema_visible"/>
           <column width="-1" hidden="0" type="field" name="qwat_ext_ch_vd_sire_etat_exploitation"/>
           <column width="-1" hidden="0" type="field" name="qwat_ext_ch_vd_sire_adesafecter"/>
-          <column width="-1" hidden="0" type="field" name="qwat_ext_ch_vd_sire_diametre"/>
+          <column width="260" hidden="0" type="field" name="qwat_ext_ch_vd_sire_diametre"/>
           <column width="-1" hidden="0" type="field" name="qwat_ext_ch_vd_sire_remarque"/>
           <column width="-1" hidden="1" type="actions"/>
           <column width="-1" hidden="0" type="field" name="pipe_material_short_fr"/>
@@ -12647,7 +12739,7 @@ def my_form_open(dialog, layer, feature):
       <CanvasColorBluePart type="int">255</CanvasColorBluePart>
     </Gui>
     <Digitizing>
-      <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <DefaultSnapToleranceUnit type="int">1</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
         <value>Réservoir__R__copier20180903132243202</value>
         <value>Réservoir__R__copier20180903133008375</value>
@@ -12656,6 +12748,7 @@ def my_form_open(dialog, layer, feature):
         <value>pipe20180903154621886</value>
         <value>vw_element_hydrant20180904165544316</value>
         <value>vw_element_installation20180903105459428</value>
+        <value>vw_element_subscriber20180924091059730</value>
         <value>vw_pipe_schema20180903104110130</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
@@ -12667,10 +12760,12 @@ def my_form_open(dialog, layer, feature):
         <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
+        <value>disabled</value>
       </LayerSnappingEnabledList>
-      <SnappingMode type="QString">current_layer</SnappingMode>
+      <SnappingMode type="QString">all_layers</SnappingMode>
       <AvoidIntersectionsList type="QStringList"/>
       <LayerSnappingToleranceUnitList type="QStringList">
+        <value>2</value>
         <value>2</value>
         <value>2</value>
         <value>2</value>
@@ -12689,10 +12784,12 @@ def my_form_open(dialog, layer, feature):
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
       </LayerSnapToList>
-      <DefaultSnapType type="QString">off</DefaultSnapType>
-      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+      <DefaultSnapType type="QString">to vertex and segment</DefaultSnapType>
+      <DefaultSnapTolerance type="double">10</DefaultSnapTolerance>
       <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
