@@ -1058,16 +1058,16 @@
         </ComposerItem>
       </ComposerShape>
       <ComposerItemGroup>
+        <ComposerItemGroupElement uuid="{6ea33090-b13f-4cb8-8fc4-bcd16eacef20}"/>
         <ComposerItemGroupElement uuid="{b25a7e2d-eab5-43b0-b80e-e3bfa03cb6bd}"/>
         <ComposerItemGroupElement uuid="{63bc6072-c1df-4f0c-9b87-b07991a48880}"/>
-        <ComposerItemGroupElement uuid="{6ea33090-b13f-4cb8-8fc4-bcd16eacef20}"/>
         <ComposerItem pagey="171.845" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="353.345" y="171.845" visibility="1" zValue="11" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="7.67972" outlineWidth="0.3" excludeFromExports="0" uuid="{e83d086a-de72-4508-ba98-99cefc0ed7b3}" height="5.209" itemRotation="0" frame="false" pagex="353.345">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
       </ComposerItemGroup>
-      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.74376" svgFillColor="0,0,0,255" svgBorderColor="0,0,0,255" northMode="0" file="../Symbologie PDEE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.7974" mapId="-1" anchorPoint="0">
+      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.7974" svgFillColor="0,0,0,255" svgBorderColor="0,0,0,255" northMode="0" file="./symbols/PDDE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.7974" mapId="-1" anchorPoint="0">
         <ComposerItem pagey="165.098" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="348.755" y="165.098" visibility="1" zValue="10" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="10.4345" outlineWidth="0.3" excludeFromExports="0" uuid="{c1711779-9589-4a79-ad50-658c6d474446}" height="8.7974" itemRotation="0" frame="false" pagex="348.755">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -1075,7 +1075,7 @@
           <customproperties/>
         </ComposerItem>
       </ComposerPicture>
-      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.74376" svgFillColor="0,0,0,255" svgBorderColor="0,0,0,255" northMode="0" file="../Symbologie PDEE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.7974" mapId="-1" anchorPoint="0">
+      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.7974" svgFillColor="0,0,0,255" svgBorderColor="0,0,0,255" northMode="0" file="./symbols/PDDE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.7974" mapId="-1" anchorPoint="0">
         <ComposerItem pagey="155.275" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="348.755" y="155.275" visibility="1" zValue="9" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="10.4345" outlineWidth="0.3" excludeFromExports="0" uuid="{3e0c8af9-bbdb-440a-ba6d-dcd8d6afd089}" height="8.7974" itemRotation="0" frame="false" pagex="348.755">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -1105,7 +1105,7 @@
           <customproperties/>
         </ComposerItem>
       </ComposerShape>
-      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.74376" svgFillColor="255,0,0,255" svgBorderColor="255,0,0,255" northMode="0" file="../Symbologie PDEE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.7974" mapId="-1" anchorPoint="0">
+      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.7974" svgFillColor="255,0,0,255" svgBorderColor="255,0,0,255" northMode="0" file="./symbols/PDDE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.7974" mapId="-1" anchorPoint="0">
         <ComposerItem pagey="145.448" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="348.755" y="145.448" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="10.4345" outlineWidth="0.3" excludeFromExports="0" uuid="{1e928929-7dc7-46e8-85a5-b0d9a8b67520}" height="8.7974" itemRotation="0" frame="false" pagex="348.755">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -1479,13 +1479,13 @@
         </ComposerItem>
       </ComposerItemGroup>
       <ComposerItemGroup>
-        <ComposerItemGroupElement uuid="{baac8bf4-779e-4f9c-a268-5db1948a85fc}"/>
-        <ComposerItemGroupElement uuid="{36543ea8-af33-47e8-8f6f-c355bcb05747}"/>
-        <ComposerItemGroupElement uuid="{478bd758-249f-4aeb-b158-9fba28473d04}"/>
-        <ComposerItemGroupElement uuid="{82d5a7f3-fc65-454d-b45b-d196bae4515e}"/>
-        <ComposerItemGroupElement uuid="{d610f762-212b-4074-8506-7ca0ec420084}"/>
-        <ComposerItemGroupElement uuid="{88c76dca-33e0-4c8a-a856-b855fc721720}"/>
         <ComposerItemGroupElement uuid="{fa100bf1-a489-427e-88ed-5c1e81b7900b}"/>
+        <ComposerItemGroupElement uuid="{82d5a7f3-fc65-454d-b45b-d196bae4515e}"/>
+        <ComposerItemGroupElement uuid="{478bd758-249f-4aeb-b158-9fba28473d04}"/>
+        <ComposerItemGroupElement uuid="{36543ea8-af33-47e8-8f6f-c355bcb05747}"/>
+        <ComposerItemGroupElement uuid="{d610f762-212b-4074-8506-7ca0ec420084}"/>
+        <ComposerItemGroupElement uuid="{baac8bf4-779e-4f9c-a268-5db1948a85fc}"/>
+        <ComposerItemGroupElement uuid="{88c76dca-33e0-4c8a-a856-b855fc721720}"/>
         <ComposerItem pagey="220.55" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="12.8902" y="220.55" visibility="1" zValue="23" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="14.9352" outlineWidth="0.3" excludeFromExports="0" uuid="{4acc8cb8-bc16-44c7-9b81-08d9fbb873a2}" height="31.7241" itemRotation="0" frame="false" pagex="12.8902">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -1576,7 +1576,7 @@
           <customproperties/>
         </ComposerItem>
       </ComposerShape>
-      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.74376" svgFillColor="255,0,0,255" svgBorderColor="255,0,0,255" northMode="0" file="../Symbologie PDEE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.7974" mapId="-1" anchorPoint="0">
+      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.7974" svgFillColor="255,0,0,255" svgBorderColor="255,0,0,255" northMode="0" file="./symbols/PDDE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.7974" mapId="-1" anchorPoint="0">
         <ComposerItem pagey="220.55" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="13.0579" y="220.55" visibility="1" zValue="17" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="10.4345" outlineWidth="0.3" excludeFromExports="0" uuid="{82d5a7f3-fc65-454d-b45b-d196bae4515e}" height="8.7974" itemRotation="0" frame="false" pagex="13.0579">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -1584,7 +1584,7 @@
           <customproperties/>
         </ComposerItem>
       </ComposerPicture>
-      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.74376" svgFillColor="0,0,0,255" svgBorderColor="0,0,0,255" northMode="0" file="../Symbologie PDEE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.7974" mapId="-1" anchorPoint="0">
+      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.7974" svgFillColor="0,0,0,255" svgBorderColor="0,0,0,255" northMode="0" file="./symbols/PDDE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.7974" mapId="-1" anchorPoint="0">
         <ComposerItem pagey="230.582" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="12.8902" y="230.582" visibility="1" zValue="16" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="10.4345" outlineWidth="0.3" excludeFromExports="0" uuid="{478bd758-249f-4aeb-b158-9fba28473d04}" height="8.7974" itemRotation="0" frame="false" pagex="12.8902">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -1592,7 +1592,7 @@
           <customproperties/>
         </ComposerItem>
       </ComposerPicture>
-      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.74376" svgFillColor="0,0,0,255" svgBorderColor="0,0,0,255" northMode="0" file="../Symbologie PDEE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.7974" mapId="-1" anchorPoint="0">
+      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.7974" svgFillColor="0,0,0,255" svgBorderColor="0,0,0,255" northMode="0" file="./symbols/PDDE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.7974" mapId="-1" anchorPoint="0">
         <ComposerItem pagey="240.773" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="12.928" y="240.773" visibility="1" zValue="15" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="10.4345" outlineWidth="0.3" excludeFromExports="0" uuid="{fa100bf1-a489-427e-88ed-5c1e81b7900b}" height="8.7974" itemRotation="0" frame="false" pagex="12.928">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -1600,7 +1600,7 @@
           <customproperties/>
         </ComposerItem>
       </ComposerPicture>
-      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="37" pictureWidth="14.2811" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="../qwat-sige/symbols/wind_rose.svg" northOffset="0" pictureHeight="14.2811" mapId="0" anchorPoint="0">
+      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="37" pictureWidth="14.2811" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="C:\qgis\qwat-sige\symbols\wind_rose.svg" northOffset="0" pictureHeight="14.2811" mapId="0" anchorPoint="0">
         <ComposerItem pagey="6.21295" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="597.984" y="6.21295" visibility="1" zValue="14" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="20" outlineWidth="0.3" excludeFromExports="0" uuid="{e01224b4-bb46-40dd-8988-4489f83a5783}" height="20" itemRotation="0" frame="false" pagex="597.984">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -1970,8 +1970,8 @@
         </layer>
       </symbol>
       <ComposerItemGroup>
-        <ComposerItemGroupElement uuid="{22df9054-fafd-4ba3-8f47-a7d0c525cf48}"/>
         <ComposerItemGroupElement uuid="{8a5903d2-d461-41b7-9385-5af0ef32590d}"/>
+        <ComposerItemGroupElement uuid="{22df9054-fafd-4ba3-8f47-a7d0c525cf48}"/>
         <ComposerItem pagey="182.832" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="74.52" y="182.832" visibility="1" zValue="37" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="42.64" outlineWidth="0.3" excludeFromExports="0" uuid="{3731a31e-57dd-4397-bc70-e8ad32af185c}" height="21.2689" itemRotation="0" frame="false" pagex="74.52">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -1979,8 +1979,8 @@
         </ComposerItem>
       </ComposerItemGroup>
       <ComposerItemGroup>
-        <ComposerItemGroupElement uuid="{99595c69-3a48-40fa-9ee4-6b57ceded6cc}"/>
         <ComposerItemGroupElement uuid="{b75f2e0b-69c0-410d-8b96-d1fe250fcdad}"/>
+        <ComposerItemGroupElement uuid="{99595c69-3a48-40fa-9ee4-6b57ceded6cc}"/>
         <ComposerItem pagey="127.659" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="74.52" y="127.659" visibility="1" zValue="36" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="42.64" outlineWidth="0.3" excludeFromExports="0" uuid="{0865c8d2-450a-4eb0-ade9-19be425f58a8}" height="21.2689" itemRotation="0" frame="false" pagex="74.52">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -2006,8 +2006,8 @@
         </ComposerItem>
       </ComposerLabel>
       <ComposerItemGroup>
-        <ComposerItemGroupElement uuid="{ce9052d0-5392-46ad-b76c-3182b9954154}"/>
         <ComposerItemGroupElement uuid="{739c70ae-649e-432c-b94e-b065e9666913}"/>
+        <ComposerItemGroupElement uuid="{ce9052d0-5392-46ad-b76c-3182b9954154}"/>
         <ComposerItem pagey="96.6063" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="74.52" y="96.6063" visibility="1" zValue="33" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="42.64" outlineWidth="0.3" excludeFromExports="0" uuid="{c8b3094d-2564-4248-bbc1-71b04d735cf4}" height="21.2686" itemRotation="0" frame="false" pagex="74.52">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -2015,8 +2015,8 @@
         </ComposerItem>
       </ComposerItemGroup>
       <ComposerItemGroup>
-        <ComposerItemGroupElement uuid="{ce9052d0-5392-46ad-b76c-3182b9954154}"/>
         <ComposerItemGroupElement uuid="{739c70ae-649e-432c-b94e-b065e9666913}"/>
+        <ComposerItemGroupElement uuid="{ce9052d0-5392-46ad-b76c-3182b9954154}"/>
         <ComposerItem pagey="96.6063" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="74.52" y="96.6063" visibility="1" zValue="32" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="42.64" outlineWidth="0.3" excludeFromExports="0" uuid="{0562a5ea-f87a-44d2-8dd5-b46be53aa275}" height="21.2686" itemRotation="0" frame="false" pagex="74.52">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -2060,13 +2060,13 @@
         </ComposerItem>
       </ComposerLabel>
       <ComposerItemGroup>
+        <ComposerItemGroupElement uuid="{22e43ad3-e9cf-4730-99e1-fe2b9ed71837}"/>
+        <ComposerItemGroupElement uuid="{49af758e-0eeb-43e4-8217-8ebd00b72ad0}"/>
+        <ComposerItemGroupElement uuid="{c177893b-856c-437a-9964-5c88f2f83bb7}"/>
+        <ComposerItemGroupElement uuid="{3ce439e1-42d2-4eb1-aacf-75c0af153bac}"/>
         <ComposerItemGroupElement uuid="{72bb1a32-b370-447e-b5ca-5bb75834c9bf}"/>
         <ComposerItemGroupElement uuid="{69e82cbc-0bce-41e8-b77e-f2176942a0bb}"/>
         <ComposerItemGroupElement uuid="{65107ea0-c65b-4d70-b6e6-fa7c9400ba8d}"/>
-        <ComposerItemGroupElement uuid="{22e43ad3-e9cf-4730-99e1-fe2b9ed71837}"/>
-        <ComposerItemGroupElement uuid="{c177893b-856c-437a-9964-5c88f2f83bb7}"/>
-        <ComposerItemGroupElement uuid="{3ce439e1-42d2-4eb1-aacf-75c0af153bac}"/>
-        <ComposerItemGroupElement uuid="{49af758e-0eeb-43e4-8217-8ebd00b72ad0}"/>
         <ComposerItem pagey="220.783" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="15.6173" y="220.783" visibility="1" zValue="27" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="13.6387" outlineWidth="0.3" excludeFromExports="0" uuid="{3273298d-d533-4869-95b0-9a9078fd50bf}" height="32.5131" itemRotation="0" frame="false" pagex="15.6173">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -2273,7 +2273,7 @@
           <customproperties/>
         </ComposerItem>
       </ComposerShape>
-      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.64941" svgFillColor="255,0,0,255" svgBorderColor="255,0,0,255" northMode="0" file="../Symbologie PDEE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.70247" mapId="-1" anchorPoint="0">
+      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.70247" svgFillColor="255,0,0,255" svgBorderColor="255,0,0,255" northMode="0" file="./symbols/PDDE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.70247" mapId="-1" anchorPoint="0">
         <ComposerItem pagey="220.783" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="15.8445" y="220.783" visibility="1" zValue="17" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="10.3219" outlineWidth="0.3" excludeFromExports="0" uuid="{69e82cbc-0bce-41e8-b77e-f2176942a0bb}" height="8.70247" itemRotation="0" frame="false" pagex="15.8445">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -2281,7 +2281,7 @@
           <customproperties/>
         </ComposerItem>
       </ComposerPicture>
-      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.64941" svgFillColor="0,0,0,255" svgBorderColor="0,0,0,255" northMode="0" file="../Symbologie PDEE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.70247" mapId="-1" anchorPoint="0">
+      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.70247" svgFillColor="0,0,0,255" svgBorderColor="0,0,0,255" northMode="0" file="./symbols/PDDE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.70247" mapId="-1" anchorPoint="0">
         <ComposerItem pagey="230.69" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="15.6913" y="230.69" visibility="1" zValue="16" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="10.3219" outlineWidth="0.3" excludeFromExports="0" uuid="{49af758e-0eeb-43e4-8217-8ebd00b72ad0}" height="8.70247" itemRotation="0" frame="false" pagex="15.6913">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -2289,7 +2289,7 @@
           <customproperties/>
         </ComposerItem>
       </ComposerPicture>
-      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.74376" svgFillColor="0,0,0,255" svgBorderColor="0,0,0,255" northMode="0" file="../Symbologie PDEE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.7974" mapId="-1" anchorPoint="0">
+      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.7974" svgFillColor="0,0,0,255" svgBorderColor="0,0,0,255" northMode="0" file="./symbols/PDDE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.7974" mapId="-1" anchorPoint="0">
         <ComposerItem pagey="241.025" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="15.6173" y="241.025" visibility="1" zValue="15" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="10.4345" outlineWidth="0.3" excludeFromExports="0" uuid="{c177893b-856c-437a-9964-5c88f2f83bb7}" height="8.7974" itemRotation="0" frame="false" pagex="15.6173">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -2297,7 +2297,7 @@
           <customproperties/>
         </ComposerItem>
       </ComposerPicture>
-      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="37" pictureWidth="14.2811" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="../qwat-sige/symbols/wind_rose.svg" northOffset="0" pictureHeight="14.2811" mapId="0" anchorPoint="0">
+      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="37" pictureWidth="14.2811" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="C:\qgis\qwat-sige\symbols\wind_rose.svg" northOffset="0" pictureHeight="14.2811" mapId="0" anchorPoint="0">
         <ComposerItem pagey="6.21295" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="597.984" y="6.21295" visibility="1" zValue="14" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="20" outlineWidth="0.3" excludeFromExports="0" uuid="{bcdaebca-cdfb-4411-ac8b-f2023e5de34d}" height="20" itemRotation="0" frame="false" pagex="597.984">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -2685,8 +2685,8 @@
         </ComposerItem>
       </ComposerItemGroup>
       <ComposerItemGroup>
-        <ComposerItemGroupElement uuid="{40545000-7eac-40b6-9a50-2834353d8d1b}"/>
         <ComposerItemGroupElement uuid="{1d6ff8d1-7cec-4eae-87d6-391a33a228a4}"/>
+        <ComposerItemGroupElement uuid="{40545000-7eac-40b6-9a50-2834353d8d1b}"/>
         <ComposerItem pagey="96.739" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="74.52" y="96.739" visibility="1" zValue="33" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="42.64" outlineWidth="0.3" excludeFromExports="0" uuid="{1e2ac8b1-dae5-4904-8052-126024005215}" height="21.2689" itemRotation="0" frame="false" pagex="74.52">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -2769,13 +2769,13 @@
         </ComposerItem>
       </ComposerItemGroup>
       <ComposerItemGroup>
-        <ComposerItemGroupElement uuid="{d21bb55a-cc47-435a-915d-157b005764cd}"/>
-        <ComposerItemGroupElement uuid="{b9f438b0-0a9d-4c60-9a7c-1b1e664a7d44}"/>
-        <ComposerItemGroupElement uuid="{3f62b785-fc1e-44f2-9fd1-135e542d67e7}"/>
-        <ComposerItemGroupElement uuid="{20839718-ec50-4349-be2d-ad9447cc0c86}"/>
         <ComposerItemGroupElement uuid="{e1e6d68e-2310-490b-beee-cbc3085f7460}"/>
-        <ComposerItemGroupElement uuid="{4ec7c009-04a5-4820-b6ea-15f32fcf3e6a}"/>
+        <ComposerItemGroupElement uuid="{d21bb55a-cc47-435a-915d-157b005764cd}"/>
         <ComposerItemGroupElement uuid="{55924f65-3322-4b92-a7ad-3ad6f10d9a68}"/>
+        <ComposerItemGroupElement uuid="{20839718-ec50-4349-be2d-ad9447cc0c86}"/>
+        <ComposerItemGroupElement uuid="{b9f438b0-0a9d-4c60-9a7c-1b1e664a7d44}"/>
+        <ComposerItemGroupElement uuid="{4ec7c009-04a5-4820-b6ea-15f32fcf3e6a}"/>
+        <ComposerItemGroupElement uuid="{3f62b785-fc1e-44f2-9fd1-135e542d67e7}"/>
         <ComposerItem pagey="220.55" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="12.8902" y="220.55" visibility="1" zValue="23" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="14.9352" outlineWidth="0.3" excludeFromExports="0" uuid="{7d5f5213-5d75-4ae0-8e74-044e3490a718}" height="31.7241" itemRotation="0" frame="false" pagex="12.8902">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -2866,7 +2866,7 @@
           <customproperties/>
         </ComposerItem>
       </ComposerShape>
-      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.74376" svgFillColor="255,0,0,255" svgBorderColor="255,0,0,255" northMode="0" file="../Symbologie PDEE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.7974" mapId="-1" anchorPoint="0">
+      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.7974" svgFillColor="255,0,0,255" svgBorderColor="255,0,0,255" northMode="0" file="./symbols/PDDE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.7974" mapId="-1" anchorPoint="0">
         <ComposerItem pagey="220.55" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="13.0579" y="220.55" visibility="1" zValue="17" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="10.4345" outlineWidth="0.3" excludeFromExports="0" uuid="{e1e6d68e-2310-490b-beee-cbc3085f7460}" height="8.7974" itemRotation="0" frame="false" pagex="13.0579">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -2874,7 +2874,7 @@
           <customproperties/>
         </ComposerItem>
       </ComposerPicture>
-      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.74376" svgFillColor="0,0,0,255" svgBorderColor="0,0,0,255" northMode="0" file="../Symbologie PDEE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.7974" mapId="-1" anchorPoint="0">
+      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.7974" svgFillColor="0,0,0,255" svgBorderColor="0,0,0,255" northMode="0" file="./symbols/PDDE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.7974" mapId="-1" anchorPoint="0">
         <ComposerItem pagey="230.582" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="12.8902" y="230.582" visibility="1" zValue="16" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="10.4345" outlineWidth="0.3" excludeFromExports="0" uuid="{55924f65-3322-4b92-a7ad-3ad6f10d9a68}" height="8.7974" itemRotation="0" frame="false" pagex="12.8902">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -2882,7 +2882,7 @@
           <customproperties/>
         </ComposerItem>
       </ComposerPicture>
-      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.74376" svgFillColor="0,0,0,255" svgBorderColor="0,0,0,255" northMode="0" file="../Symbologie PDEE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.7974" mapId="-1" anchorPoint="0">
+      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.7974" svgFillColor="0,0,0,255" svgBorderColor="0,0,0,255" northMode="0" file="./symbols/PDDE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.7974" mapId="-1" anchorPoint="0">
         <ComposerItem pagey="240.773" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="12.928" y="240.773" visibility="1" zValue="15" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="10.4345" outlineWidth="0.3" excludeFromExports="0" uuid="{20839718-ec50-4349-be2d-ad9447cc0c86}" height="8.7974" itemRotation="0" frame="false" pagex="12.928">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -2890,7 +2890,7 @@
           <customproperties/>
         </ComposerItem>
       </ComposerPicture>
-      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="37" pictureWidth="14.2811" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="../qwat-sige/symbols/wind_rose.svg" northOffset="0" pictureHeight="14.2811" mapId="0" anchorPoint="0">
+      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="37" pictureWidth="14.2811" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="C:\qgis\qwat-sige\symbols\wind_rose.svg" northOffset="0" pictureHeight="14.2811" mapId="0" anchorPoint="0">
         <ComposerItem pagey="6.21295" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="597.984" y="6.21295" visibility="1" zValue="14" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="20" outlineWidth="0.3" excludeFromExports="0" uuid="{286ebe05-72f0-4e49-9d5e-a89c1c4e93cb}" height="20" itemRotation="0" frame="false" pagex="597.984">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -3335,7 +3335,7 @@
           <customproperties/>
         </ComposerItem>
       </ComposerLabel>
-      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="6.57425" svgFillColor="255,0,0,255" svgBorderColor="255,0,0,255" northMode="0" file="../Symbologie PDEE/Station de pompage.svg" northOffset="0" pictureHeight="6.61458" mapId="-1" anchorPoint="0">
+      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="6.61458" svgFillColor="255,0,0,255" svgBorderColor="255,0,0,255" northMode="0" file="./symbols/PDDE/Station de pompage.svg" northOffset="0" pictureHeight="6.61458" mapId="-1" anchorPoint="0">
         <ComposerItem pagey="77.1123" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="445.59" y="77.1123" visibility="1" zValue="39" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="10.5833" outlineWidth="0.3" excludeFromExports="0" uuid="{1168a118-fccb-49f5-9da8-e3655096336b}" height="6.61458" itemRotation="0" frame="false" pagex="445.59">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -3343,7 +3343,7 @@
           <customproperties/>
         </ComposerItem>
       </ComposerPicture>
-      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="7.10744" svgFillColor="93,201,227,255" svgBorderColor="0,0,0,255" northMode="0" file="../Symbologie PDEE/Reservoir.svg" northOffset="0" pictureHeight="7.15104" mapId="-1" anchorPoint="0">
+      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="7.15104" svgFillColor="93,201,227,255" svgBorderColor="0,0,0,255" northMode="0" file="./symbols/PDDE/Reservoir.svg" northOffset="0" pictureHeight="7.15104" mapId="-1" anchorPoint="0">
         <ComposerItem pagey="74.2154" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="442.827" y="74.2154" visibility="1" zValue="38" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="9.525" outlineWidth="0.3" excludeFromExports="0" uuid="{1fac9d61-ba00-4dcb-b924-677d2393dfbf}" height="7.15104" itemRotation="0" frame="false" pagex="442.827">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -3352,8 +3352,8 @@
         </ComposerItem>
       </ComposerPicture>
       <ComposerItemGroup>
-        <ComposerItemGroupElement uuid="{e5f6b33b-d320-4616-984e-4f7606ec9f36}"/>
         <ComposerItemGroupElement uuid="{c8884462-fe5e-4582-92d9-5fe49652138a}"/>
+        <ComposerItemGroupElement uuid="{e5f6b33b-d320-4616-984e-4f7606ec9f36}"/>
         <ComposerItem pagey="182.567" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="74.52" y="182.567" visibility="1" zValue="37" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="42.64" outlineWidth="0.3" excludeFromExports="0" uuid="{f36b92e8-06a5-4cb8-b6cb-4bbde43be468}" height="21.2689" itemRotation="0" frame="false" pagex="74.52">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -3361,8 +3361,8 @@
         </ComposerItem>
       </ComposerItemGroup>
       <ComposerItemGroup>
-        <ComposerItemGroupElement uuid="{7e96ea58-0874-481a-a255-b220c76ede5b}"/>
         <ComposerItemGroupElement uuid="{a3115c62-a685-43b6-8447-bd548f7ca6f0}"/>
+        <ComposerItemGroupElement uuid="{7e96ea58-0874-481a-a255-b220c76ede5b}"/>
         <ComposerItem pagey="127.453" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="74.52" y="127.453" visibility="1" zValue="36" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="42.64" outlineWidth="0.3" excludeFromExports="0" uuid="{52f9e2a3-bc1b-44f4-9985-de02051f70b9}" height="21.2689" itemRotation="0" frame="false" pagex="74.52">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -3443,11 +3443,11 @@
       </ComposerLabel>
       <ComposerItemGroup>
         <ComposerItemGroupElement uuid="{12dd4cdf-c60c-403e-a890-cad4e56f0acb}"/>
-        <ComposerItemGroupElement uuid="{d1400701-5e44-4ecd-8e8a-904e4bc925ab}"/>
         <ComposerItemGroupElement uuid="{e71f14ad-d677-475e-a219-7f0d2e3a5f18}"/>
-        <ComposerItemGroupElement uuid="{a924bcc8-d36e-4bc5-9c2d-9fecba854d14}"/>
-        <ComposerItemGroupElement uuid="{1b897ba7-9b0e-409d-8044-338c9715842c}"/>
         <ComposerItemGroupElement uuid="{cc9ff53f-0803-4f99-a713-aa3fc96cfe93}"/>
+        <ComposerItemGroupElement uuid="{d1400701-5e44-4ecd-8e8a-904e4bc925ab}"/>
+        <ComposerItemGroupElement uuid="{1b897ba7-9b0e-409d-8044-338c9715842c}"/>
+        <ComposerItemGroupElement uuid="{a924bcc8-d36e-4bc5-9c2d-9fecba854d14}"/>
         <ComposerItemGroupElement uuid="{b8a5d667-03dc-4052-8761-baca1ac65474}"/>
         <ComposerItem pagey="220.783" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="15.6173" y="220.783" visibility="1" zValue="27" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="13.6387" outlineWidth="0.3" excludeFromExports="0" uuid="{10302c46-6ddd-4b57-b6a7-20e34ee0de87}" height="32.5131" itemRotation="0" frame="false" pagex="15.6173">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
@@ -3655,7 +3655,7 @@
           <customproperties/>
         </ComposerItem>
       </ComposerShape>
-      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.64941" svgFillColor="255,0,0,255" svgBorderColor="255,0,0,255" northMode="0" file="../Symbologie PDEE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.70247" mapId="-1" anchorPoint="0">
+      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.70247" svgFillColor="255,0,0,255" svgBorderColor="255,0,0,255" northMode="0" file="./symbols/PDDE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.70247" mapId="-1" anchorPoint="0">
         <ComposerItem pagey="220.783" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="15.8445" y="220.783" visibility="1" zValue="17" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="10.3219" outlineWidth="0.3" excludeFromExports="0" uuid="{e71f14ad-d677-475e-a219-7f0d2e3a5f18}" height="8.70247" itemRotation="0" frame="false" pagex="15.8445">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -3663,7 +3663,7 @@
           <customproperties/>
         </ComposerItem>
       </ComposerPicture>
-      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.64941" svgFillColor="0,0,0,255" svgBorderColor="0,0,0,255" northMode="0" file="../Symbologie PDEE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.70247" mapId="-1" anchorPoint="0">
+      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.70247" svgFillColor="0,0,0,255" svgBorderColor="0,0,0,255" northMode="0" file="./symbols/PDDE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.70247" mapId="-1" anchorPoint="0">
         <ComposerItem pagey="230.69" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="15.6913" y="230.69" visibility="1" zValue="16" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="10.3219" outlineWidth="0.3" excludeFromExports="0" uuid="{12dd4cdf-c60c-403e-a890-cad4e56f0acb}" height="8.70247" itemRotation="0" frame="false" pagex="15.6913">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -3671,7 +3671,7 @@
           <customproperties/>
         </ComposerItem>
       </ComposerPicture>
-      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.74376" svgFillColor="0,0,0,255" svgBorderColor="0,0,0,255" northMode="0" file="../Symbologie PDEE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.7974" mapId="-1" anchorPoint="0">
+      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="8.7974" svgFillColor="0,0,0,255" svgBorderColor="0,0,0,255" northMode="0" file="./symbols/PDDE/Chambre de traitement.svg" northOffset="0" pictureHeight="8.7974" mapId="-1" anchorPoint="0">
         <ComposerItem pagey="241.025" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="15.6173" y="241.025" visibility="1" zValue="15" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="10.4345" outlineWidth="0.3" excludeFromExports="0" uuid="{cc9ff53f-0803-4f99-a713-aa3fc96cfe93}" height="8.7974" itemRotation="0" frame="false" pagex="15.6173">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -3679,7 +3679,7 @@
           <customproperties/>
         </ComposerItem>
       </ComposerPicture>
-      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="37" pictureWidth="14.2811" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="../qwat-sige/symbols/wind_rose.svg" northOffset="0" pictureHeight="14.2811" mapId="0" anchorPoint="0">
+      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="37" pictureWidth="14.2811" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="C:\qgis\qwat-sige\symbols\wind_rose.svg" northOffset="0" pictureHeight="14.2811" mapId="0" anchorPoint="0">
         <ComposerItem pagey="6.21295" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="597.984" y="6.21295" visibility="1" zValue="14" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="20" outlineWidth="0.3" excludeFromExports="0" uuid="{cc62c2dd-59a0-4942-bcd8-330d177537a2}" height="20" itemRotation="0" frame="false" pagex="597.984">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -4423,7 +4423,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="255,0,0,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="//S4laveyre/comm_tech$/05_CADASTRE/PROJETS CADASTRE/Symbologie PDEE/Station de pompage.svg"/>
+              <prop k="name" v="./symbols/PDDE/Station de pompage.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -4443,7 +4443,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="38,150,224,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="//S4laveyre/comm_tech$/05_CADASTRE/PROJETS CADASTRE/Symbologie PDEE/Station de pompage.svg"/>
+              <prop k="name" v="./symbols/PDDE/Station de pompage.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -4463,7 +4463,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="38,150,224,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="//S4laveyre/comm_tech$/05_CADASTRE/PROJETS CADASTRE/Symbologie PDEE/Station de pompage.svg"/>
+              <prop k="name" v="./symbols/PDDE/Station de pompage.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -6469,7 +6469,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="255,0,0,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v=""/>
+              <prop k="name" v="./symbols/PDDE/Chambre de traitement.svg"/>
               <prop k="offset" v="5,5"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -6489,7 +6489,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="0,0,0,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v=""/>
+              <prop k="name" v="./symbols/PDDE/Chambre de traitement.svg"/>
               <prop k="offset" v="5,5"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -6509,7 +6509,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="0,0,0,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="//S4laveyre/comm_tech$/05_CADASTRE/PROJETS CADASTRE/Symbologie PDEE/Chambre de traitement.svg"/>
+              <prop k="name" v="./symbols/PDDE/Chambre de traitement.svg"/>
               <prop k="offset" v="5,5"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -6692,7 +6692,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/shapeRadiiY" value="0"/>
         <property key="labeling/shapeRotation" value="0"/>
         <property key="labeling/shapeRotationType" value="0"/>
-        <property key="labeling/shapeSVGFile" value="S:/05_CADASTRE/PROJETS CADASTRE/Symbologie PDEE/Chambre de traitement.svg"/>
+        <property key="labeling/shapeSVGFile" value="./symbols/PDDE/Chambre de traitement.svg"/>
         <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/shapeSizeType" value="0"/>
         <property key="labeling/shapeSizeUnits" value="1"/>
@@ -7474,7 +7474,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="255,0,0,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="//S4laveyre/comm_tech$/05_CADASTRE/PROJETS CADASTRE/Symbologie PDEE/Chambre de regulation.svg"/>
+              <prop k="name" v="./symbols/PDDE/Chambre de regulation.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -7494,7 +7494,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="38,150,224,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="//S4laveyre/comm_tech$/05_CADASTRE/PROJETS CADASTRE/Symbologie PDEE/Chambre de regulation.svg"/>
+              <prop k="name" v="./symbols/PDDE/Chambre de regulation.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -7514,7 +7514,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="38,150,224,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="//S4laveyre/comm_tech$/05_CADASTRE/PROJETS CADASTRE/Symbologie PDEE/Chambre de regulation.svg"/>
+              <prop k="name" v="./symbols/PDDE/Chambre de regulation.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -7554,7 +7554,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="255,0,0,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="//S4laveyre/comm_tech$/05_CADASTRE/PROJETS CADASTRE/Symbologie PDEE/Chambre coupe-pression.svg"/>
+              <prop k="name" v="./symbols/PDDE/Chambre coupe-pression.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -7574,7 +7574,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="38,150,224,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="//S4laveyre/comm_tech$/05_CADASTRE/PROJETS CADASTRE/Symbologie PDEE/Chambre coupe-pression.svg"/>
+              <prop k="name" v="./symbols/PDDE/Chambre coupe-pression.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -7594,7 +7594,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="255,0,0,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="//S4laveyre/comm_tech$/05_CADASTRE/PROJETS CADASTRE/Symbologie PDEE/Chambre coupe-pression.svg"/>
+              <prop k="name" v="./symbols/PDDE/Chambre coupe-pression.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -7634,7 +7634,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="38,150,224,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="//S4laveyre/comm_tech$/05_CADASTRE/PROJETS CADASTRE/Symbologie PDEE/Chambre de vannes.svg"/>
+              <prop k="name" v="./symbols/PDDE/Chambre de vannes.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -7654,7 +7654,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="38,150,224,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="//S4laveyre/comm_tech$/05_CADASTRE/PROJETS CADASTRE/Symbologie PDEE/Chambre de compteurs.svg"/>
+              <prop k="name" v="./symbols/PDDE/Chambre de compteurs.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -8374,7 +8374,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1158000</ymax>
       </extent>
       <id>SMR10_LV95_clipped20180907142920682</id>
-      <datasource>S:\05_CADASTRE\DATA_PROD\Basemaps\SMR10 MEAN resampled\SMR10_LV95_SIGE_M_resampled.tif</datasource>
+      <datasource>S:/05_CADASTRE/DATA_PROD/Basemaps/SMR10 MEAN resampled/SMR10_LV95_SIGE_M_resampled.tif</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -10441,7 +10441,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="227,26,28,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="//S4laveyre/comm_tech$/05_CADASTRE/PROJETS CADASTRE/Symbologie PDEE/Reservoir.svg"/>
+              <prop k="name" v="./symbols/PDDE/Reservoir.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -10461,7 +10461,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="255,0,0,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="//S4laveyre/comm_tech$/05_CADASTRE/PROJETS CADASTRE/Symbologie PDEE/Reservoir.svg"/>
+              <prop k="name" v="./symbols/PDDE/Reservoir.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -10481,7 +10481,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="93,201,227,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="//S4laveyre/comm_tech$/05_CADASTRE/PROJETS CADASTRE/Symbologie PDEE/Reservoir.svg"/>
+              <prop k="name" v="./symbols/PDDE/Reservoir.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -10501,7 +10501,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="93,201,227,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="//S4laveyre/comm_tech$/05_CADASTRE/PROJETS CADASTRE/Symbologie PDEE/Reservoir.svg"/>
+              <prop k="name" v="./symbols/PDDE/Reservoir.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -10521,7 +10521,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="93,201,227,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="//S4laveyre/comm_tech$/05_CADASTRE/PROJETS CADASTRE/Symbologie PDEE/Reservoir.svg"/>
+              <prop k="name" v="./symbols/PDDE/Reservoir.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -11306,7 +11306,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="0,153,249,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v=""/>
+              <prop k="name" v="./symbols/PDDE/Fontaine.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -11326,7 +11326,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="255,148,0,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v=""/>
+              <prop k="name" v="./symbols/PDDE/Sprinkler.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -12751,6 +12751,16 @@ def my_form_open(dialog, layer, feature):
       <DistanceUnits type="QString">meters</DistanceUnits>
       <AreaUnits type="QString">m2</AreaUnits>
     </Measurement>
+    <Palette>
+      <Colors type="QStringList">
+        <value>255,148,0,255</value>
+        <value>0,153,249,255</value>
+      </Colors>
+      <Labels type="QStringList">
+        <value>#ff9400</value>
+        <value>#0099f9</value>
+      </Labels>
+    </Palette>
     <SpatialRefSys>
       <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
       <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
