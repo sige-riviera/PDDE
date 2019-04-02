@@ -94,11 +94,11 @@
       <item>vw_element_hydrant20180904165544316</item>
       <item>vw_element_installation20180903105459428</item>
       <item>vw_element_subscriber20180924091059730</item>
+      <item>vw_pipe_schema20190402105730089</item>
       <item>pipe_material20180904162614417</item>
       <item>vw_pipe_schema20180903104110130</item>
       <item>Carte_nationale_1_25_000___CN2520180903145534662</item>
       <item>SMR10_LV95_clipped20180907142920682</item>
-      <item>vw_pipe_schema20190402105730089</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="false">
@@ -140,30 +140,30 @@
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendlayer drawingOrder="11" open="true" checked="Qt::Checked" name="Conduites PDDE" showFeatureCount="0">
+      <legendlayer drawingOrder="7" open="true" checked="Qt::Checked" name="Conduites PDDE" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="vw_pipe_schema20190402105730089" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="8" open="true" checked="Qt::Checked" name="Conduites par zone de consommation PDDE" showFeatureCount="0">
+      <legendlayer drawingOrder="9" open="true" checked="Qt::Checked" name="Conduites par zone de consommation PDDE" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="vw_pipe_schema20180903104110130" visible="1"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
     <legendgroup open="true" checked="Qt::Checked" name="Listes de valeurs">
-      <legendlayer drawingOrder="7" open="true" checked="Qt::Checked" name="conduites - matériaux" showFeatureCount="0">
+      <legendlayer drawingOrder="8" open="true" checked="Qt::Checked" name="conduites - matériaux" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="pipe_material20180904162614417" visible="1"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendlayer drawingOrder="10" open="true" checked="Qt::Checked" name="Carte nationale 1:10'000 CN10" showFeatureCount="0">
+    <legendlayer drawingOrder="11" open="true" checked="Qt::Checked" name="Carte nationale 1:10'000 CN10" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="SMR10_LV95_clipped20180907142920682" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="9" open="false" checked="Qt::Unchecked" name="Carte nationale 1:25'000 | CN25" showFeatureCount="0">
+    <legendlayer drawingOrder="10" open="false" checked="Qt::Unchecked" name="Carte nationale 1:25'000 | CN25" showFeatureCount="0">
       <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="Carte_nationale_1_25_000___CN2520180903145534662" visible="0"/>
       </filegroup>
