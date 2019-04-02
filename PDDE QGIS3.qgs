@@ -21,19 +21,19 @@
     <customproperties/>
     <layer-tree-group checked="Qt::Checked" expanded="1" name="PDDE">
       <customproperties/>
-      <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903133008375" providerKey="postgres" expanded="1" name="Captage (S)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'source' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306 OR fk_status = 1302)">
+      <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903133008375" providerKey="postgres" expanded="1" name="Captage (S)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'source' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306 OR fk_status = 1302)">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" id="vw_element_installation20180903105459428" providerKey="postgres" expanded="1" name="Réservoir (R)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'tank' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+      <layer-tree-layer checked="Qt::Checked" id="vw_element_installation20180903105459428" providerKey="postgres" expanded="1" name="Réservoir (R)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'tank' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903132243202" providerKey="postgres" expanded="1" name="Station de pompage (STAP)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'pump' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+      <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903132243202" providerKey="postgres" expanded="1" name="Station de pompage (STAP)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'pump' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140459108" providerKey="postgres" expanded="1" name="Chambre de traitement (CT)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'treatment' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+      <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140459108" providerKey="postgres" expanded="1" name="Chambre de traitement (CT)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'treatment' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140739634" providerKey="postgres" expanded="1" name="Chambre de réseau" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'chamber' OR &quot;installation_type&quot; = 'pressurecontrol' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+      <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140739634" providerKey="postgres" expanded="1" name="Chambre de réseau" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'chamber' OR &quot;installation_type&quot; = 'pressurecontrol' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer checked="Qt::Checked" id="vw_element_subscriber20180924091059730" providerKey="postgres" expanded="1" name="Branchement spécial" source="service='qwat' user='sige' sslmode=allow key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_subscriber&quot; (geometry) sql=">
@@ -103,10 +103,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>2554443.11497015785425901</xmin>
-      <ymin>1148126.05458709155209363</ymin>
-      <xmax>2554722.26859841775149107</xmax>
-      <ymax>1148531.85927500878460705</ymax>
+      <xmin>2553871.66330645466223359</xmin>
+      <ymin>1147559.58490963443182409</ymin>
+      <xmax>2554986.45774692902341485</xmax>
+      <ymax>1149180.15782795404084027</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -286,7 +286,7 @@
         <ymax>1152119.11931171989999712</ymax>
       </extent>
       <id>Réservoir__R__copier20180903132243202</id>
-      <datasource>service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table="qwat_od"."vw_element_installation" (geometry) sql="installation_type" = 'pump' AND ("fk_status" = 1301 OR "fk_status" = 1306)</datasource>
+      <datasource>service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table="qwat_od"."vw_element_installation" (geometry_alt2) sql="installation_type" = 'pump' AND ("fk_status" = 1301 OR "fk_status" = 1306)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -646,17 +646,14 @@
             </config>
           </editWidget>
         </field>
-        <field name="geometry_alt1">
-          <editWidget type="TextEdit">
+        <field name="geometry">
+          <editWidget type="">
             <config>
-              <Option type="Map">
-                <Option type="QString" value="0" name="IsMultiline"/>
-                <Option type="QString" value="0" name="UseHtml"/>
-              </Option>
+              <Option/>
             </config>
           </editWidget>
         </field>
-        <field name="geometry_alt2">
+        <field name="geometry_alt1">
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
@@ -1578,8 +1575,8 @@
         <alias field="_pipe_node_type" index="7" name=""/>
         <alias field="_pipe_orientation" index="8" name=""/>
         <alias field="_pipe_schema_visible" index="9" name=""/>
-        <alias field="geometry_alt1" index="10" name=""/>
-        <alias field="geometry_alt2" index="11" name=""/>
+        <alias field="geometry" index="10" name=""/>
+        <alias field="geometry_alt1" index="11" name=""/>
         <alias field="update_geometry_alt1" index="12" name=""/>
         <alias field="update_geometry_alt2" index="13" name=""/>
         <alias field="identification" index="14" name=""/>
@@ -1684,8 +1681,8 @@
         <default field="_pipe_node_type" expression="" applyOnUpdate="0"/>
         <default field="_pipe_orientation" expression="" applyOnUpdate="0"/>
         <default field="_pipe_schema_visible" expression="" applyOnUpdate="0"/>
+        <default field="geometry" expression="" applyOnUpdate="0"/>
         <default field="geometry_alt1" expression="" applyOnUpdate="0"/>
-        <default field="geometry_alt2" expression="" applyOnUpdate="0"/>
         <default field="update_geometry_alt1" expression="" applyOnUpdate="0"/>
         <default field="update_geometry_alt2" expression="" applyOnUpdate="0"/>
         <default field="identification" expression="" applyOnUpdate="0"/>
@@ -1788,8 +1785,8 @@
         <constraint field="_pipe_node_type" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="_pipe_orientation" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="_pipe_schema_visible" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
+        <constraint field="geometry" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="geometry_alt1" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
-        <constraint field="geometry_alt2" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="update_geometry_alt1" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="update_geometry_alt2" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="identification" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
@@ -1892,8 +1889,8 @@
         <constraint field="_pipe_node_type" exp="" desc=""/>
         <constraint field="_pipe_orientation" exp="" desc=""/>
         <constraint field="_pipe_schema_visible" exp="" desc=""/>
+        <constraint field="geometry" exp="" desc=""/>
         <constraint field="geometry_alt1" exp="" desc=""/>
-        <constraint field="geometry_alt2" exp="" desc=""/>
         <constraint field="update_geometry_alt1" exp="" desc=""/>
         <constraint field="update_geometry_alt2" exp="" desc=""/>
         <constraint field="identification" exp="" desc=""/>
@@ -1986,7 +1983,9 @@
         <constraint field="update_date" exp="" desc=""/>
       </constraintExpressions>
       <expressionfields/>
-      <attributeactions/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
       <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
         <columns>
           <column type="field" hidden="0" width="-1" name="id"/>
@@ -2133,7 +2132,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1150068.46309259999543428</ymax>
       </extent>
       <id>Réservoir__R__copier20180903133008375</id>
-      <datasource>service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table="qwat_od"."vw_element_installation" (geometry) sql="installation_type" = 'source' AND ("fk_status" = 1301 OR "fk_status" = 1306 OR fk_status = 1302)</datasource>
+      <datasource>service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table="qwat_od"."vw_element_installation" (geometry_alt2) sql="installation_type" = 'source' AND ("fk_status" = 1301 OR "fk_status" = 1306 OR fk_status = 1302)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -2558,17 +2557,14 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
-        <field name="geometry_alt1">
-          <editWidget type="TextEdit">
+        <field name="geometry">
+          <editWidget type="">
             <config>
-              <Option type="Map">
-                <Option type="QString" value="0" name="IsMultiline"/>
-                <Option type="QString" value="0" name="UseHtml"/>
-              </Option>
+              <Option/>
             </config>
           </editWidget>
         </field>
-        <field name="geometry_alt2">
+        <field name="geometry_alt1">
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
@@ -3490,8 +3486,8 @@ def my_form_open(dialog, layer, feature):
         <alias field="_pipe_node_type" index="7" name=""/>
         <alias field="_pipe_orientation" index="8" name=""/>
         <alias field="_pipe_schema_visible" index="9" name=""/>
-        <alias field="geometry_alt1" index="10" name=""/>
-        <alias field="geometry_alt2" index="11" name=""/>
+        <alias field="geometry" index="10" name=""/>
+        <alias field="geometry_alt1" index="11" name=""/>
         <alias field="update_geometry_alt1" index="12" name=""/>
         <alias field="update_geometry_alt2" index="13" name=""/>
         <alias field="identification" index="14" name=""/>
@@ -3596,8 +3592,8 @@ def my_form_open(dialog, layer, feature):
         <default field="_pipe_node_type" expression="" applyOnUpdate="0"/>
         <default field="_pipe_orientation" expression="" applyOnUpdate="0"/>
         <default field="_pipe_schema_visible" expression="" applyOnUpdate="0"/>
+        <default field="geometry" expression="" applyOnUpdate="0"/>
         <default field="geometry_alt1" expression="" applyOnUpdate="0"/>
-        <default field="geometry_alt2" expression="" applyOnUpdate="0"/>
         <default field="update_geometry_alt1" expression="" applyOnUpdate="0"/>
         <default field="update_geometry_alt2" expression="" applyOnUpdate="0"/>
         <default field="identification" expression="" applyOnUpdate="0"/>
@@ -3700,8 +3696,8 @@ def my_form_open(dialog, layer, feature):
         <constraint field="_pipe_node_type" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="_pipe_orientation" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="_pipe_schema_visible" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
+        <constraint field="geometry" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="geometry_alt1" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
-        <constraint field="geometry_alt2" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="update_geometry_alt1" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="update_geometry_alt2" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="identification" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
@@ -3804,8 +3800,8 @@ def my_form_open(dialog, layer, feature):
         <constraint field="_pipe_node_type" exp="" desc=""/>
         <constraint field="_pipe_orientation" exp="" desc=""/>
         <constraint field="_pipe_schema_visible" exp="" desc=""/>
+        <constraint field="geometry" exp="" desc=""/>
         <constraint field="geometry_alt1" exp="" desc=""/>
-        <constraint field="geometry_alt2" exp="" desc=""/>
         <constraint field="update_geometry_alt1" exp="" desc=""/>
         <constraint field="update_geometry_alt2" exp="" desc=""/>
         <constraint field="identification" exp="" desc=""/>
@@ -4047,7 +4043,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1149549.02339615998789668</ymax>
       </extent>
       <id>Réservoir__R__copier20180903140459108</id>
-      <datasource>service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table="qwat_od"."vw_element_installation" (geometry) sql="installation_type" = 'treatment' AND ("fk_status" = 1301 OR "fk_status" = 1306)</datasource>
+      <datasource>service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table="qwat_od"."vw_element_installation" (geometry_alt2) sql="installation_type" = 'treatment' AND ("fk_status" = 1301 OR "fk_status" = 1306)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4540,17 +4536,14 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
-        <field name="geometry_alt1">
-          <editWidget type="TextEdit">
+        <field name="geometry">
+          <editWidget type="">
             <config>
-              <Option type="Map">
-                <Option type="QString" value="0" name="IsMultiline"/>
-                <Option type="QString" value="0" name="UseHtml"/>
-              </Option>
+              <Option/>
             </config>
           </editWidget>
         </field>
-        <field name="geometry_alt2">
+        <field name="geometry_alt1">
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
@@ -5472,8 +5465,8 @@ def my_form_open(dialog, layer, feature):
         <alias field="_pipe_node_type" index="7" name=""/>
         <alias field="_pipe_orientation" index="8" name=""/>
         <alias field="_pipe_schema_visible" index="9" name=""/>
-        <alias field="geometry_alt1" index="10" name=""/>
-        <alias field="geometry_alt2" index="11" name=""/>
+        <alias field="geometry" index="10" name=""/>
+        <alias field="geometry_alt1" index="11" name=""/>
         <alias field="update_geometry_alt1" index="12" name=""/>
         <alias field="update_geometry_alt2" index="13" name=""/>
         <alias field="identification" index="14" name=""/>
@@ -5578,8 +5571,8 @@ def my_form_open(dialog, layer, feature):
         <default field="_pipe_node_type" expression="" applyOnUpdate="0"/>
         <default field="_pipe_orientation" expression="" applyOnUpdate="0"/>
         <default field="_pipe_schema_visible" expression="" applyOnUpdate="0"/>
+        <default field="geometry" expression="" applyOnUpdate="0"/>
         <default field="geometry_alt1" expression="" applyOnUpdate="0"/>
-        <default field="geometry_alt2" expression="" applyOnUpdate="0"/>
         <default field="update_geometry_alt1" expression="" applyOnUpdate="0"/>
         <default field="update_geometry_alt2" expression="" applyOnUpdate="0"/>
         <default field="identification" expression="" applyOnUpdate="0"/>
@@ -5682,8 +5675,8 @@ def my_form_open(dialog, layer, feature):
         <constraint field="_pipe_node_type" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="_pipe_orientation" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="_pipe_schema_visible" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
+        <constraint field="geometry" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="geometry_alt1" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
-        <constraint field="geometry_alt2" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="update_geometry_alt1" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="update_geometry_alt2" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="identification" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
@@ -5786,8 +5779,8 @@ def my_form_open(dialog, layer, feature):
         <constraint field="_pipe_node_type" exp="" desc=""/>
         <constraint field="_pipe_orientation" exp="" desc=""/>
         <constraint field="_pipe_schema_visible" exp="" desc=""/>
+        <constraint field="geometry" exp="" desc=""/>
         <constraint field="geometry_alt1" exp="" desc=""/>
-        <constraint field="geometry_alt2" exp="" desc=""/>
         <constraint field="update_geometry_alt1" exp="" desc=""/>
         <constraint field="update_geometry_alt2" exp="" desc=""/>
         <constraint field="identification" exp="" desc=""/>
@@ -6236,7 +6229,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1151843.43800000008195639</ymax>
       </extent>
       <id>Réservoir__R__copier20180903140739634</id>
-      <datasource>service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table="qwat_od"."vw_element_installation" (geometry) sql="installation_type" = 'chamber' OR "installation_type" = 'pressurecontrol' AND ("fk_status" = 1301 OR "fk_status" = 1306)</datasource>
+      <datasource>service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table="qwat_od"."vw_element_installation" (geometry_alt2) sql="installation_type" = 'chamber' OR "installation_type" = 'pressurecontrol' AND ("fk_status" = 1301 OR "fk_status" = 1306)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -7080,17 +7073,14 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
-        <field name="geometry_alt1">
-          <editWidget type="TextEdit">
+        <field name="geometry">
+          <editWidget type="">
             <config>
-              <Option type="Map">
-                <Option type="QString" value="0" name="IsMultiline"/>
-                <Option type="QString" value="0" name="UseHtml"/>
-              </Option>
+              <Option/>
             </config>
           </editWidget>
         </field>
-        <field name="geometry_alt2">
+        <field name="geometry_alt1">
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
@@ -8012,8 +8002,8 @@ def my_form_open(dialog, layer, feature):
         <alias field="_pipe_node_type" index="7" name=""/>
         <alias field="_pipe_orientation" index="8" name=""/>
         <alias field="_pipe_schema_visible" index="9" name=""/>
-        <alias field="geometry_alt1" index="10" name=""/>
-        <alias field="geometry_alt2" index="11" name=""/>
+        <alias field="geometry" index="10" name=""/>
+        <alias field="geometry_alt1" index="11" name=""/>
         <alias field="update_geometry_alt1" index="12" name=""/>
         <alias field="update_geometry_alt2" index="13" name=""/>
         <alias field="identification" index="14" name=""/>
@@ -8118,8 +8108,8 @@ def my_form_open(dialog, layer, feature):
         <default field="_pipe_node_type" expression="" applyOnUpdate="0"/>
         <default field="_pipe_orientation" expression="" applyOnUpdate="0"/>
         <default field="_pipe_schema_visible" expression="" applyOnUpdate="0"/>
+        <default field="geometry" expression="" applyOnUpdate="0"/>
         <default field="geometry_alt1" expression="" applyOnUpdate="0"/>
-        <default field="geometry_alt2" expression="" applyOnUpdate="0"/>
         <default field="update_geometry_alt1" expression="" applyOnUpdate="0"/>
         <default field="update_geometry_alt2" expression="" applyOnUpdate="0"/>
         <default field="identification" expression="" applyOnUpdate="0"/>
@@ -8222,8 +8212,8 @@ def my_form_open(dialog, layer, feature):
         <constraint field="_pipe_node_type" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="_pipe_orientation" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="_pipe_schema_visible" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
+        <constraint field="geometry" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="geometry_alt1" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
-        <constraint field="geometry_alt2" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="update_geometry_alt1" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="update_geometry_alt2" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="identification" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
@@ -8326,8 +8316,8 @@ def my_form_open(dialog, layer, feature):
         <constraint field="_pipe_node_type" exp="" desc=""/>
         <constraint field="_pipe_orientation" exp="" desc=""/>
         <constraint field="_pipe_schema_visible" exp="" desc=""/>
+        <constraint field="geometry" exp="" desc=""/>
         <constraint field="geometry_alt1" exp="" desc=""/>
-        <constraint field="geometry_alt2" exp="" desc=""/>
         <constraint field="update_geometry_alt1" exp="" desc=""/>
         <constraint field="update_geometry_alt2" exp="" desc=""/>
         <constraint field="identification" exp="" desc=""/>
@@ -10460,7 +10450,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1150489.57125511998310685</ymax>
       </extent>
       <id>vw_element_installation20180903105459428</id>
-      <datasource>service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table="qwat_od"."vw_element_installation" (geometry) sql="installation_type" = 'tank' AND ("fk_status" = 1301 OR "fk_status" = 1306)</datasource>
+      <datasource>service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table="qwat_od"."vw_element_installation" (geometry_alt2) sql="installation_type" = 'tank' AND ("fk_status" = 1301 OR "fk_status" = 1306)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -10878,17 +10868,14 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
-        <field name="geometry_alt1">
-          <editWidget type="TextEdit">
+        <field name="geometry">
+          <editWidget type="">
             <config>
-              <Option type="Map">
-                <Option type="QString" value="0" name="IsMultiline"/>
-                <Option type="QString" value="0" name="UseHtml"/>
-              </Option>
+              <Option/>
             </config>
           </editWidget>
         </field>
-        <field name="geometry_alt2">
+        <field name="geometry_alt1">
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
@@ -11810,8 +11797,8 @@ def my_form_open(dialog, layer, feature):
         <alias field="_pipe_node_type" index="7" name=""/>
         <alias field="_pipe_orientation" index="8" name=""/>
         <alias field="_pipe_schema_visible" index="9" name=""/>
-        <alias field="geometry_alt1" index="10" name=""/>
-        <alias field="geometry_alt2" index="11" name=""/>
+        <alias field="geometry" index="10" name=""/>
+        <alias field="geometry_alt1" index="11" name=""/>
         <alias field="update_geometry_alt1" index="12" name=""/>
         <alias field="update_geometry_alt2" index="13" name=""/>
         <alias field="identification" index="14" name=""/>
@@ -11916,8 +11903,8 @@ def my_form_open(dialog, layer, feature):
         <default field="_pipe_node_type" expression="" applyOnUpdate="0"/>
         <default field="_pipe_orientation" expression="" applyOnUpdate="0"/>
         <default field="_pipe_schema_visible" expression="" applyOnUpdate="0"/>
+        <default field="geometry" expression="" applyOnUpdate="0"/>
         <default field="geometry_alt1" expression="" applyOnUpdate="0"/>
-        <default field="geometry_alt2" expression="" applyOnUpdate="0"/>
         <default field="update_geometry_alt1" expression="" applyOnUpdate="0"/>
         <default field="update_geometry_alt2" expression="" applyOnUpdate="0"/>
         <default field="identification" expression="" applyOnUpdate="0"/>
@@ -12020,8 +12007,8 @@ def my_form_open(dialog, layer, feature):
         <constraint field="_pipe_node_type" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="_pipe_orientation" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="_pipe_schema_visible" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
+        <constraint field="geometry" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="geometry_alt1" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
-        <constraint field="geometry_alt2" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="update_geometry_alt1" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="update_geometry_alt2" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
         <constraint field="identification" exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0"/>
@@ -12124,8 +12111,8 @@ def my_form_open(dialog, layer, feature):
         <constraint field="_pipe_node_type" exp="" desc=""/>
         <constraint field="_pipe_orientation" exp="" desc=""/>
         <constraint field="_pipe_schema_visible" exp="" desc=""/>
+        <constraint field="geometry" exp="" desc=""/>
         <constraint field="geometry_alt1" exp="" desc=""/>
-        <constraint field="geometry_alt2" exp="" desc=""/>
         <constraint field="update_geometry_alt1" exp="" desc=""/>
         <constraint field="update_geometry_alt2" exp="" desc=""/>
         <constraint field="identification" exp="" desc=""/>
@@ -12218,7 +12205,9 @@ def my_form_open(dialog, layer, feature):
         <constraint field="update_date" exp="" desc=""/>
       </constraintExpressions>
       <expressionfields/>
-      <attributeactions/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
       <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="&quot;installation_type&quot;">
         <columns>
           <column type="actions" hidden="1" width="-1"/>
@@ -15955,27 +15944,27 @@ def my_form_open(dialog, layer, feature):
           <customproperties/>
           <layer-tree-group checked="Qt::Checked" expanded="1" name="PDDE">
             <customproperties/>
-            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903133008375" providerKey="postgres" expanded="1" name="Captage (S)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'source' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306 OR fk_status = 1302)">
+            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903133008375" providerKey="postgres" expanded="1" name="Captage (S)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'source' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306 OR fk_status = 1302)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2,3"/>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer checked="Qt::Checked" id="vw_element_installation20180903105459428" providerKey="postgres" expanded="1" name="Réservoir (R)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'tank' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+            <layer-tree-layer checked="Qt::Checked" id="vw_element_installation20180903105459428" providerKey="postgres" expanded="1" name="Réservoir (R)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'tank' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2,3,4"/>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903132243202" providerKey="postgres" expanded="1" name="Station de pompage (STAP)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'pump' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903132243202" providerKey="postgres" expanded="1" name="Station de pompage (STAP)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'pump' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2"/>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140459108" providerKey="postgres" expanded="1" name="Chambre de traitement (CT)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'treatment' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140459108" providerKey="postgres" expanded="1" name="Chambre de traitement (CT)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'treatment' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2"/>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140739634" providerKey="postgres" expanded="1" name="Chambre de réseau" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'chamber' OR &quot;installation_type&quot; = 'pressurecontrol' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140739634" providerKey="postgres" expanded="1" name="Chambre de réseau" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'chamber' OR &quot;installation_type&quot; = 'pressurecontrol' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2,3,4,5,6,7"/>
               </customproperties>
@@ -16355,27 +16344,27 @@ def my_form_open(dialog, layer, feature):
           <customproperties/>
           <layer-tree-group checked="Qt::Checked" expanded="1" name="PDDE">
             <customproperties/>
-            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903133008375" providerKey="postgres" expanded="1" name="Captage (S)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'source' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306 OR fk_status = 1302)">
+            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903133008375" providerKey="postgres" expanded="1" name="Captage (S)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'source' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306 OR fk_status = 1302)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2,3"/>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer checked="Qt::Checked" id="vw_element_installation20180903105459428" providerKey="postgres" expanded="1" name="Réservoir (R)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'tank' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+            <layer-tree-layer checked="Qt::Checked" id="vw_element_installation20180903105459428" providerKey="postgres" expanded="1" name="Réservoir (R)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'tank' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2,3,4"/>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903132243202" providerKey="postgres" expanded="1" name="Station de pompage (STAP)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'pump' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903132243202" providerKey="postgres" expanded="1" name="Station de pompage (STAP)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'pump' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2"/>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140459108" providerKey="postgres" expanded="1" name="Chambre de traitement (CT)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'treatment' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140459108" providerKey="postgres" expanded="1" name="Chambre de traitement (CT)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'treatment' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2"/>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140739634" providerKey="postgres" expanded="1" name="Chambre de réseau" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'chamber' OR &quot;installation_type&quot; = 'pressurecontrol' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140739634" providerKey="postgres" expanded="1" name="Chambre de réseau" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'chamber' OR &quot;installation_type&quot; = 'pressurecontrol' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2,3,4,5,6,7"/>
               </customproperties>
@@ -16943,7 +16932,9 @@ def my_form_open(dialog, layer, feature):
         </ComposerMapGrid>
         <AtlasMap scalingMode="0" atlasDriven="0" margin="0.10000000000000001"/>
       </LayoutItem>
-      <customproperties/>
+      <customproperties>
+        <property key="atlasRasterFormat" value="png"/>
+      </customproperties>
       <Atlas hideCoverage="0" coverageLayer="" filenamePattern="'output_'||@atlas_featurenumber" pageNameExpression="" filterFeatures="0" enabled="0" sortFeatures="0"/>
     </Layout>
     <Layout printResolution="300" units="mm" worldFileMap="" name="PDDE">
@@ -17488,28 +17479,28 @@ def my_form_open(dialog, layer, feature):
           <customproperties/>
           <layer-tree-group checked="Qt::Checked" expanded="1" name="PDDE">
             <customproperties/>
-            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903133008375" providerKey="postgres" expanded="1" name="Captage (S)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'source' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306 OR fk_status = 1302)">
+            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903133008375" providerKey="postgres" expanded="1" name="Captage (S)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'source' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306 OR fk_status = 1302)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2,3"/>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer checked="Qt::Checked" id="vw_element_installation20180903105459428" providerKey="postgres" expanded="1" name="Réservoir (R)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'tank' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+            <layer-tree-layer checked="Qt::Checked" id="vw_element_installation20180903105459428" providerKey="postgres" expanded="1" name="Réservoir (R)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'tank' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2,3,4"/>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903132243202" providerKey="postgres" expanded="1" name="Station de pompage (STAP)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'pump' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903132243202" providerKey="postgres" expanded="1" name="Station de pompage (STAP)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'pump' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2"/>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140459108" providerKey="postgres" expanded="1" name="Chambre de traitement (CT)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'treatment' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140459108" providerKey="postgres" expanded="1" name="Chambre de traitement (CT)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'treatment' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2"/>
                 <property key="legend/title-style" value="subgroup"/>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140739634" providerKey="postgres" expanded="1" name="Chambre de réseau" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'chamber' OR &quot;installation_type&quot; = 'pressurecontrol' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140739634" providerKey="postgres" expanded="1" name="Chambre de réseau" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'chamber' OR &quot;installation_type&quot; = 'pressurecontrol' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2,3,4,5,6,7"/>
               </customproperties>
@@ -18035,31 +18026,31 @@ def my_form_open(dialog, layer, feature):
             <customproperties>
               <property key="legend/title-style" value="hidden"/>
             </customproperties>
-            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903133008375" providerKey="postgres" expanded="1" name="Captage (S)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'source' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306 OR fk_status = 1302)">
+            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903133008375" providerKey="postgres" expanded="1" name="Captage (S)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'source' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306 OR fk_status = 1302)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2,3"/>
                 <property key="legend/title-style" value="group"/>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer checked="Qt::Checked" id="vw_element_installation20180903105459428" providerKey="postgres" expanded="1" name="Réservoir (R)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'tank' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+            <layer-tree-layer checked="Qt::Checked" id="vw_element_installation20180903105459428" providerKey="postgres" expanded="1" name="Réservoir (R)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'tank' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2,3,4"/>
                 <property key="legend/title-style" value="group"/>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903132243202" providerKey="postgres" expanded="1" name="Station de pompage (STAP)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'pump' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903132243202" providerKey="postgres" expanded="1" name="Station de pompage (STAP)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'pump' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2"/>
                 <property key="legend/title-style" value="group"/>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140459108" providerKey="postgres" expanded="1" name="Chambre de traitement (CT)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'treatment' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140459108" providerKey="postgres" expanded="1" name="Chambre de traitement (CT)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'treatment' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2"/>
                 <property key="legend/title-style" value="group"/>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140739634" providerKey="postgres" expanded="1" name="Chambre de réseau" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'chamber' OR &quot;installation_type&quot; = 'pressurecontrol' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140739634" providerKey="postgres" expanded="1" name="Chambre de réseau" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'chamber' OR &quot;installation_type&quot; = 'pressurecontrol' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2,3,4,5,6,7"/>
                 <property key="legend/title-style" value="group"/>
@@ -19046,31 +19037,31 @@ def my_form_open(dialog, layer, feature):
             <customproperties>
               <property key="legend/title-style" value="hidden"/>
             </customproperties>
-            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903133008375" providerKey="postgres" expanded="1" name="Captage (S)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'source' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306 OR fk_status = 1302)">
+            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903133008375" providerKey="postgres" expanded="1" name="Captage (S)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'source' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306 OR fk_status = 1302)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2,3"/>
                 <property key="legend/title-style" value="group"/>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer checked="Qt::Checked" id="vw_element_installation20180903105459428" providerKey="postgres" expanded="1" name="Réservoir (R)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'tank' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+            <layer-tree-layer checked="Qt::Checked" id="vw_element_installation20180903105459428" providerKey="postgres" expanded="1" name="Réservoir (R)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'tank' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2,3,4"/>
                 <property key="legend/title-style" value="group"/>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903132243202" providerKey="postgres" expanded="1" name="Station de pompage (STAP)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'pump' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903132243202" providerKey="postgres" expanded="1" name="Station de pompage (STAP)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'pump' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2"/>
                 <property key="legend/title-style" value="group"/>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140459108" providerKey="postgres" expanded="1" name="Chambre de traitement (CT)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'treatment' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140459108" providerKey="postgres" expanded="1" name="Chambre de traitement (CT)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'treatment' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2"/>
                 <property key="legend/title-style" value="group"/>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140739634" providerKey="postgres" expanded="1" name="Chambre de réseau" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'chamber' OR &quot;installation_type&quot; = 'pressurecontrol' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140739634" providerKey="postgres" expanded="1" name="Chambre de réseau" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'chamber' OR &quot;installation_type&quot; = 'pressurecontrol' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2,3,4,5,6,7"/>
                 <property key="legend/title-style" value="group"/>
@@ -19883,31 +19874,31 @@ def my_form_open(dialog, layer, feature):
             <customproperties>
               <property key="legend/title-style" value="hidden"/>
             </customproperties>
-            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903133008375" providerKey="postgres" expanded="1" name="Captage (S)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'source' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306 OR fk_status = 1302)">
+            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903133008375" providerKey="postgres" expanded="1" name="Captage (S)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'source' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306 OR fk_status = 1302)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2,3"/>
                 <property key="legend/title-style" value="group"/>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer checked="Qt::Checked" id="vw_element_installation20180903105459428" providerKey="postgres" expanded="1" name="Réservoir (R)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'tank' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+            <layer-tree-layer checked="Qt::Checked" id="vw_element_installation20180903105459428" providerKey="postgres" expanded="1" name="Réservoir (R)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'tank' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2,3,4"/>
                 <property key="legend/title-style" value="group"/>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903132243202" providerKey="postgres" expanded="1" name="Station de pompage (STAP)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'pump' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903132243202" providerKey="postgres" expanded="1" name="Station de pompage (STAP)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'pump' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2"/>
                 <property key="legend/title-style" value="group"/>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140459108" providerKey="postgres" expanded="1" name="Chambre de traitement (CT)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'treatment' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140459108" providerKey="postgres" expanded="1" name="Chambre de traitement (CT)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'treatment' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2"/>
                 <property key="legend/title-style" value="group"/>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140739634" providerKey="postgres" expanded="1" name="Chambre de réseau" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'chamber' OR &quot;installation_type&quot; = 'pressurecontrol' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140739634" providerKey="postgres" expanded="1" name="Chambre de réseau" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'chamber' OR &quot;installation_type&quot; = 'pressurecontrol' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2,3,4,5,6,7"/>
                 <property key="legend/title-style" value="group"/>
@@ -21053,31 +21044,31 @@ def my_form_open(dialog, layer, feature):
             <customproperties>
               <property key="legend/title-style" value="hidden"/>
             </customproperties>
-            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903133008375" providerKey="postgres" expanded="1" name="Captage (S)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'source' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306 OR fk_status = 1302)">
+            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903133008375" providerKey="postgres" expanded="1" name="Captage (S)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'source' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306 OR fk_status = 1302)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2,3"/>
                 <property key="legend/title-style" value="group"/>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer checked="Qt::Checked" id="vw_element_installation20180903105459428" providerKey="postgres" expanded="1" name="Réservoir (R)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'tank' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+            <layer-tree-layer checked="Qt::Checked" id="vw_element_installation20180903105459428" providerKey="postgres" expanded="1" name="Réservoir (R)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'tank' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2,3,4"/>
                 <property key="legend/title-style" value="group"/>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903132243202" providerKey="postgres" expanded="1" name="Station de pompage (STAP)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'pump' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903132243202" providerKey="postgres" expanded="1" name="Station de pompage (STAP)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'pump' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2"/>
                 <property key="legend/title-style" value="group"/>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140459108" providerKey="postgres" expanded="1" name="Chambre de traitement (CT)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'treatment' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140459108" providerKey="postgres" expanded="1" name="Chambre de traitement (CT)" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'treatment' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2"/>
                 <property key="legend/title-style" value="group"/>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140739634" providerKey="postgres" expanded="1" name="Chambre de réseau" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry) sql=&quot;installation_type&quot; = 'chamber' OR &quot;installation_type&quot; = 'pressurecontrol' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
+            <layer-tree-layer checked="Qt::Checked" id="Réservoir__R__copier20180903140739634" providerKey="postgres" expanded="1" name="Chambre de réseau" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'chamber' OR &quot;installation_type&quot; = 'pressurecontrol' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)">
               <customproperties>
                 <property key="legend/node-order" value="0,1,2,3,4,5,6,7"/>
                 <property key="legend/title-style" value="group"/>
