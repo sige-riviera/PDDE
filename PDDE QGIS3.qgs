@@ -155,10 +155,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>2553359.46172548271715641</xmin>
-      <ymin>1147491.79606380150653422</ymin>
-      <xmax>2556310.78568563982844353</xmax>
-      <ymax>1150695.90023373649455607</ymax>
+      <xmin>2552311.75628659315407276</xmin>
+      <ymin>1146102.91121119470335543</ymin>
+      <xmax>2558282.64291118644177914</xmax>
+      <ymax>1152585.20288447313942015</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -9674,10 +9674,10 @@ def my_form_open(dialog, layer, feature):
         </symbols>
       </renderer-v2>
       <labeling type="rule-based">
-        <rules key="{52783738-cedd-4226-8a4b-5302be2736da}">
-          <rule filter="@map_scale > 10000 AND @map_scale &lt; 50000" key="{7fd5a688-0f0c-4721-9011-7837c429232e}">
+        <rules key="{e1432ca7-5fcb-41c9-ad21-3721954098f2}">
+          <rule filter="@map_scale > 10000 AND @map_scale &lt; 50000" key="{8b3c3fee-607a-4cb5-8a5a-4bb6276f8ef5}">
             <settings>
-              <text-style blendMode="0" fontFamily="MS Shell Dlg 2" fontWeight="50" fontSize="75" textOpacity="1" fontCapitals="1" previewBkgrdColor="#ffffff" isExpression="0" textColor="0,0,0,255" useSubstitutions="0" fontUnderline="0" fieldName="Zone" fontItalic="0" fontStrikeout="0" multilineHeight="1" fontLetterSpacing="0" namedStyle="Normal" fontWordSpacing="0" fontSizeUnit="Pixel" fontSizeMapUnitScale="3x:0,0,0,0,0,0">
+              <text-style blendMode="0" fontFamily="MS Shell Dlg 2" fontWeight="50" fontSize="100" textOpacity="1" fontCapitals="1" previewBkgrdColor="#ffffff" isExpression="0" textColor="0,0,0,255" useSubstitutions="0" fontUnderline="0" fieldName="Zone" fontItalic="0" fontStrikeout="0" multilineHeight="1" fontLetterSpacing="0" namedStyle="Normal" fontWordSpacing="0" fontSizeUnit="Pixel" fontSizeMapUnitScale="3x:0,0,0,0,0,0">
                 <text-buffer bufferSize="1" bufferDraw="1" bufferBlendMode="0" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferNoFill="1" bufferSizeUnits="MM" bufferColor="255,255,255,255" bufferJoinStyle="128" bufferOpacity="1"/>
                 <background shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeSizeType="0" shapeRadiiY="0" shapeRotationType="0" shapeBorderWidthUnit="MM" shapeSizeY="0" shapeDraw="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeRotation="0" shapeRadiiX="0" shapeType="0" shapeSVGFile="" shapeJoinStyle="64" shapeOpacity="1" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeBlendMode="0" shapeBorderWidth="0" shapeOffsetY="0" shapeBorderColor="128,128,128,255" shapeSizeX="0" shapeSizeUnit="MM" shapeRadiiUnit="MM" shapeFillColor="255,255,255,255" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetUnit="MM" shapeOffsetX="0"/>
                 <shadow shadowRadiusAlphaOnly="0" shadowOffsetDist="1" shadowOffsetUnit="MM" shadowOpacity="0.7" shadowUnder="0" shadowScale="100" shadowOffsetAngle="135" shadowOffsetGlobal="1" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusUnit="MM" shadowColor="0,0,0,255" shadowRadius="1.5" shadowDraw="0" shadowBlendMode="6"/>
@@ -9711,9 +9711,9 @@ def my_form_open(dialog, layer, feature):
               </dd_properties>
             </settings>
           </rule>
-          <rule filter="@map_scale &lt; 10000" key="{ddd7472a-7dff-49a7-aeb2-290648fd30cb}">
+          <rule filter="@map_scale &lt; 10000" key="{26a4bfbc-6e90-4347-af02-cc6e28f8075d}">
             <settings>
-              <text-style blendMode="0" fontFamily="MS Shell Dlg 2" fontWeight="50" fontSize="55" textOpacity="1" fontCapitals="1" previewBkgrdColor="#ffffff" isExpression="0" textColor="255,255,255,255" useSubstitutions="0" fontUnderline="0" fieldName="Zone" fontItalic="0" fontStrikeout="0" multilineHeight="1" fontLetterSpacing="0" namedStyle="Normal" fontWordSpacing="0" fontSizeUnit="Pixel" fontSizeMapUnitScale="3x:0,0,0,0,0,0">
+              <text-style blendMode="0" fontFamily="MS Shell Dlg 2" fontWeight="50" fontSize="100" textOpacity="1" fontCapitals="1" previewBkgrdColor="#ffffff" isExpression="0" textColor="255,255,255,255" useSubstitutions="0" fontUnderline="0" fieldName="Zone" fontItalic="0" fontStrikeout="0" multilineHeight="1" fontLetterSpacing="0" namedStyle="Normal" fontWordSpacing="0" fontSizeUnit="Pixel" fontSizeMapUnitScale="3x:0,0,0,0,0,0">
                 <text-buffer bufferSize="1" bufferDraw="1" bufferBlendMode="0" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferNoFill="1" bufferSizeUnits="MM" bufferColor="255,255,255,255" bufferJoinStyle="128" bufferOpacity="1"/>
                 <background shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeSizeType="0" shapeRadiiY="0" shapeRotationType="0" shapeBorderWidthUnit="MM" shapeSizeY="0" shapeDraw="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeRotation="0" shapeRadiiX="0" shapeType="0" shapeSVGFile="" shapeJoinStyle="64" shapeOpacity="1" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeBlendMode="0" shapeBorderWidth="0" shapeOffsetY="0" shapeBorderColor="128,128,128,255" shapeSizeX="0" shapeSizeUnit="MM" shapeRadiiUnit="MM" shapeFillColor="255,255,255,255" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetUnit="MM" shapeOffsetX="0"/>
                 <shadow shadowRadiusAlphaOnly="0" shadowOffsetDist="1" shadowOffsetUnit="MM" shadowOpacity="0.7" shadowUnder="0" shadowScale="100" shadowOffsetAngle="135" shadowOffsetGlobal="1" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusUnit="MM" shadowColor="0,0,0,255" shadowRadius="1.5" shadowDraw="0" shadowBlendMode="6"/>
@@ -9844,8 +9844,6 @@ def my_form_open(dialog, layer, feature):
           <column type="field" width="166" hidden="0" name="Nom zone"/>
           <column type="actions" width="-1" hidden="1"/>
           <column type="field" width="625" hidden="0" name="Couleur"/>
-          <column type="field" width="-1" hidden="1" name="auxiliary_storage_labeling_positionx"/>
-          <column type="field" width="-1" hidden="1" name="auxiliary_storage_labeling_positiony"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -9979,6 +9977,26 @@ def my_form_open(dialog, layer, feature):
           <symbol type="fill" force_rhr="0" alpha="1" clip_to_extent="1" name="0">
             <layer pass="0" class="SimpleFill" enabled="1" locked="0">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="255,255,255,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="255,255,255,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.5" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="no" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="255,255,255,0" k="color"/>
               <prop v="bevel" k="joinstyle"/>
               <prop v="0,0" k="offset"/>
@@ -9986,9 +10004,9 @@ def my_form_open(dialog, layer, feature):
               <prop v="MM" k="offset_unit"/>
               <prop v="35,35,35,255" k="outline_color"/>
               <prop v="dash dot dot" k="outline_style"/>
-              <prop v="0.75" k="outline_width"/>
+              <prop v="0.5" k="outline_width"/>
               <prop v="MM" k="outline_width_unit"/>
-              <prop v="solid" k="style"/>
+              <prop v="no" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option type="QString" value="" name="name"/>
@@ -10001,6 +10019,9 @@ def my_form_open(dialog, layer, feature):
         </symbols>
         <rotation/>
         <sizescale/>
+        <orderby>
+          <orderByClause nullsFirst="0" asc="1">"_tid"</orderByClause>
+        </orderby>
       </renderer-v2>
       <customproperties>
         <property value="0" key="embeddedWidgets/count"/>
