@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.34.15-Prizren" saveUser="andrek" saveUserFull="André Kevin" projectname="" saveDateTime="2025-02-27T16:02:12">
+<qgis version="3.34.15-Prizren" saveUser="andrek" saveUserFull="André Kevin" projectname="" saveDateTime="2025-02-27T16:25:11">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -117,7 +117,7 @@
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry) sql=&quot;fk_function&quot; IN(101,102,103,4101,4105,4109,4110,4111)" providerKey="postgres" name="Conduites par zone de consommation PDDE" expanded="1" id="vw_pipe_schema20180903104110130">
+      <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry) sql=&quot;fk_function&quot; IN(101,102,103,4101,4105,4109,4110,4111,4151)" providerKey="postgres" name="Conduites par zone de consommation PDDE" expanded="1" id="vw_pipe_schema20180903104110130">
         <customproperties>
           <Option type="Map">
             <Option type="StringList" name="expandedLegendNodes">
@@ -232,23 +232,23 @@
   </layer-tree-group>
   <snapping-settings minScale="0" enabled="0" mode="2" maxScale="0" unit="1" scaleDependencyMode="0" type="3" tolerance="10" self-snapping="0" intersection-snapping="0">
     <individual-layer-settings>
-      <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="Réservoir__R__copier20180903140459108"/>
-      <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="vw_pipe_schema20180903104110130"/>
+      <layer-setting minScale="0" enabled="1" units="1" maxScale="0" type="1" tolerance="12" id="Zone_PDDE_2d90ebc7_c339_45a8_8cda_011183a3124f"/>
+      <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="Réservoir__R__copier20180903132243202"/>
       <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="vw_element_installation20180903105459428"/>
+      <layer-setting minScale="0" enabled="1" units="1" maxScale="0" type="2" tolerance="50" id="vw_pipe_schema_9bc1596f_16a9_4b77_b187_0299e0e0996d"/>
+      <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="Réservoir__R__copier20180903140459108"/>
+      <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="vw_element_hydrant20180904165544316"/>
       <layer-setting minScale="0" enabled="1" units="1" maxScale="0" type="1" tolerance="12" id="lc_limites_commune_aaa24756_e525_4148_97d0_8f65f723c1bd"/>
       <layer-setting minScale="0" enabled="1" units="1" maxScale="0" type="2" tolerance="50" id="pressurezone_69af57cd_17bc_4925_83ea_91ded6af5042"/>
       <layer-setting minScale="0" enabled="1" units="1" maxScale="0" type="2" tolerance="50" id="pipe_25d785af_ce40_4a62_9794_c6d1f3724f20"/>
-      <layer-setting minScale="0" enabled="1" units="1" maxScale="0" type="2" tolerance="50" id="centrale_exploitation_9174971a_7796_4b5c_a3d6_10911e20e2b2"/>
-      <layer-setting minScale="0" enabled="1" units="1" maxScale="0" type="2" tolerance="50" id="vw_pipe_schema_9bc1596f_16a9_4b77_b187_0299e0e0996d"/>
-      <layer-setting minScale="0" enabled="1" units="1" maxScale="0" type="1" tolerance="12" id="Zone_PDDE_2d90ebc7_c339_45a8_8cda_011183a3124f"/>
-      <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="vw_pipe_schema20190402105730089"/>
       <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="Réservoir__R__copier20180903133008375"/>
-      <layer-setting minScale="0" enabled="1" units="1" maxScale="0" type="1" tolerance="15" id="pipe_56e74148_6bc0_4ad8_b36f_4e20e5d615d6"/>
       <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="vw_element_subscriber20180924091059730"/>
+      <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="vw_pipe_schema20190402105730089"/>
       <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="Réservoir__R__copier20180903140739634"/>
+      <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="vw_pipe_schema20180903104110130"/>
+      <layer-setting minScale="0" enabled="1" units="1" maxScale="0" type="2" tolerance="50" id="centrale_exploitation_9174971a_7796_4b5c_a3d6_10911e20e2b2"/>
+      <layer-setting minScale="0" enabled="1" units="1" maxScale="0" type="1" tolerance="15" id="pipe_56e74148_6bc0_4ad8_b36f_4e20e5d615d6"/>
       <layer-setting minScale="0" enabled="1" units="1" maxScale="0" type="2" tolerance="50" id="network_separation_zone_C_091f9d10_acdb_493b_9a8f_8ac23c34a48f"/>
-      <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="vw_element_hydrant20180904165544316"/>
-      <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="Réservoir__R__copier20180903132243202"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -1220,18 +1220,6 @@
       <blendMode>0</blendMode>
     </maplayer>
     <maplayer labelsEnabled="1" geometry="Point" minScale="100000000" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="0" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" simplifyDrawingTol="1" wkbType="PointZ" maxScale="0" autoRefreshMode="Disabled" readOnly="0" type="vector" refreshOnNotifyMessage="">
-      <extent>
-        <xmin>2552144.42232751986011863</xmin>
-        <ymin>1141414.33625633991323411</ymin>
-        <xmax>2562857.34822501009330153</xmax>
-        <ymax>1152128.31251084990799427</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>6.81501857818711887</xmin>
-        <ymin>46.4223635290516583</ymin>
-        <xmax>6.95548017751368608</xmax>
-        <ymax>46.51942116165476193</ymax>
-      </wgs84extent>
       <id>Réservoir__R__copier20180903132243202</id>
       <datasource>service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table="qwat_od"."vw_element_installation" (geometry_alt2) sql="installation_type" = 'pump' AND ("fk_status" = 1301 OR "fk_status" = 1306)</datasource>
       <keywordList>
@@ -1828,8 +1816,8 @@
       <customproperties>
         <Option type="Map">
           <Option value="0" type="QString" name="embeddedWidgets/count"/>
-          <Option name="variableNames"/>
-          <Option name="variableValues"/>
+          <Option type="invalid" name="variableNames"/>
+          <Option type="invalid" name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -3964,18 +3952,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer labelsEnabled="1" geometry="Point" minScale="100000000" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="0" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" simplifyDrawingTol="1" wkbType="PointZ" maxScale="0" autoRefreshMode="Disabled" readOnly="0" type="vector" refreshOnNotifyMessage="">
-      <extent>
-        <xmin>2552149.68308961018919945</xmin>
-        <ymin>1136435.87360480008646846</ymin>
-        <xmax>2565118.00074539985507727</xmax>
-        <ymax>1150068.46309259999543428</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>6.8153008614831796</xmin>
-        <ymin>46.3775809280769451</ymin>
-        <xmax>6.9852619430890055</xmax>
-        <ymax>46.50101385931665021</ymax>
-      </wgs84extent>
       <id>Réservoir__R__copier20180903133008375</id>
       <datasource>service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table="qwat_od"."vw_element_installation" (geometry_alt2) sql="installation_type" = 'source' AND ("fk_status" = 1301 OR "fk_status" = 1306 OR fk_status = 1302)</datasource>
       <keywordList>
@@ -4643,8 +4619,8 @@ def my_form_open(dialog, layer, feature):
             <Option value="&quot;id&quot;" type="QString"/>
           </Option>
           <Option value="0" type="QString" name="embeddedWidgets/count"/>
-          <Option name="variableNames"/>
-          <Option name="variableValues"/>
+          <Option type="invalid" name="variableNames"/>
+          <Option type="invalid" name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -6779,18 +6755,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer labelsEnabled="1" geometry="Point" minScale="100000000" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="0" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" simplifyDrawingTol="1" wkbType="PointZ" maxScale="0" autoRefreshMode="Disabled" readOnly="0" type="vector" refreshOnNotifyMessage="">
-      <extent>
-        <xmin>2552127.42479033023118973</xmin>
-        <ymin>1140008.66855032998137176</ymin>
-        <xmax>2564465.87207137979567051</xmax>
-        <ymax>1149545.62329839006997645</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>6.81506517016019142</xmin>
-        <ymin>46.40971785283067419</ymin>
-        <xmax>6.97651178555609874</xmax>
-        <ymax>46.49627629267413909</ymax>
-      </wgs84extent>
       <id>Réservoir__R__copier20180903140459108</id>
       <datasource>service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table="qwat_od"."vw_element_installation" (geometry_alt2) sql="installation_type" = 'treatment' AND ("fk_status" = 1301 OR "fk_status" = 1306)</datasource>
       <keywordList>
@@ -7389,8 +7353,8 @@ def my_form_open(dialog, layer, feature):
           <Option value="0" type="QString" name="labeling/xOffset"/>
           <Option value="0" type="QString" name="labeling/yOffset"/>
           <Option value="0" type="QString" name="labeling/zIndex"/>
-          <Option name="variableNames"/>
-          <Option name="variableValues"/>
+          <Option type="invalid" name="variableNames"/>
+          <Option type="invalid" name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -9514,18 +9478,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer labelsEnabled="1" geometry="Point" minScale="100000000" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="0" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" simplifyDrawingTol="1" wkbType="PointZ" maxScale="0" autoRefreshMode="Disabled" readOnly="0" type="vector" refreshOnNotifyMessage="">
-      <extent>
-        <xmin>2551180.36802018992602825</xmin>
-        <ymin>1136560.96547267003916204</ymin>
-        <xmax>2565086.83662550011649728</xmax>
-        <ymax>1151843.43800000008195639</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>6.8024863885346516</xmin>
-        <ymin>46.37863619644258506</ymin>
-        <xmax>6.98484746471230888</xmax>
-        <ymax>46.51697892785298905</ymax>
-      </wgs84extent>
       <id>Réservoir__R__copier20180903140739634</id>
       <datasource>service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table="qwat_od"."vw_element_installation" (geometry_alt2) sql="installation_type" = 'chamber' OR "installation_type" = 'pressurecontrol' AND ("fk_status" = 1301 OR "fk_status" = 1306)</datasource>
       <keywordList>
@@ -11113,8 +11065,8 @@ def my_form_open(dialog, layer, feature):
           <Option value="0" type="QString" name="labeling/xOffset"/>
           <Option value="0" type="QString" name="labeling/yOffset"/>
           <Option value="0" type="QString" name="labeling/zIndex"/>
-          <Option name="variableNames"/>
-          <Option name="variableValues"/>
+          <Option type="invalid" name="variableNames"/>
+          <Option type="invalid" name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -13779,18 +13731,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer labelsEnabled="1" geometry="Polygon" minScale="100000000" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="1" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" simplifyDrawingTol="1" wkbType="MultiPolygon" maxScale="0" autoRefreshMode="Disabled" readOnly="1" type="vector" refreshOnNotifyMessage="">
-      <extent>
-        <xmin>2551605.90344047965481877</xmin>
-        <ymin>1135919.90260609146207571</ymin>
-        <xmax>2565532.40112586878240108</xmax>
-        <ymax>1152419.92783125909045339</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>6.80797065329580331</xmin>
-        <ymin>46.37290051191875762</ymin>
-        <xmax>6.99068641190845153</xmax>
-        <ymax>46.5221878707450287</ymax>
-      </wgs84extent>
       <id>Zone_PDDE_2d90ebc7_c339_45a8_8cda_011183a3124f</id>
       <datasource>./data/Zones PDDE/Zones PDDE.shp</datasource>
       <keywordList>
@@ -15267,18 +15207,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer labelsEnabled="1" geometry="Point" minScale="100000000" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="0" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" simplifyDrawingTol="1" wkbType="Point" maxScale="0" autoRefreshMode="Disabled" readOnly="0" type="vector" refreshOnNotifyMessage="">
-      <extent>
-        <xmin>2555654.36665275879204273</xmin>
-        <ymin>1147571.41483964049257338</ymin>
-        <xmax>2555654.36665275879204273</xmax>
-        <ymax>1147571.41483964049257338</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>6.86119413792902844</xmin>
-        <ymin>46.47799064212495779</ymin>
-        <xmax>6.86119413792902844</xmax>
-        <ymax>46.47799064212495779</ymax>
-      </wgs84extent>
       <id>centrale_exploitation_9174971a_7796_4b5c_a3d6_10911e20e2b2</id>
       <datasource>./data/Centrale exploitation/centrale_exploitation.shp</datasource>
       <keywordList>
@@ -16256,18 +16184,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer labelsEnabled="0" geometry="Polygon" minScale="100000000" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="1" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" simplifyDrawingTol="1" wkbType="Polygon" maxScale="0" autoRefreshMode="Disabled" readOnly="1" type="vector" refreshOnNotifyMessage="">
-      <extent>
-        <xmin>2542193.42499999981373549</xmin>
-        <ymin>1130253.85000000009313226</ymin>
-        <xmax>2582408.73300000000745058</xmax>
-        <ymax>1159568.89899999997578561</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>6.68441735114362245</xmin>
-        <ymin>46.32118684863080205</ymin>
-        <xmax>7.21023221390202806</xmax>
-        <ymax>46.58715540514288733</ymax>
-      </wgs84extent>
       <id>lc_limites_commune_aaa24756_e525_4148_97d0_8f65f723c1bd</id>
       <datasource>dbname='cadastre' service='cadastre' sslmode=disable key='cid' srid=2056 type=Polygon checkPrimaryKeyUnicity='1' table="cadastre"."lc_limites_commune" (geom)</datasource>
       <keywordList>
@@ -16831,18 +16747,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer labelsEnabled="0" geometry="Point" minScale="100000000" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="0" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" simplifyDrawingTol="1" wkbType="Point" maxScale="0" autoRefreshMode="Disabled" readOnly="0" type="vector" refreshOnNotifyMessage="">
-      <extent>
-        <xmin>2552670.81000000005587935</xmin>
-        <ymin>1146615.92993288207799196</ymin>
-        <xmax>2555238.12373897153884172</xmax>
-        <ymax>1148715.51525115943513811</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>6.82222800597083801</xmin>
-        <ymin>46.46919109014623928</ymin>
-        <xmax>6.85586686109318943</xmax>
-        <ymax>46.48825448674740102</ymax>
-      </wgs84extent>
       <id>network_separation_zone_C_091f9d10_acdb_493b_9a8f_8ac23c34a48f</id>
       <datasource>./data/Vannes/network_separation_zone_C.shp</datasource>
       <keywordList>
@@ -17412,8 +17316,8 @@ def my_form_open(dialog, layer, feature):
             <Option value="&quot;id&quot;" type="QString"/>
           </Option>
           <Option value="0" type="QString" name="embeddedWidgets/count"/>
-          <Option name="variableNames"/>
-          <Option name="variableValues"/>
+          <Option type="invalid" name="variableNames"/>
+          <Option type="invalid" name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -17681,18 +17585,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer labelsEnabled="1" geometry="Line" minScale="100000000" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="1" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" simplifyDrawingTol="1" wkbType="LineStringZ" maxScale="0" autoRefreshMode="Disabled" readOnly="0" type="vector" refreshOnNotifyMessage="">
-      <extent>
-        <xmin>2552948.19499999983236194</xmin>
-        <ymin>1136435.86765454988926649</ymin>
-        <xmax>2563978.77942452020943165</xmax>
-        <ymax>1150603.78124802000820637</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>6.82564793196540354</xmin>
-        <ymin>46.37763746639705431</ymin>
-        <xmax>6.97045520634577365</xmax>
-        <ymax>46.50576879396972885</ymax>
-      </wgs84extent>
       <id>pipe_25d785af_ce40_4a62_9794_c6d1f3724f20</id>
       <datasource>service='qwat' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table="qwat_od"."pipe" (geometry) sql="fk_status" = 1306</datasource>
       <keywordList>
@@ -18241,8 +18133,8 @@ def my_form_open(dialog, layer, feature):
             <Option value="COALESCE( &quot;id&quot;, '&lt;NULL>' )" type="QString"/>
           </Option>
           <Option value="0" type="QString" name="embeddedWidgets/count"/>
-          <Option name="variableNames"/>
-          <Option name="variableValues"/>
+          <Option type="invalid" name="variableNames"/>
+          <Option type="invalid" name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -19299,18 +19191,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1">pipe_material__displayname_fr</mapTip>
     </maplayer>
     <maplayer labelsEnabled="0" geometry="Line" minScale="100000000" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="1" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" simplifyDrawingTol="1" wkbType="LineStringZ" maxScale="0" autoRefreshMode="Disabled" readOnly="0" type="vector" refreshOnNotifyMessage="">
-      <extent>
-        <xmin>2550340.40851210989058018</xmin>
-        <ymin>1135294.52980422996915877</ymin>
-        <xmax>2565203.53781286021694541</xmax>
-        <ymax>1152124.01662449003197253</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>6.79151140615038962</xmin>
-        <ymin>46.36718242835974735</ymin>
-        <xmax>6.98645942788792507</xmax>
-        <ymax>46.51950895215203019</ymax>
-      </wgs84extent>
       <id>pipe_56e74148_6bc0_4ad8_b36f_4e20e5d615d6</id>
       <datasource>service='qwat' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='0' table="qwat_od"."pipe" (geometry)</datasource>
       <keywordList>
@@ -21020,18 +20900,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer labelsEnabled="0" geometry="Polygon" minScale="100000000" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="1" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" simplifyDrawingTol="1" wkbType="MultiPolygon" maxScale="0" autoRefreshMode="Disabled" readOnly="0" type="vector" refreshOnNotifyMessage="">
-      <extent>
-        <xmin>2550321.79765857988968492</xmin>
-        <ymin>1136035.06980141997337341</ymin>
-        <xmax>2565384.61838825000450015</xmax>
-        <ymax>1152151.59779678005725145</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>6.79126592172220533</xmin>
-        <ymin>46.37384244404801592</ymin>
-        <xmax>6.98875719784700777</xmax>
-        <ymax>46.51976647329272652</ymax>
-      </wgs84extent>
       <id>pressurezone_69af57cd_17bc_4925_83ea_91ded6af5042</id>
       <datasource>service='qwat' sslmode=disable key='id' srid=2056 type=MultiPolygon checkPrimaryKeyUnicity='0' table="qwat_od"."pressurezone" (geometry)</datasource>
       <keywordList>
@@ -22346,18 +22214,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer labelsEnabled="1" geometry="Point" minScale="8000" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="0" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="1" legendPlaceholderImage="" simplifyDrawingTol="1" wkbType="PointZ" maxScale="0" autoRefreshMode="Disabled" readOnly="1" type="vector" refreshOnNotifyMessage="">
-      <extent>
-        <xmin>2551090.46266767987981439</xmin>
-        <ymin>1136205.3947091200388968</ymin>
-        <xmax>2564495.0226529398933053</xmax>
-        <ymax>1152008.86777818994596601</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>6.80129736179152022</xmin>
-        <ymin>46.37543115816536954</ymin>
-        <xmax>6.97718260883035146</xmax>
-        <ymax>46.51843582377325959</ymax>
-      </wgs84extent>
       <id>vw_element_hydrant20180904165544316</id>
       <datasource>service='qwat' user='sige' sslmode=allow key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table="qwat_od"."vw_element_hydrant" (geometry)</datasource>
       <keywordList>
@@ -24017,18 +23873,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer labelsEnabled="1" geometry="Point" minScale="100000000" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="0" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" simplifyDrawingTol="1" wkbType="PointZ" maxScale="0" autoRefreshMode="Disabled" readOnly="0" type="vector" refreshOnNotifyMessage="">
-      <extent>
-        <xmin>2552456.09214165015146136</xmin>
-        <ymin>1136464.26471509994007647</ymin>
-        <xmax>2564403.035420429892838</xmax>
-        <ymax>1150489.57125511998310685</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>6.81924883967967865</xmin>
-        <ymin>46.37785814412072227</ymin>
-        <xmax>6.97596717852832526</xmax>
-        <ymax>46.50476417949182917</ymax>
-      </wgs84extent>
       <id>vw_element_installation20180903105459428</id>
       <datasource>service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table="qwat_od"."vw_element_installation" (geometry_alt2) sql="installation_type" = 'tank' AND ("fk_status" = 1301 OR "fk_status" = 1306)</datasource>
       <keywordList>
@@ -24693,8 +24537,8 @@ def my_form_open(dialog, layer, feature):
       <customproperties>
         <Option type="Map">
           <Option value="0" type="QString" name="embeddedWidgets/count"/>
-          <Option name="variableNames"/>
-          <Option name="variableValues"/>
+          <Option type="invalid" name="variableNames"/>
+          <Option type="invalid" name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -26831,18 +26675,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer labelsEnabled="0" geometry="Point" minScale="100000000" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="0" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" simplifyDrawingTol="1" wkbType="PointZ" maxScale="0" autoRefreshMode="Disabled" readOnly="0" type="vector" refreshOnNotifyMessage="">
-      <extent>
-        <xmin>2551982.15326619008556008</xmin>
-        <ymin>1136723.0614477600902319</ymin>
-        <xmax>2565094.41444244002923369</xmax>
-        <ymax>1151664.39153458992950618</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>6.81295240542780611</xmin>
-        <ymin>46.38015228718579408</ymin>
-        <xmax>6.98493373975734766</xmax>
-        <ymax>46.51536872119611843</ymax>
-      </wgs84extent>
       <id>vw_element_subscriber20180924091059730</id>
       <datasource>service='qwat' user='sige' sslmode=allow key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table="qwat_od"."vw_element_subscriber" (geometry) sql="fk_subscriber_type" IN (9403,9405)</datasource>
       <keywordList>
@@ -28245,7 +28077,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>46.52094007576196333</ymax>
       </wgs84extent>
       <id>vw_pipe_schema20180903104110130</id>
-      <datasource>service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table="qwat_od"."vw_pipe_schema" (geometry) sql="fk_function" IN(101,102,103,4101,4105,4109,4110,4111)</datasource>
+      <datasource>service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table="qwat_od"."vw_pipe_schema" (geometry) sql="fk_function" IN(101,102,103,4101,4105,4109,4110,4111,4151)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -30830,18 +30662,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1">pressurezone_name</mapTip>
     </maplayer>
     <maplayer labelsEnabled="1" geometry="Line" minScale="100000000" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="1" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" simplifyDrawingTol="1" wkbType="LineStringZ" maxScale="0" autoRefreshMode="Disabled" readOnly="0" type="vector" refreshOnNotifyMessage="">
-      <extent>
-        <xmin>2550340.40851210989058018</xmin>
-        <ymin>1136143.95795514993369579</ymin>
-        <xmax>2565203.53781286021694541</xmax>
-        <ymax>1152283.55775768007151783</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>6.79149422085524268</xmin>
-        <ymin>46.37482330854811607</ymin>
-        <xmax>6.98639562220390697</xmax>
-        <ymax>46.52094409584847057</ymax>
-      </wgs84extent>
       <id>vw_pipe_schema20190402105730089</id>
       <datasource>service='qwat' user='sige' sslmode=allow key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table="qwat_od"."vw_pipe_schema" (geometry) sql="fk_status" NOT IN (1303,1304,1305,1306,1307)</datasource>
       <keywordList>
@@ -32213,18 +32033,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1">pipe_material__displayname_fr</mapTip>
     </maplayer>
     <maplayer labelsEnabled="1" geometry="Line" minScale="100000000" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="1" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" simplifyDrawingTol="1" wkbType="LineStringZ" maxScale="0" autoRefreshMode="Disabled" readOnly="0" type="vector" refreshOnNotifyMessage="">
-      <extent>
-        <xmin>2550340.40851210989058018</xmin>
-        <ymin>1136143.95795514993369579</ymin>
-        <xmax>2565203.53781286021694541</xmax>
-        <ymax>1152283.55775768007151783</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>6.79149422085524268</xmin>
-        <ymin>46.37482330854811607</ymin>
-        <xmax>6.98639562220390697</xmax>
-        <ymax>46.52094409584847057</ymax>
-      </wgs84extent>
       <id>vw_pipe_schema_9bc1596f_16a9_4b77_b187_0299e0e0996d</id>
       <datasource>service='qwat' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table="qwat_od"."vw_pipe_schema" (geometry)</datasource>
       <keywordList>
@@ -32699,8 +32507,8 @@ def my_form_open(dialog, layer, feature):
         <Option type="Map">
           <Option value="COALESCE( &quot;id&quot;, '&lt;NULL>' )" type="QString" name="dualview/previewExpressions"/>
           <Option value="0" type="QString" name="embeddedWidgets/count"/>
-          <Option name="variableNames"/>
-          <Option name="variableValues"/>
+          <Option type="invalid" name="variableNames"/>
+          <Option type="invalid" name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -33353,17 +33161,17 @@ def my_form_open(dialog, layer, feature):
             <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
           </labelStyle>
         </attributeEditorField>
-        <attributeEditorField showLabel="1" index="27" horizontalStretch="0" verticalStretch="0" name="qwat_ext_ch_vd_sire_etat_exploitation">
+        <attributeEditorField showLabel="1" index="-1" horizontalStretch="0" verticalStretch="0" name="qwat_ext_ch_vd_sire_etat_exploitation">
           <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
             <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
           </labelStyle>
         </attributeEditorField>
-        <attributeEditorField showLabel="1" index="29" horizontalStretch="0" verticalStretch="0" name="qwat_ext_ch_vd_sire_diametre">
+        <attributeEditorField showLabel="1" index="-1" horizontalStretch="0" verticalStretch="0" name="qwat_ext_ch_vd_sire_diametre">
           <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
             <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
           </labelStyle>
         </attributeEditorField>
-        <attributeEditorField showLabel="1" index="28" horizontalStretch="0" verticalStretch="0" name="qwat_ext_ch_vd_sire_adesafecter">
+        <attributeEditorField showLabel="1" index="-1" horizontalStretch="0" verticalStretch="0" name="qwat_ext_ch_vd_sire_adesafecter">
           <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
             <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
           </labelStyle>
@@ -40165,7 +39973,7 @@ def my_form_open(dialog, layer, feature):
                 </Option>
               </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry) sql=&quot;fk_function&quot; IN(101,102,103,4101,4105,4109,4110,4111)" providerKey="postgres" name="Conduites par zone de consommation PDDE" expanded="1" id="vw_pipe_schema20180903104110130">
+            <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry) sql=&quot;fk_function&quot; IN(101,102,103,4101,4105,4109,4110,4111,4151)" providerKey="postgres" name="Conduites par zone de consommation PDDE" expanded="1" id="vw_pipe_schema20180903104110130">
               <customproperties>
                 <Option type="Map">
                   <Option value="Bagniège, Corsier" type="QString" name="legend/label-3"/>
@@ -40248,7 +40056,7 @@ def my_form_open(dialog, layer, feature):
                 </layer-tree-layer>
               </layer-tree-group>
             </layer-tree-group>
-            <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry) sql=&quot;fk_function&quot; IN(101,102,103,4101,4105,4109,4110,4111)" providerKey="postgres" name="Conduites par zone de consommation PDDE" expanded="1" id="vw_pipe_schema20180903104110130">
+            <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry) sql=&quot;fk_function&quot; IN(101,102,103,4101,4105,4109,4110,4111,4151)" providerKey="postgres" name="Conduites par zone de consommation PDDE" expanded="1" id="vw_pipe_schema20180903104110130">
               <customproperties>
                 <Option type="Map">
                   <Option value="12,13,14,15" type="QString" name="legend/node-order"/>
@@ -55451,7 +55259,7 @@ def my_form_open(dialog, layer, feature):
               <layerGeometryType>0</layerGeometryType>
             </qgis>
           </LayerStyle>
-          <LayerStyle provider="postgres" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry) sql=&quot;fk_function&quot; IN(101,102,103,4101,4105,4109,4110,4111)" name="Conduites par zone de consommation PDDE" layerid="vw_pipe_schema20180903104110130">
+          <LayerStyle provider="postgres" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry) sql=&quot;fk_function&quot; IN(101,102,103,4101,4105,4109,4110,4111,4151)" name="Conduites par zone de consommation PDDE" layerid="vw_pipe_schema20180903104110130">
             <qgis readOnly="0" version="3.8.0-Zanzibar" minScale="1e+08" maxScale="100000" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" simplifyLocal="1" simplifyAlgorithm="0" styleCategories="AllStyleCategories" labelsEnabled="1" simplifyMaxScale="1" simplifyDrawingHints="0">
               <flags>
                 <Identifiable>1</Identifiable>
@@ -60537,7 +60345,7 @@ def my_form_open(dialog, layer, feature):
               </Option>
             </customproperties>
           </layer-tree-layer>
-          <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry) sql=&quot;fk_function&quot; IN(101,102,103,4101,4105,4109,4110,4111)" providerKey="postgres" name="Conduites par zone de consommation PDDE" expanded="1" id="vw_pipe_schema20180903104110130">
+          <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry) sql=&quot;fk_function&quot; IN(101,102,103,4101,4105,4109,4110,4111,4151)" providerKey="postgres" name="Conduites par zone de consommation PDDE" expanded="1" id="vw_pipe_schema20180903104110130">
             <customproperties>
               <Option type="Map">
                 <Option value="* St-Pierre actuel devient Bignières PDDE sous CR Fontanivent" type="QString" name="legend/label-8"/>
@@ -60546,7 +60354,7 @@ def my_form_open(dialog, layer, feature):
               </Option>
             </customproperties>
           </layer-tree-layer>
-          <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry) sql=&quot;fk_function&quot; IN(101,102,103,4101,4105,4109,4110,4111)" providerKey="postgres" name="Conduites par zone de consommation PDDE" expanded="1" id="vw_pipe_schema20180903104110130">
+          <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry) sql=&quot;fk_function&quot; IN(101,102,103,4101,4105,4109,4110,4111,4151)" providerKey="postgres" name="Conduites par zone de consommation PDDE" expanded="1" id="vw_pipe_schema20180903104110130">
             <customproperties>
               <Option type="Map">
                 <Option value="10,11,12" type="QString" name="legend/node-order"/>
@@ -61602,7 +61410,7 @@ def my_form_open(dialog, layer, feature):
       </spatialrefsys>
     </CoordinateCustomCrs>
   </ProjectDisplaySettings>
-  <ProjectGpsSettings destinationLayerSource="service='qwat' user='sige' sslmode=allow key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_element_subscriber&quot; (geometry) sql=&quot;fk_subscriber_type&quot; IN (9403,9405)" destinationLayer="vw_element_subscriber20180924091059730" autoCommitFeatures="0" destinationLayerProvider="postgres" autoAddTrackVertices="0" destinationLayerName="Branchement spécial" destinationFollowsActiveLayer="1">
+  <ProjectGpsSettings destinationLayerSource="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry) sql=&quot;fk_function&quot; IN(101,102,103,4101,4105,4109,4110,4111)" destinationLayer="vw_pipe_schema20180903104110130" autoCommitFeatures="0" destinationLayerProvider="postgres" autoAddTrackVertices="0" destinationLayerName="Conduites par zone de consommation PDDE" destinationFollowsActiveLayer="1">
     <timeStampFields/>
   </ProjectGpsSettings>
 </qgis>
