@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.34.15-Prizren" saveUser="andrek" saveUserFull="André Kevin" projectname="" saveDateTime="2025-02-28T09:11:49">
+<qgis version="3.34.15-Prizren" saveUser="andrek" saveUserFull="André Kevin" projectname="" saveDateTime="2025-02-28T10:02:24">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -141,6 +141,11 @@
           <Option/>
         </customproperties>
       </layer-tree-layer>
+      <layer-tree-layer legend_exp="" patch_size="-1,-1" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' key='id' checkPrimaryKeyUnicity='0' table=&quot;qwat_vl&quot;.&quot;status&quot;" providerKey="postgres" name="Statut" expanded="1" id="status_93619e98_3f6a_40f2_8fb1_754aa4c8a403">
+        <customproperties>
+          <Option/>
+        </customproperties>
+      </layer-tree-layer>
       <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=allow key='id' checkPrimaryKeyUnicity='1' table=&quot;qwat_vl&quot;.&quot;pipe_material&quot;" providerKey="postgres" name="Conduites - matériaux" expanded="1" id="pipe_material20180904162614417">
         <customproperties>
           <Option type="Map">
@@ -158,17 +163,17 @@
           <Option/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Unchecked" source="file:./composer/Visa.csv?encoding=System&amp;type=csv&amp;delimiter=;&amp;quote=&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" providerKey="delimitedtext" name="Visa" expanded="1" id="Visa_942dca17_c04c_4702_915a_715da416b2b4">
-        <customproperties>
-          <Option/>
-        </customproperties>
-      </layer-tree-layer>
       <layer-tree-layer legend_exp="" patch_size="-1,-1" legend_split_behavior="0" checked="Qt::Unchecked" source="./data/Listes de valeurs/value_lists.gpkg|layername=vl_qwat_ext_ch_vd_sire_etat_exploitation" providerKey="ogr" name="Etat exploitation" expanded="1" id="vl_qwat_ext_ch_vd_sire_etat_exploitation_bc0f9e34_4e9b_44cd_a224_8660e2ed810f">
         <customproperties>
           <Option/>
         </customproperties>
       </layer-tree-layer>
       <layer-tree-layer legend_exp="" patch_size="-1,-1" legend_split_behavior="0" checked="Qt::Unchecked" source="./data/Listes de valeurs/value_lists.gpkg|layername=vl_qwat_ext_ch_vd_sire_adesafecter" providerKey="ogr" name="A desaffecter" expanded="1" id="vl_qwat_ext_ch_vd_sire_adesafecter_aa01d9d9_77d9_44ca_b7eb_4eb0f57ec89d">
+        <customproperties>
+          <Option/>
+        </customproperties>
+      </layer-tree-layer>
+      <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Unchecked" source="file:./composer/Visa.csv?encoding=System&amp;type=csv&amp;delimiter=;&amp;quote=&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" providerKey="delimitedtext" name="Visa" expanded="1" id="Visa_942dca17_c04c_4702_915a_715da416b2b4">
         <customproperties>
           <Option/>
         </customproperties>
@@ -228,6 +233,8 @@
       <item>Fond_ASIT_VD___niveaux_de_gris_sans_labels_3e23d0f1_4610_4fcc_91e5_f123913abbb7</item>
       <item>pressurezone_69af57cd_17bc_4925_83ea_91ded6af5042</item>
       <item>pipe_56e74148_6bc0_4ad8_b36f_4e20e5d615d6</item>
+      <item>status_93619e98_3f6a_40f2_8fb1_754aa4c8a403</item>
+      <item>Visa_942dca17_c04c_4702_915a_715da416b2b4</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings minScale="0" enabled="0" mode="2" maxScale="0" unit="1" scaleDependencyMode="0" type="3" tolerance="10" self-snapping="0" intersection-snapping="0">
@@ -360,6 +367,11 @@
           <legendlayerfile visible="0" isInOverview="0" layerid="pressurezone_69af57cd_17bc_4925_83ea_91ded6af5042"/>
         </filegroup>
       </legendlayer>
+      <legendlayer open="true" showFeatureCount="0" drawingOrder="20" checked="Qt::Checked" name="Statut">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile visible="1" isInOverview="0" layerid="status_93619e98_3f6a_40f2_8fb1_754aa4c8a403"/>
+        </filegroup>
+      </legendlayer>
       <legendlayer open="true" showFeatureCount="0" drawingOrder="-1" checked="Qt::Checked" name="Conduites - matériaux">
         <filegroup open="true" hidden="false">
           <legendlayerfile visible="1" isInOverview="0" layerid="pipe_material20180904162614417"/>
@@ -375,11 +387,6 @@
           <legendlayerfile visible="0" isInOverview="0" layerid="Couleurs_zones_PDDE_futures_2a573878_d40b_461c_af66_c933ec50814f"/>
         </filegroup>
       </legendlayer>
-      <legendlayer open="true" showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" name="Visa">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile visible="0" isInOverview="0" layerid="Visa_942dca17_c04c_4702_915a_715da416b2b4"/>
-        </filegroup>
-      </legendlayer>
       <legendlayer open="true" showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" name="Etat exploitation">
         <filegroup open="true" hidden="false">
           <legendlayerfile visible="0" isInOverview="0" layerid="vl_qwat_ext_ch_vd_sire_etat_exploitation_bc0f9e34_4e9b_44cd_a224_8660e2ed810f"/>
@@ -388,6 +395,11 @@
       <legendlayer open="true" showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" name="A desaffecter">
         <filegroup open="true" hidden="false">
           <legendlayerfile visible="0" isInOverview="0" layerid="vl_qwat_ext_ch_vd_sire_adesafecter_aa01d9d9_77d9_44ca_b7eb_4eb0f57ec89d"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer open="true" showFeatureCount="0" drawingOrder="21" checked="Qt::Unchecked" name="Visa">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile visible="0" isInOverview="0" layerid="Visa_942dca17_c04c_4702_915a_715da416b2b4"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
@@ -1220,6 +1232,18 @@
       <blendMode>0</blendMode>
     </maplayer>
     <maplayer labelsEnabled="1" geometry="Point" minScale="100000000" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="0" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" simplifyDrawingTol="1" wkbType="PointZ" maxScale="0" autoRefreshMode="Disabled" readOnly="0" type="vector" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>2552144.42232751986011863</xmin>
+        <ymin>1141414.33625633991323411</ymin>
+        <xmax>2562857.34822501009330153</xmax>
+        <ymax>1152128.31251084990799427</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>6.81501857818711887</xmin>
+        <ymin>46.4223635290516583</ymin>
+        <xmax>6.95548017751368608</xmax>
+        <ymax>46.51942116165476193</ymax>
+      </wgs84extent>
       <id>Réservoir__R__copier20180903132243202</id>
       <datasource>service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table="qwat_od"."vw_element_installation" (geometry_alt2) sql="installation_type" = 'pump' AND ("fk_status" = 1301 OR "fk_status" = 1306)</datasource>
       <keywordList>
@@ -1816,8 +1840,8 @@
       <customproperties>
         <Option type="Map">
           <Option value="0" type="QString" name="embeddedWidgets/count"/>
-          <Option type="invalid" name="variableNames"/>
-          <Option type="invalid" name="variableValues"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -2052,11 +2076,22 @@
           </editWidget>
         </field>
         <field configurationFlags="NoFlag" name="fk_status">
-          <editWidget type="TextEdit">
+          <editWidget type="ValueRelation">
             <config>
               <Option type="Map">
-                <Option value="false" type="bool" name="IsMultiline"/>
-                <Option value="false" type="bool" name="UseHtml"/>
+                <Option value="false" type="bool" name="AllowMulti"/>
+                <Option value="false" type="bool" name="AllowNull"/>
+                <Option value="" type="QString" name="Description"/>
+                <Option value="" type="QString" name="FilterExpression"/>
+                <Option value="id" type="QString" name="Key"/>
+                <Option value="status_93619e98_3f6a_40f2_8fb1_754aa4c8a403" type="QString" name="Layer"/>
+                <Option value="Statut" type="QString" name="LayerName"/>
+                <Option value="postgres" type="QString" name="LayerProviderName"/>
+                <Option value="service='qwat' key='id' checkPrimaryKeyUnicity='0' table=&quot;qwat_vl&quot;.&quot;status&quot;" type="QString" name="LayerSource"/>
+                <Option value="1" type="int" name="NofColumns"/>
+                <Option value="false" type="bool" name="OrderByValue"/>
+                <Option value="false" type="bool" name="UseCompleter"/>
+                <Option value="value_fr" type="QString" name="Value"/>
               </Option>
             </config>
           </editWidget>
@@ -2948,7 +2983,7 @@
         <alias index="13" field="update_geometry_alt2" name=""/>
         <alias index="14" field="identification" name="Identifiant"/>
         <alias index="15" field="fk_distributor" name=""/>
-        <alias index="16" field="fk_status" name=""/>
+        <alias index="16" field="fk_status" name="Etat"/>
         <alias index="17" field="fk_folder" name=""/>
         <alias index="18" field="fk_locationtype" name=""/>
         <alias index="19" field="fk_precision" name=""/>
@@ -3608,6 +3643,11 @@ def my_form_open(dialog, layer, feature):
             <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
           </labelStyle>
         </attributeEditorField>
+        <attributeEditorField showLabel="1" index="16" horizontalStretch="0" verticalStretch="0" name="fk_status">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+            <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
+          </labelStyle>
+        </attributeEditorField>
         <attributeEditorField showLabel="1" index="22" horizontalStretch="0" verticalStretch="0" name="altitude">
           <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
             <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
@@ -3682,7 +3722,7 @@ def my_form_open(dialog, layer, feature):
         <field editable="1" name="fk_remote"/>
         <field editable="1" name="fk_source_quality"/>
         <field editable="1" name="fk_source_type"/>
-        <field editable="1" name="fk_status"/>
+        <field editable="0" name="fk_status"/>
         <field editable="1" name="fk_tank_firestorage"/>
         <field editable="1" name="fk_watertype"/>
         <field editable="1" name="flocculation"/>
@@ -3952,6 +3992,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer labelsEnabled="1" geometry="Point" minScale="100000000" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="0" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" simplifyDrawingTol="1" wkbType="PointZ" maxScale="0" autoRefreshMode="Disabled" readOnly="0" type="vector" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>2552149.68308961018919945</xmin>
+        <ymin>1136435.87360480008646846</ymin>
+        <xmax>2565118.00074539985507727</xmax>
+        <ymax>1150068.46309259999543428</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>6.8153008614831796</xmin>
+        <ymin>46.3775809280769451</ymin>
+        <xmax>6.9852619430890055</xmax>
+        <ymax>46.50101385931665021</ymax>
+      </wgs84extent>
       <id>Réservoir__R__copier20180903133008375</id>
       <datasource>service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table="qwat_od"."vw_element_installation" (geometry_alt2) sql="installation_type" = 'source' AND ("fk_status" = 1301 OR "fk_status" = 1306 OR fk_status = 1302)</datasource>
       <keywordList>
@@ -4619,8 +4671,8 @@ def my_form_open(dialog, layer, feature):
             <Option value="&quot;id&quot;" type="QString"/>
           </Option>
           <Option value="0" type="QString" name="embeddedWidgets/count"/>
-          <Option type="invalid" name="variableNames"/>
-          <Option type="invalid" name="variableValues"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -4855,11 +4907,22 @@ def my_form_open(dialog, layer, feature):
           </editWidget>
         </field>
         <field configurationFlags="NoFlag" name="fk_status">
-          <editWidget type="TextEdit">
+          <editWidget type="ValueRelation">
             <config>
               <Option type="Map">
-                <Option value="false" type="bool" name="IsMultiline"/>
-                <Option value="false" type="bool" name="UseHtml"/>
+                <Option value="false" type="bool" name="AllowMulti"/>
+                <Option value="false" type="bool" name="AllowNull"/>
+                <Option value="" type="QString" name="Description"/>
+                <Option value="" type="QString" name="FilterExpression"/>
+                <Option value="id" type="QString" name="Key"/>
+                <Option value="status_93619e98_3f6a_40f2_8fb1_754aa4c8a403" type="QString" name="Layer"/>
+                <Option value="Statut" type="QString" name="LayerName"/>
+                <Option value="postgres" type="QString" name="LayerProviderName"/>
+                <Option value="service='qwat' key='id' checkPrimaryKeyUnicity='0' table=&quot;qwat_vl&quot;.&quot;status&quot;" type="QString" name="LayerSource"/>
+                <Option value="1" type="int" name="NofColumns"/>
+                <Option value="false" type="bool" name="OrderByValue"/>
+                <Option value="false" type="bool" name="UseCompleter"/>
+                <Option value="value_fr" type="QString" name="Value"/>
               </Option>
             </config>
           </editWidget>
@@ -5751,7 +5814,7 @@ def my_form_open(dialog, layer, feature):
         <alias index="13" field="update_geometry_alt2" name=""/>
         <alias index="14" field="identification" name="Identifiant"/>
         <alias index="15" field="fk_distributor" name=""/>
-        <alias index="16" field="fk_status" name=""/>
+        <alias index="16" field="fk_status" name="Etat"/>
         <alias index="17" field="fk_folder" name=""/>
         <alias index="18" field="fk_locationtype" name=""/>
         <alias index="19" field="fk_precision" name=""/>
@@ -5849,7 +5912,7 @@ def my_form_open(dialog, layer, feature):
         <policy field="_pipe_node_type" policy="DefaultValue"/>
         <policy field="_pipe_orientation" policy="Duplicate"/>
         <policy field="_pipe_schema_visible" policy="Duplicate"/>
-        <policy field="geometry" policy="Duplicate"/>
+        <policy field="geometry" policy="DefaultValue"/>
         <policy field="geometry_alt1" policy="Duplicate"/>
         <policy field="update_geometry_alt1" policy="Duplicate"/>
         <policy field="update_geometry_alt2" policy="Duplicate"/>
@@ -6411,6 +6474,11 @@ def my_form_open(dialog, layer, feature):
             <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
           </labelStyle>
         </attributeEditorField>
+        <attributeEditorField showLabel="1" index="16" horizontalStretch="0" verticalStretch="0" name="fk_status">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+            <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
+          </labelStyle>
+        </attributeEditorField>
         <attributeEditorField showLabel="1" index="22" horizontalStretch="0" verticalStretch="0" name="altitude">
           <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
             <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
@@ -6485,7 +6553,7 @@ def my_form_open(dialog, layer, feature):
         <field editable="1" name="fk_remote"/>
         <field editable="1" name="fk_source_quality"/>
         <field editable="1" name="fk_source_type"/>
-        <field editable="1" name="fk_status"/>
+        <field editable="0" name="fk_status"/>
         <field editable="1" name="fk_tank_firestorage"/>
         <field editable="1" name="fk_watertype"/>
         <field editable="1" name="flocculation"/>
@@ -6755,6 +6823,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer labelsEnabled="1" geometry="Point" minScale="100000000" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="0" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" simplifyDrawingTol="1" wkbType="PointZ" maxScale="0" autoRefreshMode="Disabled" readOnly="0" type="vector" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>2552127.42479033023118973</xmin>
+        <ymin>1140008.66855032998137176</ymin>
+        <xmax>2564465.87207137979567051</xmax>
+        <ymax>1149545.62329839006997645</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>6.81506517016019142</xmin>
+        <ymin>46.40971785283067419</ymin>
+        <xmax>6.97651178555609874</xmax>
+        <ymax>46.49627629267413909</ymax>
+      </wgs84extent>
       <id>Réservoir__R__copier20180903140459108</id>
       <datasource>service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table="qwat_od"."vw_element_installation" (geometry_alt2) sql="installation_type" = 'treatment' AND ("fk_status" = 1301 OR "fk_status" = 1306)</datasource>
       <keywordList>
@@ -7209,7 +7289,7 @@ def my_form_open(dialog, layer, feature):
         </selectionSymbol>
       </selection>
       <labeling type="rule-based">
-        <rules key="{e31b5d3a-2c5a-46d9-a3ab-7b0b81a32710}"/>
+        <rules key="{2346b1d0-e164-46e1-95f1-814c20e8756e}"/>
       </labeling>
       <customproperties>
         <Option type="Map">
@@ -7353,8 +7433,8 @@ def my_form_open(dialog, layer, feature):
           <Option value="0" type="QString" name="labeling/xOffset"/>
           <Option value="0" type="QString" name="labeling/yOffset"/>
           <Option value="0" type="QString" name="labeling/zIndex"/>
-          <Option type="invalid" name="variableNames"/>
-          <Option type="invalid" name="variableValues"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -7465,8 +7545,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option value="0" type="QString" name="IsMultiline"/>
-                <Option value="0" type="QString" name="UseHtml"/>
+                <Option value="false" type="bool" name="IsMultiline"/>
+                <Option value="false" type="bool" name="UseHtml"/>
               </Option>
             </config>
           </editWidget>
@@ -7582,18 +7662,29 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option value="0" type="QString" name="IsMultiline"/>
-                <Option value="0" type="QString" name="UseHtml"/>
+                <Option value="false" type="bool" name="IsMultiline"/>
+                <Option value="false" type="bool" name="UseHtml"/>
               </Option>
             </config>
           </editWidget>
         </field>
         <field configurationFlags="NoFlag" name="fk_status">
-          <editWidget type="TextEdit">
+          <editWidget type="ValueRelation">
             <config>
               <Option type="Map">
-                <Option value="0" type="QString" name="IsMultiline"/>
-                <Option value="0" type="QString" name="UseHtml"/>
+                <Option value="false" type="bool" name="AllowMulti"/>
+                <Option value="false" type="bool" name="AllowNull"/>
+                <Option value="" type="QString" name="Description"/>
+                <Option value="" type="QString" name="FilterExpression"/>
+                <Option value="id" type="QString" name="Key"/>
+                <Option value="status_93619e98_3f6a_40f2_8fb1_754aa4c8a403" type="QString" name="Layer"/>
+                <Option value="Statut" type="QString" name="LayerName"/>
+                <Option value="postgres" type="QString" name="LayerProviderName"/>
+                <Option value="service='qwat' key='id' checkPrimaryKeyUnicity='0' table=&quot;qwat_vl&quot;.&quot;status&quot;" type="QString" name="LayerSource"/>
+                <Option value="1" type="int" name="NofColumns"/>
+                <Option value="false" type="bool" name="OrderByValue"/>
+                <Option value="false" type="bool" name="UseCompleter"/>
+                <Option value="value_fr" type="QString" name="Value"/>
               </Option>
             </config>
           </editWidget>
@@ -7602,8 +7693,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option value="0" type="QString" name="IsMultiline"/>
-                <Option value="0" type="QString" name="UseHtml"/>
+                <Option value="false" type="bool" name="IsMultiline"/>
+                <Option value="false" type="bool" name="UseHtml"/>
               </Option>
             </config>
           </editWidget>
@@ -8485,7 +8576,7 @@ def my_form_open(dialog, layer, feature):
         <alias index="13" field="update_geometry_alt2" name=""/>
         <alias index="14" field="identification" name="Identifiant"/>
         <alias index="15" field="fk_distributor" name=""/>
-        <alias index="16" field="fk_status" name=""/>
+        <alias index="16" field="fk_status" name="Etat"/>
         <alias index="17" field="fk_folder" name=""/>
         <alias index="18" field="fk_locationtype" name=""/>
         <alias index="19" field="fk_precision" name=""/>
@@ -8576,7 +8667,7 @@ def my_form_open(dialog, layer, feature):
         <policy field="id" policy="DefaultValue"/>
         <policy field="fk_district" policy="Duplicate"/>
         <policy field="fk_pressurezone" policy="Duplicate"/>
-        <policy field="fk_printmap" policy="Duplicate"/>
+        <policy field="fk_printmap" policy="DefaultValue"/>
         <policy field="_printmaps" policy="DefaultValue"/>
         <policy field="_geometry_alt1_used" policy="Duplicate"/>
         <policy field="_geometry_alt2_used" policy="Duplicate"/>
@@ -8588,9 +8679,9 @@ def my_form_open(dialog, layer, feature):
         <policy field="update_geometry_alt1" policy="Duplicate"/>
         <policy field="update_geometry_alt2" policy="Duplicate"/>
         <policy field="identification" policy="DefaultValue"/>
-        <policy field="fk_distributor" policy="Duplicate"/>
-        <policy field="fk_status" policy="Duplicate"/>
-        <policy field="fk_folder" policy="Duplicate"/>
+        <policy field="fk_distributor" policy="DefaultValue"/>
+        <policy field="fk_status" policy="DefaultValue"/>
+        <policy field="fk_folder" policy="DefaultValue"/>
         <policy field="fk_locationtype" policy="Duplicate"/>
         <policy field="fk_precision" policy="Duplicate"/>
         <policy field="fk_precisionalti" policy="Duplicate"/>
@@ -9145,6 +9236,11 @@ def my_form_open(dialog, layer, feature):
             <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
           </labelStyle>
         </attributeEditorField>
+        <attributeEditorField showLabel="1" index="16" horizontalStretch="0" verticalStretch="0" name="fk_status">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+            <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
+          </labelStyle>
+        </attributeEditorField>
         <attributeEditorField showLabel="1" index="37" horizontalStretch="0" verticalStretch="0" name="qwat_ext_ch_vd_sire_etat_exploitation">
           <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
             <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
@@ -9204,7 +9300,7 @@ def my_form_open(dialog, layer, feature):
         <field editable="1" name="fk_remote"/>
         <field editable="1" name="fk_source_quality"/>
         <field editable="1" name="fk_source_type"/>
-        <field editable="1" name="fk_status"/>
+        <field editable="0" name="fk_status"/>
         <field editable="1" name="fk_tank_firestorage"/>
         <field editable="1" name="fk_watertype"/>
         <field editable="1" name="flocculation"/>
@@ -9478,6 +9574,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer labelsEnabled="1" geometry="Point" minScale="100000000" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="0" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" simplifyDrawingTol="1" wkbType="PointZ" maxScale="0" autoRefreshMode="Disabled" readOnly="0" type="vector" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>2551180.36802018992602825</xmin>
+        <ymin>1136560.96547267003916204</ymin>
+        <xmax>2565086.83662550011649728</xmax>
+        <ymax>1151843.43800000008195639</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>6.8024863885346516</xmin>
+        <ymin>46.37863619644258506</ymin>
+        <xmax>6.98484746471230888</xmax>
+        <ymax>46.51697892785298905</ymax>
+      </wgs84extent>
       <id>Réservoir__R__copier20180903140739634</id>
       <datasource>service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table="qwat_od"."vw_element_installation" (geometry_alt2) sql="installation_type" = 'chamber' OR "installation_type" = 'pressurecontrol' AND ("fk_status" = 1301 OR "fk_status" = 1306)</datasource>
       <keywordList>
@@ -10157,8 +10265,8 @@ def my_form_open(dialog, layer, feature):
         </selectionSymbol>
       </selection>
       <labeling type="rule-based">
-        <rules key="{c06ade23-ee60-4cf5-b353-1e605d7ac9a1}">
-          <rule filter="(&quot;installation_type&quot; = 'pressurecontrol' AND (&quot;fk_pressurecontrol_type&quot; =  2801 OR  &quot;fk_pressurecontrol_type&quot; =  2803)) AND &#xd;&#xa;(&quot;qwat_ext_ch_vd_sire_etat_exploitation&quot; = 0 OR &quot;qwat_ext_ch_vd_sire_etat_exploitation&quot; = 2) AND &#xd;&#xa;(&quot;qwat_ext_ch_vd_sire_adesafecter&quot; != 1 OR  &quot;qwat_ext_ch_vd_sire_adesafecter&quot; IS NULL)" key="{c8d837df-e68d-4d77-9b77-def4f01ee442}" description="CR Chambre de régulation projetée ou modifiée">
+        <rules key="{efab8da9-0aa4-41c7-983d-d778fbcaf96d}">
+          <rule filter="(&quot;installation_type&quot; = 'pressurecontrol' AND (&quot;fk_pressurecontrol_type&quot; =  2801 OR  &quot;fk_pressurecontrol_type&quot; =  2803)) AND &#xd;&#xa;(&quot;qwat_ext_ch_vd_sire_etat_exploitation&quot; = 0 OR &quot;qwat_ext_ch_vd_sire_etat_exploitation&quot; = 2) AND &#xd;&#xa;(&quot;qwat_ext_ch_vd_sire_adesafecter&quot; != 1 OR  &quot;qwat_ext_ch_vd_sire_adesafecter&quot; IS NULL)" key="{eb1f9b4c-3019-40d7-94a0-23ca056f9670}" description="CR Chambre de régulation projetée ou modifiée">
             <settings calloutType="simple">
               <text-style fontStrikeout="0" previewBkgrdColor="255,255,255,255" useSubstitutions="0" allowHtml="0" fontWordSpacing="0" multilineHeight="1" fontSize="7" fontWeight="75" isExpression="1" fontUnderline="0" fontLetterSpacing="0" namedStyle="Bold" fontKerning="1" blendMode="0" forcedItalic="0" multilineHeightUnit="Percentage" capitalization="0" textOrientation="horizontal" textOpacity="1" forcedBold="0" textColor="255,0,0,255" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" legendString="Aa" fieldName="'CR ' || coalesce(&quot;name&quot;) || '\n' || &#xd;coalesce( &quot;altitude&quot;, ' ')" fontItalic="0" fontFamily="MS Shell Dlg 2">
                 <families/>
@@ -10243,7 +10351,7 @@ def my_form_open(dialog, layer, feature):
               </callout>
             </settings>
           </rule>
-          <rule filter="(&quot;installation_type&quot; = 'pressurecontrol' AND (&quot;fk_pressurecontrol_type&quot; =  2801 OR  &quot;fk_pressurecontrol_type&quot; =  2803)) AND &#xd;&#xa;&quot;qwat_ext_ch_vd_sire_etat_exploitation&quot;= 1 AND &#xd;&#xa;(&quot;qwat_ext_ch_vd_sire_adesafecter&quot; != 1 OR  &quot;qwat_ext_ch_vd_sire_adesafecter&quot; IS NULL)" key="{abaca8fa-a638-4065-ac52-5ff472997907}" description="CR Chambre de régulation en service">
+          <rule filter="(&quot;installation_type&quot; = 'pressurecontrol' AND (&quot;fk_pressurecontrol_type&quot; =  2801 OR  &quot;fk_pressurecontrol_type&quot; =  2803)) AND &#xd;&#xa;&quot;qwat_ext_ch_vd_sire_etat_exploitation&quot;= 1 AND &#xd;&#xa;(&quot;qwat_ext_ch_vd_sire_adesafecter&quot; != 1 OR  &quot;qwat_ext_ch_vd_sire_adesafecter&quot; IS NULL)" key="{5453512f-6380-4a6c-a7ef-a7dc1112c79d}" description="CR Chambre de régulation en service">
             <settings calloutType="simple">
               <text-style fontStrikeout="0" previewBkgrdColor="255,255,255,255" useSubstitutions="0" allowHtml="0" fontWordSpacing="0" multilineHeight="1" fontSize="7" fontWeight="75" isExpression="1" fontUnderline="0" fontLetterSpacing="0" namedStyle="Bold" fontKerning="1" blendMode="0" forcedItalic="0" multilineHeightUnit="Percentage" capitalization="0" textOrientation="horizontal" textOpacity="1" forcedBold="0" textColor="38,150,224,255" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" legendString="Aa" fieldName="'CR ' || coalesce(&quot;name&quot;) || '\n' || &#xd;coalesce( &quot;altitude&quot;, ' ')" fontItalic="0" fontFamily="MS Shell Dlg 2">
                 <families/>
@@ -10328,7 +10436,7 @@ def my_form_open(dialog, layer, feature):
               </callout>
             </settings>
           </rule>
-          <rule filter="(&quot;installation_type&quot; = 'pressurecontrol' AND (&quot;fk_pressurecontrol_type&quot; =  2801 OR  &quot;fk_pressurecontrol_type&quot; =  2803)) AND &#xd;&#xa;&quot;qwat_ext_ch_vd_sire_adesafecter&quot; = 1" key="{0bbce3fc-0710-4c25-8250-ef82a61d941a}" description="CR Chambre de régulation à désaffecter">
+          <rule filter="(&quot;installation_type&quot; = 'pressurecontrol' AND (&quot;fk_pressurecontrol_type&quot; =  2801 OR  &quot;fk_pressurecontrol_type&quot; =  2803)) AND &#xd;&#xa;&quot;qwat_ext_ch_vd_sire_adesafecter&quot; = 1" key="{b89571bc-c147-4edb-90cc-9ecd91d1e41c}" description="CR Chambre de régulation à désaffecter">
             <settings calloutType="simple">
               <text-style fontStrikeout="0" previewBkgrdColor="255,255,255,255" useSubstitutions="0" allowHtml="0" fontWordSpacing="0" multilineHeight="1" fontSize="7" fontWeight="75" isExpression="1" fontUnderline="0" fontLetterSpacing="0" namedStyle="Bold" fontKerning="1" blendMode="0" forcedItalic="0" multilineHeightUnit="Percentage" capitalization="0" textOrientation="horizontal" textOpacity="1" forcedBold="0" textColor="38,150,224,255" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" legendString="Aa" fieldName="'CR ' || coalesce(&quot;name&quot;) || '\n' || &#xd;coalesce( &quot;altitude&quot;, ' ')" fontItalic="0" fontFamily="MS Shell Dlg 2">
                 <families/>
@@ -10413,7 +10521,7 @@ def my_form_open(dialog, layer, feature):
               </callout>
             </settings>
           </rule>
-          <rule filter="(&quot;installation_type&quot; = 'pressurecontrol' AND &quot;fk_pressurecontrol_type&quot; =  2802) AND &#xd;&#xa;(&quot;qwat_ext_ch_vd_sire_etat_exploitation&quot; = 0 OR &quot;qwat_ext_ch_vd_sire_etat_exploitation&quot; = 2)  AND &#xd;&#xa;(&quot;qwat_ext_ch_vd_sire_adesafecter&quot; != 1 OR  &quot;qwat_ext_ch_vd_sire_adesafecter&quot; IS NULL)" key="{f9e9e2df-d853-4857-951d-eca4dfd4bded}" description="CCP Chambre coupe-pression projetée, modifiée">
+          <rule filter="(&quot;installation_type&quot; = 'pressurecontrol' AND &quot;fk_pressurecontrol_type&quot; =  2802) AND &#xd;&#xa;(&quot;qwat_ext_ch_vd_sire_etat_exploitation&quot; = 0 OR &quot;qwat_ext_ch_vd_sire_etat_exploitation&quot; = 2)  AND &#xd;&#xa;(&quot;qwat_ext_ch_vd_sire_adesafecter&quot; != 1 OR  &quot;qwat_ext_ch_vd_sire_adesafecter&quot; IS NULL)" key="{92073292-5629-48b9-b19a-4735d4ebed31}" description="CCP Chambre coupe-pression projetée, modifiée">
             <settings calloutType="simple">
               <text-style fontStrikeout="0" previewBkgrdColor="255,255,255,255" useSubstitutions="0" allowHtml="0" fontWordSpacing="0" multilineHeight="1" fontSize="7" fontWeight="75" isExpression="1" fontUnderline="0" fontLetterSpacing="0" namedStyle="Bold" fontKerning="1" blendMode="0" forcedItalic="0" multilineHeightUnit="Percentage" capitalization="0" textOrientation="horizontal" textOpacity="1" forcedBold="0" textColor="255,0,0,255" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" legendString="Aa" fieldName="'CCP ' || coalesce(&quot;name&quot;) || '\n' || &#xd;coalesce( &quot;altitude&quot;, ' ')" fontItalic="0" fontFamily="MS Shell Dlg 2">
                 <families/>
@@ -10498,7 +10606,7 @@ def my_form_open(dialog, layer, feature):
               </callout>
             </settings>
           </rule>
-          <rule filter="(&quot;installation_type&quot; = 'pressurecontrol' AND &quot;fk_pressurecontrol_type&quot; =  2802) AND &#xd;&#xa;&quot;qwat_ext_ch_vd_sire_etat_exploitation&quot; = 1 AND &#xd;&#xa;(&quot;qwat_ext_ch_vd_sire_adesafecter&quot; != 1 OR  &quot;qwat_ext_ch_vd_sire_adesafecter&quot; IS NULL)" key="{5fee77a1-c75c-4931-b611-7fb587f2e25f}" description="CCP Chambre coupe-pression en service">
+          <rule filter="(&quot;installation_type&quot; = 'pressurecontrol' AND &quot;fk_pressurecontrol_type&quot; =  2802) AND &#xd;&#xa;&quot;qwat_ext_ch_vd_sire_etat_exploitation&quot; = 1 AND &#xd;&#xa;(&quot;qwat_ext_ch_vd_sire_adesafecter&quot; != 1 OR  &quot;qwat_ext_ch_vd_sire_adesafecter&quot; IS NULL)" key="{4a700947-4886-4a98-a993-67c7c684cd2a}" description="CCP Chambre coupe-pression en service">
             <settings calloutType="simple">
               <text-style fontStrikeout="0" previewBkgrdColor="255,255,255,255" useSubstitutions="0" allowHtml="0" fontWordSpacing="0" multilineHeight="1" fontSize="7" fontWeight="75" isExpression="1" fontUnderline="0" fontLetterSpacing="0" namedStyle="Bold" fontKerning="1" blendMode="0" forcedItalic="0" multilineHeightUnit="Percentage" capitalization="0" textOrientation="horizontal" textOpacity="1" forcedBold="0" textColor="38,150,224,255" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" legendString="Aa" fieldName="'CCP ' || coalesce(&quot;name&quot;) || '\n' || &#xd;coalesce( &quot;altitude&quot;, ' ')" fontItalic="0" fontFamily="MS Shell Dlg 2">
                 <families/>
@@ -10583,7 +10691,7 @@ def my_form_open(dialog, layer, feature):
               </callout>
             </settings>
           </rule>
-          <rule filter="(&quot;installation_type&quot; = 'pressurecontrol' AND &quot;fk_pressurecontrol_type&quot; =  2802) AND &#xd;&#xa;&quot;qwat_ext_ch_vd_sire_adesafecter&quot; = 1" key="{b3248fd4-d113-4d07-a654-044c213f9283}" description="CCP Chambre coupe-pression à désaffecter">
+          <rule filter="(&quot;installation_type&quot; = 'pressurecontrol' AND &quot;fk_pressurecontrol_type&quot; =  2802) AND &#xd;&#xa;&quot;qwat_ext_ch_vd_sire_adesafecter&quot; = 1" key="{39ed6ee0-e4ce-4221-98d2-592bf6d1a896}" description="CCP Chambre coupe-pression à désaffecter">
             <settings calloutType="simple">
               <text-style fontStrikeout="0" previewBkgrdColor="255,255,255,255" useSubstitutions="0" allowHtml="0" fontWordSpacing="0" multilineHeight="1" fontSize="7" fontWeight="75" isExpression="1" fontUnderline="0" fontLetterSpacing="0" namedStyle="Bold" fontKerning="1" blendMode="0" forcedItalic="0" multilineHeightUnit="Percentage" capitalization="0" textOrientation="horizontal" textOpacity="1" forcedBold="0" textColor="38,150,224,255" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" legendString="Aa" fieldName="'CCP ' || coalesce(&quot;name&quot;) || '\n' || &#xd;coalesce( &quot;altitude&quot;, ' ')" fontItalic="0" fontFamily="MS Shell Dlg 2">
                 <families/>
@@ -10668,7 +10776,7 @@ def my_form_open(dialog, layer, feature):
               </callout>
             </settings>
           </rule>
-          <rule filter="&quot;installation_type&quot; = 'chamber' AND &quot;qwat_ext_ch_vd_sire_etat_exploitation&quot; = 1" key="{bb83e9db-75ba-49b5-b454-2f889b8d8d19}" description="Chambre de vannes en service">
+          <rule filter="&quot;installation_type&quot; = 'chamber' AND &quot;qwat_ext_ch_vd_sire_etat_exploitation&quot; = 1" key="{c49487eb-5a76-4821-969e-3951507d0219}" description="Chambre de vannes en service">
             <settings calloutType="simple">
               <text-style fontStrikeout="0" previewBkgrdColor="255,255,255,255" useSubstitutions="0" allowHtml="0" fontWordSpacing="0" multilineHeight="1" fontSize="7" fontWeight="75" isExpression="1" fontUnderline="0" fontLetterSpacing="0" namedStyle="Bold" fontKerning="1" blendMode="0" forcedItalic="0" multilineHeightUnit="Percentage" capitalization="0" textOrientation="horizontal" textOpacity="1" forcedBold="0" textColor="38,150,224,255" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" legendString="Aa" fieldName="'CV ' || coalesce(&quot;name&quot;) || '\n' || &#xd;coalesce( &quot;altitude&quot;, ' ')" fontItalic="0" fontFamily="MS Shell Dlg 2">
                 <families/>
@@ -10753,7 +10861,7 @@ def my_form_open(dialog, layer, feature):
               </callout>
             </settings>
           </rule>
-          <rule filter="(&quot;installation_type&quot; = 'chamber' AND (&quot;flow_meter&quot;=TRUE OR &quot;water_meter&quot; = TRUE OR &quot;manometer&quot; = TRUE)) AND&quot;qwat_ext_ch_vd_sire_etat_exploitation&quot; = 1" key="{ef2b4972-5911-46bf-a20c-326312b59987}" description="Chambre de compteurs en service">
+          <rule filter="(&quot;installation_type&quot; = 'chamber' AND (&quot;flow_meter&quot;=TRUE OR &quot;water_meter&quot; = TRUE OR &quot;manometer&quot; = TRUE)) AND&quot;qwat_ext_ch_vd_sire_etat_exploitation&quot; = 1" key="{b1c602bc-d76c-46a3-b894-64146cba85f8}" description="Chambre de compteurs en service">
             <settings calloutType="simple">
               <text-style fontStrikeout="0" previewBkgrdColor="255,255,255,255" useSubstitutions="0" allowHtml="0" fontWordSpacing="0" multilineHeight="1" fontSize="7" fontWeight="75" isExpression="1" fontUnderline="0" fontLetterSpacing="0" namedStyle="Bold" fontKerning="1" blendMode="0" forcedItalic="0" multilineHeightUnit="Percentage" capitalization="0" textOrientation="horizontal" textOpacity="1" forcedBold="0" textColor="38,150,224,255" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" legendString="Aa" fieldName="'CC ' || coalesce(&quot;name&quot;) || '\n' || &#xd;coalesce( &quot;altitude&quot;, ' ')" fontItalic="0" fontFamily="MS Shell Dlg 2">
                 <families/>
@@ -10838,7 +10946,7 @@ def my_form_open(dialog, layer, feature):
               </callout>
             </settings>
           </rule>
-          <rule filter="ELSE" key="{f4fc59eb-876a-4823-accf-720165923171}" description="autres">
+          <rule filter="ELSE" key="{4949948d-9026-43b7-912e-931a812d1c2d}" description="autres">
             <settings calloutType="simple">
               <text-style fontStrikeout="0" previewBkgrdColor="255,255,255,255" useSubstitutions="0" allowHtml="0" fontWordSpacing="0" multilineHeight="1" fontSize="7" fontWeight="75" isExpression="1" fontUnderline="0" fontLetterSpacing="0" namedStyle="Bold" fontKerning="1" blendMode="0" forcedItalic="0" multilineHeightUnit="Percentage" capitalization="0" textOrientation="horizontal" textOpacity="1" forcedBold="0" textColor="0,0,0,255" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" legendString="Aa" fieldName="coalesce(&quot;name&quot;) || '\n' || &#xd;coalesce( &quot;altitude&quot;, ' ')" fontItalic="0" fontFamily="MS Shell Dlg 2">
                 <families/>
@@ -11065,8 +11173,8 @@ def my_form_open(dialog, layer, feature):
           <Option value="0" type="QString" name="labeling/xOffset"/>
           <Option value="0" type="QString" name="labeling/yOffset"/>
           <Option value="0" type="QString" name="labeling/zIndex"/>
-          <Option type="invalid" name="variableNames"/>
-          <Option type="invalid" name="variableValues"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -11301,11 +11409,22 @@ def my_form_open(dialog, layer, feature):
           </editWidget>
         </field>
         <field configurationFlags="NoFlag" name="fk_status">
-          <editWidget type="TextEdit">
+          <editWidget type="ValueRelation">
             <config>
               <Option type="Map">
-                <Option value="0" type="QString" name="IsMultiline"/>
-                <Option value="0" type="QString" name="UseHtml"/>
+                <Option value="false" type="bool" name="AllowMulti"/>
+                <Option value="false" type="bool" name="AllowNull"/>
+                <Option value="" type="QString" name="Description"/>
+                <Option value="" type="QString" name="FilterExpression"/>
+                <Option value="id" type="QString" name="Key"/>
+                <Option value="status_93619e98_3f6a_40f2_8fb1_754aa4c8a403" type="QString" name="Layer"/>
+                <Option value="Statut" type="QString" name="LayerName"/>
+                <Option value="postgres" type="QString" name="LayerProviderName"/>
+                <Option value="service='qwat' key='id' checkPrimaryKeyUnicity='0' table=&quot;qwat_vl&quot;.&quot;status&quot;" type="QString" name="LayerSource"/>
+                <Option value="1" type="int" name="NofColumns"/>
+                <Option value="false" type="bool" name="OrderByValue"/>
+                <Option value="false" type="bool" name="UseCompleter"/>
+                <Option value="value_fr" type="QString" name="Value"/>
               </Option>
             </config>
           </editWidget>
@@ -12197,7 +12316,7 @@ def my_form_open(dialog, layer, feature):
         <alias index="13" field="update_geometry_alt2" name=""/>
         <alias index="14" field="identification" name="Identifiant"/>
         <alias index="15" field="fk_distributor" name=""/>
-        <alias index="16" field="fk_status" name=""/>
+        <alias index="16" field="fk_status" name="Etat"/>
         <alias index="17" field="fk_folder" name=""/>
         <alias index="18" field="fk_locationtype" name=""/>
         <alias index="19" field="fk_precision" name=""/>
@@ -12301,7 +12420,7 @@ def my_form_open(dialog, layer, feature):
         <policy field="update_geometry_alt2" policy="Duplicate"/>
         <policy field="identification" policy="DefaultValue"/>
         <policy field="fk_distributor" policy="Duplicate"/>
-        <policy field="fk_status" policy="Duplicate"/>
+        <policy field="fk_status" policy="DefaultValue"/>
         <policy field="fk_folder" policy="DefaultValue"/>
         <policy field="fk_locationtype" policy="DefaultValue"/>
         <policy field="fk_precision" policy="Duplicate"/>
@@ -12853,6 +12972,11 @@ def my_form_open(dialog, layer, feature):
           </labelStyle>
         </attributeEditorField>
         <attributeEditorField showLabel="1" index="41" horizontalStretch="0" verticalStretch="0" name="name">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+            <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField showLabel="1" index="16" horizontalStretch="0" verticalStretch="0" name="fk_status">
           <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
             <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
           </labelStyle>
@@ -17585,6 +17709,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer labelsEnabled="1" geometry="Line" minScale="100000000" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="1" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" simplifyDrawingTol="1" wkbType="LineStringZ" maxScale="0" autoRefreshMode="Disabled" readOnly="0" type="vector" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>2552948.19499999983236194</xmin>
+        <ymin>1136435.86765454988926649</ymin>
+        <xmax>2563978.77942452020943165</xmax>
+        <ymax>1150603.78124802000820637</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>6.82564793196540354</xmin>
+        <ymin>46.37763746639705431</ymin>
+        <xmax>6.97045520634577365</xmax>
+        <ymax>46.50576879396972885</ymax>
+      </wgs84extent>
       <id>pipe_25d785af_ce40_4a62_9794_c6d1f3724f20</id>
       <datasource>service='qwat' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table="qwat_od"."pipe" (geometry) sql="fk_status" = 1306</datasource>
       <keywordList>
@@ -18133,8 +18269,8 @@ def my_form_open(dialog, layer, feature):
             <Option value="COALESCE( &quot;id&quot;, '&lt;NULL>' )" type="QString"/>
           </Option>
           <Option value="0" type="QString" name="embeddedWidgets/count"/>
-          <Option type="invalid" name="variableNames"/>
-          <Option type="invalid" name="variableValues"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -18303,11 +18439,22 @@ def my_form_open(dialog, layer, feature):
           </editWidget>
         </field>
         <field configurationFlags="NoFlag" name="fk_status">
-          <editWidget type="TextEdit">
+          <editWidget type="ValueRelation">
             <config>
               <Option type="Map">
-                <Option value="false" type="bool" name="IsMultiline"/>
-                <Option value="false" type="bool" name="UseHtml"/>
+                <Option value="false" type="bool" name="AllowMulti"/>
+                <Option value="false" type="bool" name="AllowNull"/>
+                <Option value="" type="QString" name="Description"/>
+                <Option value="" type="QString" name="FilterExpression"/>
+                <Option value="id" type="QString" name="Key"/>
+                <Option value="status_93619e98_3f6a_40f2_8fb1_754aa4c8a403" type="QString" name="Layer"/>
+                <Option value="Statut" type="QString" name="LayerName"/>
+                <Option value="postgres" type="QString" name="LayerProviderName"/>
+                <Option value="service='qwat' key='id' checkPrimaryKeyUnicity='0' table=&quot;qwat_vl&quot;.&quot;status&quot;" type="QString" name="LayerSource"/>
+                <Option value="1" type="int" name="NofColumns"/>
+                <Option value="false" type="bool" name="OrderByValue"/>
+                <Option value="false" type="bool" name="UseCompleter"/>
+                <Option value="value_fr" type="QString" name="Value"/>
               </Option>
             </config>
           </editWidget>
@@ -21624,6 +21771,436 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer readOnly="0" autoRefreshTime="0" minScale="1e+08" maxScale="0" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" refreshOnNotifyEnabled="0" type="vector" legendPlaceholderImage="" wkbType="NoGeometry" styleCategories="AllStyleCategories" geometry="No geometry">
+      <id>status_93619e98_3f6a_40f2_8fb1_754aa4c8a403</id>
+      <datasource>service='qwat' key='id' checkPrimaryKeyUnicity='0' table="qwat_vl"."status"</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Statut</layername>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt></wkt>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract>Status table, with SIRE id.</abstract>
+        <links/>
+        <dates/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="défaut">
+        <map-layer-style name="défaut"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal endField="" durationField="" enabled="0" mode="0" accumulate="0" limitMode="0" fixedDuration="0" startField="" endExpression="" startExpression="" durationUnit="min">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <elevation clamping="Terrain" binding="Centroid" extrusionEnabled="0" zoffset="0" extrusion="0" showMarkerSymbolInSurfacePlots="0" type="IndividualFeatures" zscale="1" respectLayerSymbol="1" symbology="Line">
+        <data-defined-properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data-defined-properties>
+        <profileLineSymbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="" force_rhr="0" is_animated="0" frame_rate="10">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" type="QString" name="name"/>
+                <Option name="properties"/>
+                <Option value="collection" type="QString" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" locked="0" pass="0" class="SimpleLine" id="{fade16d2-857f-4783-b89d-a66d4ce86183}">
+              <Option type="Map">
+                <Option value="0" type="QString" name="align_dash_pattern"/>
+                <Option value="square" type="QString" name="capstyle"/>
+                <Option value="5;2" type="QString" name="customdash"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="customdash_map_unit_scale"/>
+                <Option value="MM" type="QString" name="customdash_unit"/>
+                <Option value="0" type="QString" name="dash_pattern_offset"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="dash_pattern_offset_map_unit_scale"/>
+                <Option value="MM" type="QString" name="dash_pattern_offset_unit"/>
+                <Option value="0" type="QString" name="draw_inside_polygon"/>
+                <Option value="bevel" type="QString" name="joinstyle"/>
+                <Option value="125,139,143,255" type="QString" name="line_color"/>
+                <Option value="solid" type="QString" name="line_style"/>
+                <Option value="0.6" type="QString" name="line_width"/>
+                <Option value="MM" type="QString" name="line_width_unit"/>
+                <Option value="0" type="QString" name="offset"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+                <Option value="MM" type="QString" name="offset_unit"/>
+                <Option value="0" type="QString" name="ring_filter"/>
+                <Option value="0" type="QString" name="trim_distance_end"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="trim_distance_end_map_unit_scale"/>
+                <Option value="MM" type="QString" name="trim_distance_end_unit"/>
+                <Option value="0" type="QString" name="trim_distance_start"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="trim_distance_start_map_unit_scale"/>
+                <Option value="MM" type="QString" name="trim_distance_start_unit"/>
+                <Option value="0" type="QString" name="tweak_dash_pattern_on_corners"/>
+                <Option value="0" type="QString" name="use_custom_dash"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="width_map_unit_scale"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileLineSymbol>
+        <profileFillSymbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="" force_rhr="0" is_animated="0" frame_rate="10">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" type="QString" name="name"/>
+                <Option name="properties"/>
+                <Option value="collection" type="QString" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill" id="{7d25d010-d1ff-457f-9a7d-0ff4a3e616cb}">
+              <Option type="Map">
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
+                <Option value="125,139,143,255" type="QString" name="color"/>
+                <Option value="bevel" type="QString" name="joinstyle"/>
+                <Option value="0,0" type="QString" name="offset"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+                <Option value="MM" type="QString" name="offset_unit"/>
+                <Option value="89,99,102,255" type="QString" name="outline_color"/>
+                <Option value="solid" type="QString" name="outline_style"/>
+                <Option value="0.2" type="QString" name="outline_width"/>
+                <Option value="MM" type="QString" name="outline_width_unit"/>
+                <Option value="solid" type="QString" name="style"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileFillSymbol>
+        <profileMarkerSymbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="" force_rhr="0" is_animated="0" frame_rate="10">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" type="QString" name="name"/>
+                <Option name="properties"/>
+                <Option value="collection" type="QString" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" locked="0" pass="0" class="SimpleMarker" id="{59019a7c-eac4-4f20-8fa7-1c7b110df3f6}">
+              <Option type="Map">
+                <Option value="0" type="QString" name="angle"/>
+                <Option value="square" type="QString" name="cap_style"/>
+                <Option value="125,139,143,255" type="QString" name="color"/>
+                <Option value="1" type="QString" name="horizontal_anchor_point"/>
+                <Option value="bevel" type="QString" name="joinstyle"/>
+                <Option value="diamond" type="QString" name="name"/>
+                <Option value="0,0" type="QString" name="offset"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+                <Option value="MM" type="QString" name="offset_unit"/>
+                <Option value="89,99,102,255" type="QString" name="outline_color"/>
+                <Option value="solid" type="QString" name="outline_style"/>
+                <Option value="0.2" type="QString" name="outline_width"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="outline_width_map_unit_scale"/>
+                <Option value="MM" type="QString" name="outline_width_unit"/>
+                <Option value="diameter" type="QString" name="scale_method"/>
+                <Option value="3" type="QString" name="size"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="size_map_unit_scale"/>
+                <Option value="MM" type="QString" name="size_unit"/>
+                <Option value="1" type="QString" name="vertical_anchor_point"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileMarkerSymbol>
+      </elevation>
+      <customproperties>
+        <Option/>
+      </customproperties>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend showLabelLegend="0" type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field configurationFlags="NoFlag" name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="vl_active">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="short_fr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="short_en">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="short_ro">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="value_fr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="value_en">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="value_ro">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="description_fr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="description_en">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="description_ro">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="active">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="functional">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="code_sire">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="NoFlag" name="sia405code">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="id" name=""/>
+        <alias index="1" field="vl_active" name=""/>
+        <alias index="2" field="short_fr" name=""/>
+        <alias index="3" field="short_en" name=""/>
+        <alias index="4" field="short_ro" name=""/>
+        <alias index="5" field="value_fr" name=""/>
+        <alias index="6" field="value_en" name=""/>
+        <alias index="7" field="value_ro" name=""/>
+        <alias index="8" field="description_fr" name=""/>
+        <alias index="9" field="description_en" name=""/>
+        <alias index="10" field="description_ro" name=""/>
+        <alias index="11" field="active" name=""/>
+        <alias index="12" field="functional" name=""/>
+        <alias index="13" field="code_sire" name=""/>
+        <alias index="14" field="sia405code" name=""/>
+      </aliases>
+      <splitPolicies>
+        <policy field="id" policy="Duplicate"/>
+        <policy field="vl_active" policy="Duplicate"/>
+        <policy field="short_fr" policy="Duplicate"/>
+        <policy field="short_en" policy="Duplicate"/>
+        <policy field="short_ro" policy="Duplicate"/>
+        <policy field="value_fr" policy="Duplicate"/>
+        <policy field="value_en" policy="Duplicate"/>
+        <policy field="value_ro" policy="Duplicate"/>
+        <policy field="description_fr" policy="Duplicate"/>
+        <policy field="description_en" policy="Duplicate"/>
+        <policy field="description_ro" policy="Duplicate"/>
+        <policy field="active" policy="Duplicate"/>
+        <policy field="functional" policy="Duplicate"/>
+        <policy field="code_sire" policy="Duplicate"/>
+        <policy field="sia405code" policy="Duplicate"/>
+      </splitPolicies>
+      <defaults>
+        <default field="id" applyOnUpdate="0" expression=""/>
+        <default field="vl_active" applyOnUpdate="0" expression=""/>
+        <default field="short_fr" applyOnUpdate="0" expression=""/>
+        <default field="short_en" applyOnUpdate="0" expression=""/>
+        <default field="short_ro" applyOnUpdate="0" expression=""/>
+        <default field="value_fr" applyOnUpdate="0" expression=""/>
+        <default field="value_en" applyOnUpdate="0" expression=""/>
+        <default field="value_ro" applyOnUpdate="0" expression=""/>
+        <default field="description_fr" applyOnUpdate="0" expression=""/>
+        <default field="description_en" applyOnUpdate="0" expression=""/>
+        <default field="description_ro" applyOnUpdate="0" expression=""/>
+        <default field="active" applyOnUpdate="0" expression=""/>
+        <default field="functional" applyOnUpdate="0" expression=""/>
+        <default field="code_sire" applyOnUpdate="0" expression=""/>
+        <default field="sia405code" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="1" unique_strength="1" constraints="3" exp_strength="0" field="id"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="vl_active"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="short_fr"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="short_en"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="short_ro"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="value_fr"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="value_en"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="value_ro"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="description_fr"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="description_en"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="description_ro"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="active"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="functional"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="code_sire"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="sia405code"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="id"/>
+        <constraint desc="" exp="" field="vl_active"/>
+        <constraint desc="" exp="" field="short_fr"/>
+        <constraint desc="" exp="" field="short_en"/>
+        <constraint desc="" exp="" field="short_ro"/>
+        <constraint desc="" exp="" field="value_fr"/>
+        <constraint desc="" exp="" field="value_en"/>
+        <constraint desc="" exp="" field="value_ro"/>
+        <constraint desc="" exp="" field="description_fr"/>
+        <constraint desc="" exp="" field="description_en"/>
+        <constraint desc="" exp="" field="description_ro"/>
+        <constraint desc="" exp="" field="active"/>
+        <constraint desc="" exp="" field="functional"/>
+        <constraint desc="" exp="" field="code_sire"/>
+        <constraint desc="" exp="" field="sia405code"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip enabled="1"></mapTip>
+    </maplayer>
+    <maplayer readOnly="0" autoRefreshTime="0" minScale="1e+08" maxScale="0" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" refreshOnNotifyEnabled="0" type="vector" legendPlaceholderImage="" wkbType="NoGeometry" styleCategories="AllStyleCategories" geometry="No geometry">
       <id>vl_qwat_ext_ch_vd_sire_adesafecter_aa01d9d9_77d9_44ca_b7eb_4eb0f57ec89d</id>
       <datasource>./data/Listes de valeurs/value_lists.gpkg|layername=vl_qwat_ext_ch_vd_sire_adesafecter</datasource>
       <keywordList>
@@ -22214,6 +22791,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer labelsEnabled="1" geometry="Point" minScale="8000" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="0" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="1" legendPlaceholderImage="" simplifyDrawingTol="1" wkbType="PointZ" maxScale="0" autoRefreshMode="Disabled" readOnly="1" type="vector" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>2551090.46266767987981439</xmin>
+        <ymin>1136205.3947091200388968</ymin>
+        <xmax>2564495.0226529398933053</xmax>
+        <ymax>1152008.86777818994596601</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>6.80129736179152022</xmin>
+        <ymin>46.37543115816536954</ymin>
+        <xmax>6.97718260883035146</xmax>
+        <ymax>46.51843582377325959</ymax>
+      </wgs84extent>
       <id>vw_element_hydrant20180904165544316</id>
       <datasource>service='qwat' user='sige' sslmode=allow key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table="qwat_od"."vw_element_hydrant" (geometry)</datasource>
       <keywordList>
@@ -22292,7 +22881,7 @@ def my_form_open(dialog, layer, feature):
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal endField="" durationField="" enabled="0" mode="0" accumulate="0" limitMode="0" fixedDuration="0" startField="" endExpression="" startExpression="" durationUnit="min">
+      <temporal endField="" durationField="id" enabled="0" mode="0" accumulate="0" limitMode="0" fixedDuration="0" startField="observation_date" endExpression="" startExpression="" durationUnit="min">
         <fixedRange>
           <start></start>
           <end></end>
@@ -22676,8 +23265,8 @@ def my_form_open(dialog, layer, feature):
       <customproperties>
         <Option type="Map">
           <Option value="0" type="QString" name="embeddedWidgets/count"/>
-          <Option type="invalid" name="variableNames"/>
-          <Option type="invalid" name="variableValues"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -22808,8 +23397,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option value="0" type="QString" name="IsMultiline"/>
-                <Option value="0" type="QString" name="UseHtml"/>
+                <Option value="false" type="bool" name="IsMultiline"/>
+                <Option value="false" type="bool" name="UseHtml"/>
               </Option>
             </config>
           </editWidget>
@@ -22908,18 +23497,29 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option value="0" type="QString" name="IsMultiline"/>
-                <Option value="0" type="QString" name="UseHtml"/>
+                <Option value="false" type="bool" name="IsMultiline"/>
+                <Option value="false" type="bool" name="UseHtml"/>
               </Option>
             </config>
           </editWidget>
         </field>
         <field configurationFlags="NoFlag" name="fk_status">
-          <editWidget type="TextEdit">
+          <editWidget type="ValueRelation">
             <config>
               <Option type="Map">
-                <Option value="0" type="QString" name="IsMultiline"/>
-                <Option value="0" type="QString" name="UseHtml"/>
+                <Option value="false" type="bool" name="AllowMulti"/>
+                <Option value="false" type="bool" name="AllowNull"/>
+                <Option value="" type="QString" name="Description"/>
+                <Option value="" type="QString" name="FilterExpression"/>
+                <Option value="id" type="QString" name="Key"/>
+                <Option value="status_93619e98_3f6a_40f2_8fb1_754aa4c8a403" type="QString" name="Layer"/>
+                <Option value="Statut" type="QString" name="LayerName"/>
+                <Option value="postgres" type="QString" name="LayerProviderName"/>
+                <Option value="service='qwat' key='id' checkPrimaryKeyUnicity='0' table=&quot;qwat_vl&quot;.&quot;status&quot;" type="QString" name="LayerSource"/>
+                <Option value="1" type="int" name="NofColumns"/>
+                <Option value="false" type="bool" name="OrderByValue"/>
+                <Option value="false" type="bool" name="UseCompleter"/>
+                <Option value="value_fr" type="QString" name="Value"/>
               </Option>
             </config>
           </editWidget>
@@ -23322,7 +23922,7 @@ def my_form_open(dialog, layer, feature):
         <alias index="13" field="update_geometry_alt2" name=""/>
         <alias index="14" field="identification" name="Identifiant"/>
         <alias index="15" field="fk_distributor" name=""/>
-        <alias index="16" field="fk_status" name=""/>
+        <alias index="16" field="fk_status" name="Etat"/>
         <alias index="17" field="fk_folder" name=""/>
         <alias index="18" field="fk_locationtype" name=""/>
         <alias index="19" field="fk_precision" name=""/>
@@ -23368,7 +23968,7 @@ def my_form_open(dialog, layer, feature):
         <policy field="fk_pressurezone" policy="Duplicate"/>
         <policy field="fk_printmap" policy="Duplicate"/>
         <policy field="_printmaps" policy="DefaultValue"/>
-        <policy field="_geometry_alt1_used" policy="Duplicate"/>
+        <policy field="_geometry_alt1_used" policy="DefaultValue"/>
         <policy field="_geometry_alt2_used" policy="Duplicate"/>
         <policy field="_pipe_node_type" policy="Duplicate"/>
         <policy field="_pipe_orientation" policy="Duplicate"/>
@@ -23378,8 +23978,8 @@ def my_form_open(dialog, layer, feature):
         <policy field="update_geometry_alt1" policy="Duplicate"/>
         <policy field="update_geometry_alt2" policy="Duplicate"/>
         <policy field="identification" policy="DefaultValue"/>
-        <policy field="fk_distributor" policy="Duplicate"/>
-        <policy field="fk_status" policy="Duplicate"/>
+        <policy field="fk_distributor" policy="DefaultValue"/>
+        <policy field="fk_status" policy="DefaultValue"/>
         <policy field="fk_folder" policy="Duplicate"/>
         <policy field="fk_locationtype" policy="Duplicate"/>
         <policy field="fk_precision" policy="Duplicate"/>
@@ -23695,6 +24295,11 @@ def my_form_open(dialog, layer, feature):
             <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
           </labelStyle>
         </attributeEditorField>
+        <attributeEditorField showLabel="1" index="16" horizontalStretch="0" verticalStretch="0" name="fk_status">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+            <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
+          </labelStyle>
+        </attributeEditorField>
       </attributeEditorForm>
       <editable>
         <field editable="1" name="_geometry_alt1_used"/>
@@ -23873,6 +24478,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer labelsEnabled="1" geometry="Point" minScale="100000000" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="0" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" simplifyDrawingTol="1" wkbType="PointZ" maxScale="0" autoRefreshMode="Disabled" readOnly="0" type="vector" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>2552456.09214165015146136</xmin>
+        <ymin>1136464.26471509994007647</ymin>
+        <xmax>2564403.035420429892838</xmax>
+        <ymax>1150489.57125511998310685</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>6.81924883967967865</xmin>
+        <ymin>46.37785814412072227</ymin>
+        <xmax>6.97596717852832526</xmax>
+        <ymax>46.50476417949182917</ymax>
+      </wgs84extent>
       <id>vw_element_installation20180903105459428</id>
       <datasource>service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table="qwat_od"."vw_element_installation" (geometry_alt2) sql="installation_type" = 'tank' AND ("fk_status" = 1301 OR "fk_status" = 1306)</datasource>
       <keywordList>
@@ -24537,8 +25154,8 @@ def my_form_open(dialog, layer, feature):
       <customproperties>
         <Option type="Map">
           <Option value="0" type="QString" name="embeddedWidgets/count"/>
-          <Option type="invalid" name="variableNames"/>
-          <Option type="invalid" name="variableValues"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -24669,8 +25286,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option value="0" type="QString" name="IsMultiline"/>
-                <Option value="0" type="QString" name="UseHtml"/>
+                <Option value="false" type="bool" name="IsMultiline"/>
+                <Option value="false" type="bool" name="UseHtml"/>
               </Option>
             </config>
           </editWidget>
@@ -24766,18 +25383,29 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option value="0" type="QString" name="IsMultiline"/>
-                <Option value="0" type="QString" name="UseHtml"/>
+                <Option value="false" type="bool" name="IsMultiline"/>
+                <Option value="false" type="bool" name="UseHtml"/>
               </Option>
             </config>
           </editWidget>
         </field>
         <field configurationFlags="NoFlag" name="fk_status">
-          <editWidget type="TextEdit">
+          <editWidget type="ValueRelation">
             <config>
               <Option type="Map">
-                <Option value="0" type="QString" name="IsMultiline"/>
-                <Option value="0" type="QString" name="UseHtml"/>
+                <Option value="false" type="bool" name="AllowMulti"/>
+                <Option value="false" type="bool" name="AllowNull"/>
+                <Option value="" type="QString" name="Description"/>
+                <Option value="" type="QString" name="FilterExpression"/>
+                <Option value="id" type="QString" name="Key"/>
+                <Option value="status_93619e98_3f6a_40f2_8fb1_754aa4c8a403" type="QString" name="Layer"/>
+                <Option value="Statut" type="QString" name="LayerName"/>
+                <Option value="postgres" type="QString" name="LayerProviderName"/>
+                <Option value="service='qwat' key='id' checkPrimaryKeyUnicity='0' table=&quot;qwat_vl&quot;.&quot;status&quot;" type="QString" name="LayerSource"/>
+                <Option value="1" type="int" name="NofColumns"/>
+                <Option value="false" type="bool" name="OrderByValue"/>
+                <Option value="false" type="bool" name="UseCompleter"/>
+                <Option value="value_fr" type="QString" name="Value"/>
               </Option>
             </config>
           </editWidget>
@@ -25428,8 +26056,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option value="0" type="QString" name="IsMultiline"/>
-                <Option value="0" type="QString" name="UseHtml"/>
+                <Option value="false" type="bool" name="IsMultiline"/>
+                <Option value="false" type="bool" name="UseHtml"/>
               </Option>
             </config>
           </editWidget>
@@ -25669,7 +26297,7 @@ def my_form_open(dialog, layer, feature):
         <alias index="13" field="update_geometry_alt2" name=""/>
         <alias index="14" field="identification" name="Identifiant"/>
         <alias index="15" field="fk_distributor" name=""/>
-        <alias index="16" field="fk_status" name=""/>
+        <alias index="16" field="fk_status" name="Etat"/>
         <alias index="17" field="fk_folder" name=""/>
         <alias index="18" field="fk_locationtype" name=""/>
         <alias index="19" field="fk_precision" name=""/>
@@ -25762,7 +26390,7 @@ def my_form_open(dialog, layer, feature):
         <policy field="fk_pressurezone" policy="DefaultValue"/>
         <policy field="fk_printmap" policy="Duplicate"/>
         <policy field="_printmaps" policy="Duplicate"/>
-        <policy field="_geometry_alt1_used" policy="Duplicate"/>
+        <policy field="_geometry_alt1_used" policy="DefaultValue"/>
         <policy field="_geometry_alt2_used" policy="Duplicate"/>
         <policy field="_pipe_node_type" policy="Duplicate"/>
         <policy field="_pipe_orientation" policy="Duplicate"/>
@@ -25772,8 +26400,8 @@ def my_form_open(dialog, layer, feature):
         <policy field="update_geometry_alt1" policy="DefaultValue"/>
         <policy field="update_geometry_alt2" policy="Duplicate"/>
         <policy field="identification" policy="DefaultValue"/>
-        <policy field="fk_distributor" policy="Duplicate"/>
-        <policy field="fk_status" policy="Duplicate"/>
+        <policy field="fk_distributor" policy="DefaultValue"/>
+        <policy field="fk_status" policy="DefaultValue"/>
         <policy field="fk_folder" policy="Duplicate"/>
         <policy field="fk_locationtype" policy="Duplicate"/>
         <policy field="fk_precision" policy="Duplicate"/>
@@ -25836,7 +26464,7 @@ def my_form_open(dialog, layer, feature):
         <policy field="altitude_overflow" policy="DefaultValue"/>
         <policy field="altitude_apron" policy="Duplicate"/>
         <policy field="height_max" policy="DefaultValue"/>
-        <policy field="fire_valve" policy="Duplicate"/>
+        <policy field="fire_valve" policy="DefaultValue"/>
         <policy field="fire_remote" policy="Duplicate"/>
         <policy field="_litrepercm" policy="Duplicate"/>
         <policy field="cistern1_fk_type" policy="Duplicate"/>
@@ -26329,6 +26957,11 @@ def my_form_open(dialog, layer, feature):
             <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
           </labelStyle>
         </attributeEditorField>
+        <attributeEditorField showLabel="1" index="16" horizontalStretch="0" verticalStretch="0" name="fk_status">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+            <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
+          </labelStyle>
+        </attributeEditorField>
         <attributeEditorField showLabel="1" index="76" horizontalStretch="0" verticalStretch="0" name="altitude_overflow">
           <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
             <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
@@ -26403,7 +27036,7 @@ def my_form_open(dialog, layer, feature):
         <field editable="1" name="fk_remote"/>
         <field editable="1" name="fk_source_quality"/>
         <field editable="1" name="fk_source_type"/>
-        <field editable="1" name="fk_status"/>
+        <field editable="0" name="fk_status"/>
         <field editable="1" name="fk_tank_firestorage"/>
         <field editable="1" name="fk_watertype"/>
         <field editable="1" name="flocculation"/>
@@ -26675,6 +27308,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer labelsEnabled="0" geometry="Point" minScale="100000000" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="0" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" simplifyDrawingTol="1" wkbType="PointZ" maxScale="0" autoRefreshMode="Disabled" readOnly="0" type="vector" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>2551982.15326619008556008</xmin>
+        <ymin>1136723.0614477600902319</ymin>
+        <xmax>2565094.41444244002923369</xmax>
+        <ymax>1151664.39153458992950618</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>6.81295240542780611</xmin>
+        <ymin>46.38015228718579408</ymin>
+        <xmax>6.98493373975734766</xmax>
+        <ymax>46.51536872119611843</ymax>
+      </wgs84extent>
       <id>vw_element_subscriber20180924091059730</id>
       <datasource>service='qwat' user='sige' sslmode=allow key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table="qwat_od"."vw_element_subscriber" (geometry) sql="fk_subscriber_type" IN (9403,9405)</datasource>
       <keywordList>
@@ -27022,8 +27667,8 @@ def my_form_open(dialog, layer, feature):
       <customproperties>
         <Option type="Map">
           <Option value="0" type="QString" name="embeddedWidgets/count"/>
-          <Option type="invalid" name="variableNames"/>
-          <Option type="invalid" name="variableValues"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -27144,8 +27789,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option value="0" type="QString" name="IsMultiline"/>
-                <Option value="0" type="QString" name="UseHtml"/>
+                <Option value="false" type="bool" name="IsMultiline"/>
+                <Option value="false" type="bool" name="UseHtml"/>
               </Option>
             </config>
           </editWidget>
@@ -27254,18 +27899,29 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option value="0" type="QString" name="IsMultiline"/>
-                <Option value="0" type="QString" name="UseHtml"/>
+                <Option value="false" type="bool" name="IsMultiline"/>
+                <Option value="false" type="bool" name="UseHtml"/>
               </Option>
             </config>
           </editWidget>
         </field>
         <field configurationFlags="NoFlag" name="fk_status">
-          <editWidget type="TextEdit">
+          <editWidget type="ValueRelation">
             <config>
               <Option type="Map">
-                <Option value="0" type="QString" name="IsMultiline"/>
-                <Option value="0" type="QString" name="UseHtml"/>
+                <Option value="false" type="bool" name="AllowMulti"/>
+                <Option value="false" type="bool" name="AllowNull"/>
+                <Option value="" type="QString" name="Description"/>
+                <Option value="" type="QString" name="FilterExpression"/>
+                <Option value="id" type="QString" name="Key"/>
+                <Option value="status_93619e98_3f6a_40f2_8fb1_754aa4c8a403" type="QString" name="Layer"/>
+                <Option value="Statut" type="QString" name="LayerName"/>
+                <Option value="postgres" type="QString" name="LayerProviderName"/>
+                <Option value="service='qwat' key='id' checkPrimaryKeyUnicity='0' table=&quot;qwat_vl&quot;.&quot;status&quot;" type="QString" name="LayerSource"/>
+                <Option value="1" type="int" name="NofColumns"/>
+                <Option value="false" type="bool" name="OrderByValue"/>
+                <Option value="false" type="bool" name="UseCompleter"/>
+                <Option value="value_fr" type="QString" name="Value"/>
               </Option>
             </config>
           </editWidget>
@@ -27585,7 +28241,7 @@ def my_form_open(dialog, layer, feature):
         <alias index="13" field="update_geometry_alt2" name=""/>
         <alias index="14" field="identification" name="Identifiant"/>
         <alias index="15" field="fk_distributor" name=""/>
-        <alias index="16" field="fk_status" name=""/>
+        <alias index="16" field="fk_status" name="Etat"/>
         <alias index="17" field="fk_folder" name=""/>
         <alias index="18" field="fk_locationtype" name=""/>
         <alias index="19" field="fk_precision" name=""/>
@@ -27622,7 +28278,7 @@ def my_form_open(dialog, layer, feature):
         <policy field="fk_district" policy="Duplicate"/>
         <policy field="fk_pressurezone" policy="Duplicate"/>
         <policy field="fk_printmap" policy="Duplicate"/>
-        <policy field="_printmaps" policy="Duplicate"/>
+        <policy field="_printmaps" policy="DefaultValue"/>
         <policy field="_geometry_alt1_used" policy="DefaultValue"/>
         <policy field="_geometry_alt2_used" policy="Duplicate"/>
         <policy field="_pipe_node_type" policy="Duplicate"/>
@@ -27633,8 +28289,8 @@ def my_form_open(dialog, layer, feature):
         <policy field="update_geometry_alt1" policy="Duplicate"/>
         <policy field="update_geometry_alt2" policy="Duplicate"/>
         <policy field="identification" policy="DefaultValue"/>
-        <policy field="fk_distributor" policy="Duplicate"/>
-        <policy field="fk_status" policy="Duplicate"/>
+        <policy field="fk_distributor" policy="DefaultValue"/>
+        <policy field="fk_status" policy="DefaultValue"/>
         <policy field="fk_folder" policy="Duplicate"/>
         <policy field="fk_locationtype" policy="Duplicate"/>
         <policy field="fk_precision" policy="Duplicate"/>
@@ -27910,6 +28566,11 @@ def my_form_open(dialog, layer, feature):
             <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
           </labelStyle>
         </attributeEditorField>
+        <attributeEditorField showLabel="1" index="16" horizontalStretch="0" verticalStretch="0" name="fk_status">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+            <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
+          </labelStyle>
+        </attributeEditorField>
       </attributeEditorForm>
       <editable>
         <field editable="1" name="_geometry_alt1_used"/>
@@ -28064,6 +28725,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer labelsEnabled="1" geometry="Line" minScale="100000000" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="0" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" simplifyDrawingTol="1" wkbType="LineStringZ" maxScale="100000" autoRefreshMode="Disabled" readOnly="0" type="vector" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>2550340.40851210989058018</xmin>
+        <ymin>1136143.95795514993369579</ymin>
+        <xmax>2565126.51585185015574098</xmax>
+        <ymax>1152283.55775768007151783</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>6.79149422085524268</xmin>
+        <ymin>46.37482330854811607</ymin>
+        <xmax>6.98539459625059589</xmax>
+        <ymax>46.52094007576196333</ymax>
+      </wgs84extent>
       <id>vw_pipe_schema20180903104110130</id>
       <datasource>service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table="qwat_od"."vw_pipe_schema" (geometry) sql="fk_function" IN(101,102,103,4101,4105,4109,4110,4111,4151)</datasource>
       <keywordList>
@@ -29350,8 +30023,8 @@ def my_form_open(dialog, layer, feature):
             <Option value="COALESCE( &quot;id&quot;, '&lt;NULL>' )" type="QString"/>
           </Option>
           <Option value="0" type="QString" name="embeddedWidgets/count"/>
-          <Option type="invalid" name="variableNames"/>
-          <Option type="invalid" name="variableValues"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -29547,13 +30220,18 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="ValueRelation">
             <config>
               <Option type="Map">
-                <Option value="0" type="QString" name="AllowMulti"/>
-                <Option value="0" type="QString" name="AllowNull"/>
+                <Option value="false" type="bool" name="AllowMulti"/>
+                <Option value="false" type="bool" name="AllowNull"/>
+                <Option value="" type="QString" name="Description"/>
                 <Option value="" type="QString" name="FilterExpression"/>
                 <Option value="id" type="QString" name="Key"/>
-                <Option value="vl_status20130304110011436" type="QString" name="Layer"/>
-                <Option value="0" type="QString" name="OrderByValue"/>
-                <Option value="0" type="QString" name="UseCompleter"/>
+                <Option value="status_93619e98_3f6a_40f2_8fb1_754aa4c8a403" type="QString" name="Layer"/>
+                <Option value="Statut" type="QString" name="LayerName"/>
+                <Option value="postgres" type="QString" name="LayerProviderName"/>
+                <Option value="service='qwat' key='id' checkPrimaryKeyUnicity='0' table=&quot;qwat_vl&quot;.&quot;status&quot;" type="QString" name="LayerSource"/>
+                <Option value="1" type="int" name="NofColumns"/>
+                <Option value="false" type="bool" name="OrderByValue"/>
+                <Option value="false" type="bool" name="UseCompleter"/>
                 <Option value="value_fr" type="QString" name="Value"/>
               </Option>
             </config>
@@ -30052,14 +30730,14 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" field="id" name="ID"/>
+        <alias index="0" field="id" name="Id"/>
         <alias index="1" field="fk_function" name="fonction"/>
         <alias index="2" field="fk_installmethod" name="mode de pose"/>
         <alias index="3" field="fk_material" name="matériau"/>
         <alias index="4" field="fk_distributor" name="distributeur"/>
         <alias index="5" field="fk_precision" name="précision"/>
         <alias index="6" field="fk_protection" name="protection"/>
-        <alias index="7" field="fk_status" name="statut"/>
+        <alias index="7" field="fk_status" name="Etat"/>
         <alias index="8" field="fk_folder" name="dossier technique"/>
         <alias index="9" field="year" name="Année"/>
         <alias index="10" field="year_end" name="Année fin"/>
@@ -30430,6 +31108,16 @@ def my_form_open(dialog, layer, feature):
         <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
           <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
         </labelStyle>
+        <attributeEditorField showLabel="1" index="0" horizontalStretch="0" verticalStretch="0" name="id">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+            <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField showLabel="1" index="7" horizontalStretch="0" verticalStretch="0" name="fk_status">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
+            <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
+          </labelStyle>
+        </attributeEditorField>
         <attributeEditorField showLabel="1" index="14" horizontalStretch="0" verticalStretch="0" name="fk_pressurezone">
           <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
             <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
@@ -30467,7 +31155,7 @@ def my_form_open(dialog, layer, feature):
         <field editable="1" name="fk_printmap"/>
         <field editable="1" name="fk_protection"/>
         <field editable="1" name="fk_status"/>
-        <field editable="1" name="id"/>
+        <field editable="0" name="id"/>
         <field editable="1" name="label_2_text"/>
         <field editable="1" name="label_2_visible"/>
         <field editable="1" name="number_of_pipe"/>
@@ -30650,6 +31338,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1">pressurezone_name</mapTip>
     </maplayer>
     <maplayer labelsEnabled="1" geometry="Line" minScale="100000000" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="1" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" simplifyDrawingTol="1" wkbType="LineStringZ" maxScale="0" autoRefreshMode="Disabled" readOnly="0" type="vector" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>2550340.40851210989058018</xmin>
+        <ymin>1136143.95795514993369579</ymin>
+        <xmax>2565203.53781286021694541</xmax>
+        <ymax>1152283.55775768007151783</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>6.79149422085524268</xmin>
+        <ymin>46.37482330854811607</ymin>
+        <xmax>6.98639562220390697</xmax>
+        <ymax>46.52094409584847057</ymax>
+      </wgs84extent>
       <id>vw_pipe_schema20190402105730089</id>
       <datasource>service='qwat' user='sige' sslmode=allow key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table="qwat_od"."vw_pipe_schema" (geometry) sql="fk_status" NOT IN (1303,1304,1305,1306,1307)</datasource>
       <keywordList>
@@ -31207,8 +31907,8 @@ def my_form_open(dialog, layer, feature):
             <Option value="COALESCE( &quot;id&quot;, '&lt;NULL>' )" type="QString"/>
           </Option>
           <Option value="0" type="QString" name="embeddedWidgets/count"/>
-          <Option type="invalid" name="variableNames"/>
-          <Option type="invalid" name="variableValues"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -31356,11 +32056,22 @@ def my_form_open(dialog, layer, feature):
           </editWidget>
         </field>
         <field configurationFlags="NoFlag" name="fk_status">
-          <editWidget type="TextEdit">
+          <editWidget type="ValueRelation">
             <config>
               <Option type="Map">
-                <Option value="false" type="bool" name="IsMultiline"/>
-                <Option value="false" type="bool" name="UseHtml"/>
+                <Option value="false" type="bool" name="AllowMulti"/>
+                <Option value="false" type="bool" name="AllowNull"/>
+                <Option value="" type="QString" name="Description"/>
+                <Option value="" type="QString" name="FilterExpression"/>
+                <Option value="id" type="QString" name="Key"/>
+                <Option value="status_93619e98_3f6a_40f2_8fb1_754aa4c8a403" type="QString" name="Layer"/>
+                <Option value="Statut" type="QString" name="LayerName"/>
+                <Option value="postgres" type="QString" name="LayerProviderName"/>
+                <Option value="service='qwat' key='id' checkPrimaryKeyUnicity='0' table=&quot;qwat_vl&quot;.&quot;status&quot;" type="QString" name="LayerSource"/>
+                <Option value="1" type="int" name="NofColumns"/>
+                <Option value="false" type="bool" name="OrderByValue"/>
+                <Option value="false" type="bool" name="UseCompleter"/>
+                <Option value="value_fr" type="QString" name="Value"/>
               </Option>
             </config>
           </editWidget>
@@ -32021,6 +32732,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1">pipe_material__displayname_fr</mapTip>
     </maplayer>
     <maplayer labelsEnabled="1" geometry="Line" minScale="100000000" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="1" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" simplifyDrawingTol="1" wkbType="LineStringZ" maxScale="0" autoRefreshMode="Disabled" readOnly="0" type="vector" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>2550340.40851210989058018</xmin>
+        <ymin>1136143.95795514993369579</ymin>
+        <xmax>2565203.53781286021694541</xmax>
+        <ymax>1152283.55775768007151783</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>6.79149422085524268</xmin>
+        <ymin>46.37482330854811607</ymin>
+        <xmax>6.98639562220390697</xmax>
+        <ymax>46.52094409584847057</ymax>
+      </wgs84extent>
       <id>vw_pipe_schema_9bc1596f_16a9_4b77_b187_0299e0e0996d</id>
       <datasource>service='qwat' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table="qwat_od"."vw_pipe_schema" (geometry)</datasource>
       <keywordList>
@@ -32495,8 +33218,8 @@ def my_form_open(dialog, layer, feature):
         <Option type="Map">
           <Option value="COALESCE( &quot;id&quot;, '&lt;NULL>' )" type="QString" name="dualview/previewExpressions"/>
           <Option value="0" type="QString" name="embeddedWidgets/count"/>
-          <Option type="invalid" name="variableNames"/>
-          <Option type="invalid" name="variableValues"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -32644,11 +33367,22 @@ def my_form_open(dialog, layer, feature):
           </editWidget>
         </field>
         <field configurationFlags="NoFlag" name="fk_status">
-          <editWidget type="TextEdit">
+          <editWidget type="ValueRelation">
             <config>
               <Option type="Map">
-                <Option value="false" type="bool" name="IsMultiline"/>
-                <Option value="false" type="bool" name="UseHtml"/>
+                <Option value="false" type="bool" name="AllowMulti"/>
+                <Option value="false" type="bool" name="AllowNull"/>
+                <Option value="" type="QString" name="Description"/>
+                <Option value="" type="QString" name="FilterExpression"/>
+                <Option value="id" type="QString" name="Key"/>
+                <Option value="status_93619e98_3f6a_40f2_8fb1_754aa4c8a403" type="QString" name="Layer"/>
+                <Option value="Statut" type="QString" name="LayerName"/>
+                <Option value="postgres" type="QString" name="LayerProviderName"/>
+                <Option value="service='qwat' key='id' checkPrimaryKeyUnicity='0' table=&quot;qwat_vl&quot;.&quot;status&quot;" type="QString" name="LayerSource"/>
+                <Option value="1" type="int" name="NofColumns"/>
+                <Option value="false" type="bool" name="OrderByValue"/>
+                <Option value="false" type="bool" name="UseCompleter"/>
+                <Option value="value_fr" type="QString" name="Value"/>
               </Option>
             </config>
           </editWidget>
@@ -33330,6 +34064,8 @@ def my_form_open(dialog, layer, feature):
     <layer id="Fond_ASIT_VD___niveaux_de_gris_sans_labels_3e23d0f1_4610_4fcc_91e5_f123913abbb7"/>
     <layer id="pressurezone_69af57cd_17bc_4925_83ea_91ded6af5042"/>
     <layer id="pipe_56e74148_6bc0_4ad8_b36f_4e20e5d615d6"/>
+    <layer id="status_93619e98_3f6a_40f2_8fb1_754aa4c8a403"/>
+    <layer id="Visa_942dca17_c04c_4702_915a_715da416b2b4"/>
   </layerorder>
   <properties>
     <DefaultStyles/>
@@ -39932,7 +40668,6 @@ def my_form_open(dialog, layer, feature):
             <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'source' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306 OR fk_status = 1302)" providerKey="postgres" name="Captage (S)" expanded="1" id="Réservoir__R__copier20180903133008375">
               <customproperties>
                 <Option type="Map">
-                  <Option value="Captage (S)" type="QString" name="cached_name"/>
                   <Option value="0,1,2,3" type="QString" name="legend/node-order"/>
                   <Option value="group" type="QString" name="legend/title-style"/>
                 </Option>
@@ -39941,7 +40676,6 @@ def my_form_open(dialog, layer, feature):
             <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'tank' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)" providerKey="postgres" name="Réservoir (R)" expanded="1" id="vw_element_installation20180903105459428">
               <customproperties>
                 <Option type="Map">
-                  <Option value="Réservoir (R)" type="QString" name="cached_name"/>
                   <Option value="0,1,2,3,4" type="QString" name="legend/node-order"/>
                   <Option value="group" type="QString" name="legend/title-style"/>
                 </Option>
@@ -39950,7 +40684,6 @@ def my_form_open(dialog, layer, feature):
             <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'pump' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)" providerKey="postgres" name="Station de pompage (STAP)" expanded="1" id="Réservoir__R__copier20180903132243202">
               <customproperties>
                 <Option type="Map">
-                  <Option value="Station de pompage (STAP)" type="QString" name="cached_name"/>
                   <Option value="0,1,2" type="QString" name="legend/node-order"/>
                   <Option value="group" type="QString" name="legend/title-style"/>
                 </Option>
@@ -39959,7 +40692,6 @@ def my_form_open(dialog, layer, feature):
             <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'treatment' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)" providerKey="postgres" name="Chambre de traitement (CT)" expanded="1" id="Réservoir__R__copier20180903140459108">
               <customproperties>
                 <Option type="Map">
-                  <Option value="Chambre de traitement (CT)" type="QString" name="cached_name"/>
                   <Option value="0,1,2" type="QString" name="legend/node-order"/>
                   <Option value="group" type="QString" name="legend/title-style"/>
                 </Option>
@@ -39968,7 +40700,6 @@ def my_form_open(dialog, layer, feature):
             <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry) sql=&quot;fk_function&quot; IN(101,102,103,4101,4105,4109,4110,4111,4151)" providerKey="postgres" name="Conduites par zone de consommation PDDE" expanded="1" id="vw_pipe_schema20180903104110130">
               <customproperties>
                 <Option type="Map">
-                  <Option value="Conduites par zone de consommation PDDE" type="QString" name="cached_name"/>
                   <Option value="Bagniège, Corsier" type="QString" name="legend/label-3"/>
                   <Option value="Baume, Panessière" type="QString" name="legend/label-4"/>
                   <Option value="Chaux, Sommet" type="QString" name="legend/label-5"/>
@@ -39982,7 +40713,6 @@ def my_form_open(dialog, layer, feature):
             <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;pipe&quot; (geometry) sql=&quot;fk_status&quot; = 1306" providerKey="postgres" name="Nouvelles conduites prévues PDDE" expanded="1" id="pipe_25d785af_ce40_4a62_9794_c6d1f3724f20">
               <customproperties>
                 <Option type="Map">
-                  <Option value="Nouvelles conduites prévues PDDE" type="QString" name="cached_name"/>
                   <Option value="0,1" type="QString" name="legend/node-order"/>
                   <Option value="group" type="QString" name="legend/title-style"/>
                 </Option>
@@ -39991,7 +40721,6 @@ def my_form_open(dialog, layer, feature):
             <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=allow key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry) sql=&quot;fk_status&quot; NOT IN (1303,1304,1305,1306,1307)" providerKey="postgres" name="Renouvellement conduites PDDE" expanded="1" id="vw_pipe_schema20190402105730089">
               <customproperties>
                 <Option type="Map">
-                  <Option value="Renouvellement conduites PDDE" type="QString" name="cached_name"/>
                   <Option value="0,1" type="QString" name="legend/node-order"/>
                   <Option value="group" type="QString" name="legend/title-style"/>
                 </Option>
@@ -40000,7 +40729,6 @@ def my_form_open(dialog, layer, feature):
             <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry)" providerKey="postgres" name="Conduites à désaffecter PDDE" expanded="1" id="vw_pipe_schema_9bc1596f_16a9_4b77_b187_0299e0e0996d">
               <customproperties>
                 <Option type="Map">
-                  <Option value="Conduites à désaffecter PDDE" type="QString" name="cached_name"/>
                   <Option value="group" type="QString" name="legend/title-style"/>
                 </Option>
               </customproperties>
@@ -40008,7 +40736,6 @@ def my_form_open(dialog, layer, feature):
             <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'chamber' OR &quot;installation_type&quot; = 'pressurecontrol' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)" providerKey="postgres" name="Chambre de réseau" expanded="1" id="Réservoir__R__copier20180903140739634">
               <customproperties>
                 <Option type="Map">
-                  <Option value="Chambre de réseau" type="QString" name="cached_name"/>
                   <Option value="0,1,2,3,4,5,6,7" type="QString" name="legend/node-order"/>
                   <Option value="group" type="QString" name="legend/title-style"/>
                 </Option>
@@ -40017,7 +40744,6 @@ def my_form_open(dialog, layer, feature):
             <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="./data/Vannes/network_separation_zone_C.shp" providerKey="ogr" name="Vanne fermée" expanded="1" id="network_separation_zone_C_091f9d10_acdb_493b_9a8f_8ac23c34a48f">
               <customproperties>
                 <Option type="Map">
-                  <Option value="Vanne fermée" type="QString" name="cached_name"/>
                   <Option value="0,1,2" type="QString" name="legend/node-order"/>
                   <Option value="group" type="QString" name="legend/title-style"/>
                 </Option>
@@ -40026,7 +40752,6 @@ def my_form_open(dialog, layer, feature):
             <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=allow key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_element_subscriber&quot; (geometry) sql=&quot;fk_subscriber_type&quot; IN (9403,9405)" providerKey="postgres" name="Branchement spécial" expanded="1" id="vw_element_subscriber20180924091059730">
               <customproperties>
                 <Option type="Map">
-                  <Option value="Branchement spécial" type="QString" name="cached_name"/>
                   <Option value="group" type="QString" name="legend/title-style"/>
                 </Option>
               </customproperties>
@@ -40058,7 +40783,6 @@ def my_form_open(dialog, layer, feature):
             <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry) sql=&quot;fk_function&quot; IN(101,102,103,4101,4105,4109,4110,4111,4151)" providerKey="postgres" name="Conduites par zone de consommation PDDE" expanded="1" id="vw_pipe_schema20180903104110130">
               <customproperties>
                 <Option type="Map">
-                  <Option value="Interconnexions réseaux" type="QString" name="cached_name"/>
                   <Option value="12,13,14,15" type="QString" name="legend/node-order"/>
                   <Option value="Interconnexions réseaux" type="QString" name="legend/title-label"/>
                   <Option value="group" type="QString" name="legend/title-style"/>
@@ -40068,7 +40792,6 @@ def my_form_open(dialog, layer, feature):
             <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="./data/Zones PDDE/Zones PDDE.shp" providerKey="ogr" name="Zone PDDE" expanded="1" id="Zone_PDDE_2d90ebc7_c339_45a8_8cda_011183a3124f">
               <customproperties>
                 <Option type="Map">
-                  <Option value="Zone PDDE" type="QString" name="cached_name"/>
                   <Option value="5,6,7,8,9" type="QString" name="legend/node-order"/>
                   <Option value="group" type="QString" name="legend/title-style"/>
                 </Option>
@@ -61397,7 +62120,7 @@ def my_form_open(dialog, layer, feature):
       </spatialrefsys>
     </CoordinateCustomCrs>
   </ProjectDisplaySettings>
-  <ProjectGpsSettings destinationLayerSource="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'source' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306 OR fk_status = 1302)" destinationLayer="Réservoir__R__copier20180903133008375" autoCommitFeatures="0" destinationLayerProvider="postgres" autoAddTrackVertices="0" destinationLayerName="Captage (S)" destinationFollowsActiveLayer="1">
+  <ProjectGpsSettings destinationLayerSource="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry) sql=&quot;fk_function&quot; IN(101,102,103,4101,4105,4109,4110,4111,4151)" destinationLayer="vw_pipe_schema20180903104110130" autoCommitFeatures="0" destinationLayerProvider="postgres" autoAddTrackVertices="0" destinationLayerName="Conduites par zone de consommation PDDE" destinationFollowsActiveLayer="1">
     <timeStampFields/>
   </ProjectGpsSettings>
 </qgis>
