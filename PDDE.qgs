@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.34.15-Prizren" saveUser="andrek" saveUserFull="André Kevin" projectname="" saveDateTime="2025-02-27T16:25:11">
+<qgis version="3.34.15-Prizren" saveUser="andrek" saveUserFull="André Kevin" projectname="" saveDateTime="2025-02-28T09:11:49">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -232,23 +232,23 @@
   </layer-tree-group>
   <snapping-settings minScale="0" enabled="0" mode="2" maxScale="0" unit="1" scaleDependencyMode="0" type="3" tolerance="10" self-snapping="0" intersection-snapping="0">
     <individual-layer-settings>
-      <layer-setting minScale="0" enabled="1" units="1" maxScale="0" type="1" tolerance="12" id="Zone_PDDE_2d90ebc7_c339_45a8_8cda_011183a3124f"/>
-      <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="Réservoir__R__copier20180903132243202"/>
-      <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="vw_element_installation20180903105459428"/>
-      <layer-setting minScale="0" enabled="1" units="1" maxScale="0" type="2" tolerance="50" id="vw_pipe_schema_9bc1596f_16a9_4b77_b187_0299e0e0996d"/>
-      <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="Réservoir__R__copier20180903140459108"/>
-      <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="vw_element_hydrant20180904165544316"/>
       <layer-setting minScale="0" enabled="1" units="1" maxScale="0" type="1" tolerance="12" id="lc_limites_commune_aaa24756_e525_4148_97d0_8f65f723c1bd"/>
-      <layer-setting minScale="0" enabled="1" units="1" maxScale="0" type="2" tolerance="50" id="pressurezone_69af57cd_17bc_4925_83ea_91ded6af5042"/>
+      <layer-setting minScale="0" enabled="1" units="1" maxScale="0" type="1" tolerance="15" id="pipe_56e74148_6bc0_4ad8_b36f_4e20e5d615d6"/>
+      <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="Réservoir__R__copier20180903140739634"/>
+      <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="Réservoir__R__copier20180903132243202"/>
+      <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="Réservoir__R__copier20180903140459108"/>
+      <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="vw_element_installation20180903105459428"/>
       <layer-setting minScale="0" enabled="1" units="1" maxScale="0" type="2" tolerance="50" id="pipe_25d785af_ce40_4a62_9794_c6d1f3724f20"/>
+      <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="vw_pipe_schema20180903104110130"/>
+      <layer-setting minScale="0" enabled="1" units="1" maxScale="0" type="1" tolerance="12" id="Zone_PDDE_2d90ebc7_c339_45a8_8cda_011183a3124f"/>
       <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="Réservoir__R__copier20180903133008375"/>
+      <layer-setting minScale="0" enabled="1" units="1" maxScale="0" type="2" tolerance="50" id="network_separation_zone_C_091f9d10_acdb_493b_9a8f_8ac23c34a48f"/>
+      <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="vw_element_hydrant20180904165544316"/>
+      <layer-setting minScale="0" enabled="1" units="1" maxScale="0" type="2" tolerance="50" id="pressurezone_69af57cd_17bc_4925_83ea_91ded6af5042"/>
+      <layer-setting minScale="0" enabled="1" units="1" maxScale="0" type="2" tolerance="50" id="vw_pipe_schema_9bc1596f_16a9_4b77_b187_0299e0e0996d"/>
+      <layer-setting minScale="0" enabled="1" units="1" maxScale="0" type="2" tolerance="50" id="centrale_exploitation_9174971a_7796_4b5c_a3d6_10911e20e2b2"/>
       <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="vw_element_subscriber20180924091059730"/>
       <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="vw_pipe_schema20190402105730089"/>
-      <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="Réservoir__R__copier20180903140739634"/>
-      <layer-setting minScale="0" enabled="0" units="2" maxScale="0" type="2" tolerance="0" id="vw_pipe_schema20180903104110130"/>
-      <layer-setting minScale="0" enabled="1" units="1" maxScale="0" type="2" tolerance="50" id="centrale_exploitation_9174971a_7796_4b5c_a3d6_10911e20e2b2"/>
-      <layer-setting minScale="0" enabled="1" units="1" maxScale="0" type="1" tolerance="15" id="pipe_56e74148_6bc0_4ad8_b36f_4e20e5d615d6"/>
-      <layer-setting minScale="0" enabled="1" units="1" maxScale="0" type="2" tolerance="50" id="network_separation_zone_C_091f9d10_acdb_493b_9a8f_8ac23c34a48f"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -28064,18 +28064,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer labelsEnabled="1" geometry="Line" minScale="100000000" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="0" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" simplifyDrawingTol="1" wkbType="LineStringZ" maxScale="100000" autoRefreshMode="Disabled" readOnly="0" type="vector" refreshOnNotifyMessage="">
-      <extent>
-        <xmin>2550340.40851210989058018</xmin>
-        <ymin>1136143.95795514993369579</ymin>
-        <xmax>2565126.51585185015574098</xmax>
-        <ymax>1152283.55775768007151783</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>6.79149422085524268</xmin>
-        <ymin>46.37482330854811607</ymin>
-        <xmax>6.98539459625059589</xmax>
-        <ymax>46.52094007576196333</ymax>
-      </wgs84extent>
       <id>vw_pipe_schema20180903104110130</id>
       <datasource>service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table="qwat_od"."vw_pipe_schema" (geometry) sql="fk_function" IN(101,102,103,4101,4105,4109,4110,4111,4151)</datasource>
       <keywordList>
@@ -29362,8 +29350,8 @@ def my_form_open(dialog, layer, feature):
             <Option value="COALESCE( &quot;id&quot;, '&lt;NULL>' )" type="QString"/>
           </Option>
           <Option value="0" type="QString" name="embeddedWidgets/count"/>
-          <Option name="variableNames"/>
-          <Option name="variableValues"/>
+          <Option type="invalid" name="variableNames"/>
+          <Option type="invalid" name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -31873,17 +31861,17 @@ def my_form_open(dialog, layer, feature):
             <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
           </labelStyle>
         </attributeEditorField>
-        <attributeEditorField showLabel="1" index="-1" horizontalStretch="0" verticalStretch="0" name="qwat_ext_ch_vd_sire_etat_exploitation">
+        <attributeEditorField showLabel="1" index="27" horizontalStretch="0" verticalStretch="0" name="qwat_ext_ch_vd_sire_etat_exploitation">
           <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
             <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
           </labelStyle>
         </attributeEditorField>
-        <attributeEditorField showLabel="1" index="-1" horizontalStretch="0" verticalStretch="0" name="qwat_ext_ch_vd_sire_diametre">
+        <attributeEditorField showLabel="1" index="29" horizontalStretch="0" verticalStretch="0" name="qwat_ext_ch_vd_sire_diametre">
           <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
             <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
           </labelStyle>
         </attributeEditorField>
-        <attributeEditorField showLabel="1" index="-1" horizontalStretch="0" verticalStretch="0" name="qwat_ext_ch_vd_sire_adesafecter">
+        <attributeEditorField showLabel="1" index="28" horizontalStretch="0" verticalStretch="0" name="qwat_ext_ch_vd_sire_adesafecter">
           <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
             <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
           </labelStyle>
@@ -33161,17 +33149,17 @@ def my_form_open(dialog, layer, feature):
             <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
           </labelStyle>
         </attributeEditorField>
-        <attributeEditorField showLabel="1" index="-1" horizontalStretch="0" verticalStretch="0" name="qwat_ext_ch_vd_sire_etat_exploitation">
+        <attributeEditorField showLabel="1" index="27" horizontalStretch="0" verticalStretch="0" name="qwat_ext_ch_vd_sire_etat_exploitation">
           <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
             <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
           </labelStyle>
         </attributeEditorField>
-        <attributeEditorField showLabel="1" index="-1" horizontalStretch="0" verticalStretch="0" name="qwat_ext_ch_vd_sire_diametre">
+        <attributeEditorField showLabel="1" index="29" horizontalStretch="0" verticalStretch="0" name="qwat_ext_ch_vd_sire_diametre">
           <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
             <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
           </labelStyle>
         </attributeEditorField>
-        <attributeEditorField showLabel="1" index="-1" horizontalStretch="0" verticalStretch="0" name="qwat_ext_ch_vd_sire_adesafecter">
+        <attributeEditorField showLabel="1" index="28" horizontalStretch="0" verticalStretch="0" name="qwat_ext_ch_vd_sire_adesafecter">
           <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
             <labelFont bold="0" underline="0" italic="0" strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style=""/>
           </labelStyle>
@@ -39184,7 +39172,7 @@ def my_form_open(dialog, layer, feature):
           </dd_properties>
         </text-style>
       </LayoutItem>
-      <LayoutItem positionOnPage="1577.5,33.513,mm" outlineWidthM="0.3,mm" referencePoint="4" position="1577.5,33.513,mm" itemRotation="0" frameJoinStyle="miter" mode="1" visibility="1" uuid="{b3de6683-9d64-4eb7-a14b-e6e535116a2a}" templateUuid="{b3de6683-9d64-4eb7-a14b-e6e535116a2a}" svgBorderWidth="0.2" pictureRotation="0" positionLock="false" anchorPoint="0" blendMode="0" svgFillColor="255,255,255,255" excludeFromExports="0" pictureWidth="38.2691" background="false" file="../maintenance_db/servitudes/composeur/logo_sige.png" size="127.442,38.5039,mm" groupUuid="" pictureHeight="38.5039" mapUuid="" zValue="13" northMode="0" frame="false" id="" resizeMode="0" svgBorderColor="0,0,0,255" northOffset="0" type="65640" opacity="1">
+      <LayoutItem positionOnPage="1577.5,33.513,mm" outlineWidthM="0.3,mm" referencePoint="4" position="1577.5,33.513,mm" itemRotation="0" frameJoinStyle="miter" mode="1" visibility="1" uuid="{b3de6683-9d64-4eb7-a14b-e6e535116a2a}" templateUuid="{b3de6683-9d64-4eb7-a14b-e6e535116a2a}" svgBorderWidth="0.2" pictureRotation="0" positionLock="false" anchorPoint="0" blendMode="0" svgFillColor="255,255,255,255" excludeFromExports="0" pictureWidth="127.442" background="false" file="./composer/logo_sige.png" size="127.442,38.5039,mm" groupUuid="" pictureHeight="33.8222" mapUuid="" zValue="13" northMode="0" frame="false" id="" resizeMode="0" svgBorderColor="0,0,0,255" northOffset="0" type="65640" opacity="1">
         <FrameColor alpha="255" red="0" green="0" blue="0"/>
         <BackgroundColor alpha="255" red="255" green="255" blue="255"/>
         <LayoutObject>
@@ -39671,7 +39659,7 @@ def my_form_open(dialog, layer, feature):
           </customproperties>
         </LayoutObject>
       </LayoutItem>
-      <LayoutItem symbolHeight="4" blendMode="0" splitLayer="0" resizeToContents="1" frame="false" visibility="1" zValue="3" map_uuid="{25d182f2-eae1-48d6-842c-b3c5ebb39d0a}" outlineWidthM="0.2,mm" opacity="1" wrapChar="" title="Légende" boxSpace="3.5" frameJoinStyle="miter" columnCount="2" symbolAlignment="1" itemRotation="0" excludeFromExports="0" wmsLegendWidth="50" size="195,263,mm" referencePoint="0" rasterBorder="0" wmsLegendHeight="25" positionOnPage="1476.1,595.783,mm" symbolWidth="9" id="" legendFilterByAtlas="0" equalColumnWidth="1" columnSpace="55" groupUuid="" uuid="{7069c89a-b0de-44b8-9ae9-bf56855b0ebb}" type="65642" minSymbolSize="0" background="false" positionLock="true" position="1476.1,595.783,mm" rasterBorderWidth="0" maxSymbolSize="0" titleAlignment="1" rasterBorderColor="0,0,0,255" templateUuid="{7069c89a-b0de-44b8-9ae9-bf56855b0ebb}">
+      <LayoutItem symbolHeight="4" blendMode="0" splitLayer="0" resizeToContents="1" frame="false" visibility="1" zValue="3" map_uuid="{25d182f2-eae1-48d6-842c-b3c5ebb39d0a}" outlineWidthM="0.2,mm" opacity="1" wrapChar="" title="Légende" boxSpace="3.5" frameJoinStyle="miter" columnCount="2" symbolAlignment="1" itemRotation="0" excludeFromExports="0" wmsLegendWidth="50" size="196.183,260.298,mm" referencePoint="0" rasterBorder="0" wmsLegendHeight="25" positionOnPage="1476.1,595.783,mm" symbolWidth="9" id="" legendFilterByAtlas="0" equalColumnWidth="1" columnSpace="55" groupUuid="" uuid="{7069c89a-b0de-44b8-9ae9-bf56855b0ebb}" type="65642" minSymbolSize="0" background="false" positionLock="true" position="1476.1,595.783,mm" rasterBorderWidth="0" maxSymbolSize="0" titleAlignment="1" rasterBorderColor="0,0,0,255" templateUuid="{7069c89a-b0de-44b8-9ae9-bf56855b0ebb}">
         <FrameColor alpha="255" red="0" green="0" blue="0"/>
         <BackgroundColor alpha="255" red="255" green="255" blue="255"/>
         <LayoutObject>
@@ -39944,6 +39932,7 @@ def my_form_open(dialog, layer, feature):
             <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'source' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306 OR fk_status = 1302)" providerKey="postgres" name="Captage (S)" expanded="1" id="Réservoir__R__copier20180903133008375">
               <customproperties>
                 <Option type="Map">
+                  <Option value="Captage (S)" type="QString" name="cached_name"/>
                   <Option value="0,1,2,3" type="QString" name="legend/node-order"/>
                   <Option value="group" type="QString" name="legend/title-style"/>
                 </Option>
@@ -39952,6 +39941,7 @@ def my_form_open(dialog, layer, feature):
             <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'tank' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)" providerKey="postgres" name="Réservoir (R)" expanded="1" id="vw_element_installation20180903105459428">
               <customproperties>
                 <Option type="Map">
+                  <Option value="Réservoir (R)" type="QString" name="cached_name"/>
                   <Option value="0,1,2,3,4" type="QString" name="legend/node-order"/>
                   <Option value="group" type="QString" name="legend/title-style"/>
                 </Option>
@@ -39960,6 +39950,7 @@ def my_form_open(dialog, layer, feature):
             <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'pump' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)" providerKey="postgres" name="Station de pompage (STAP)" expanded="1" id="Réservoir__R__copier20180903132243202">
               <customproperties>
                 <Option type="Map">
+                  <Option value="Station de pompage (STAP)" type="QString" name="cached_name"/>
                   <Option value="0,1,2" type="QString" name="legend/node-order"/>
                   <Option value="group" type="QString" name="legend/title-style"/>
                 </Option>
@@ -39968,6 +39959,7 @@ def my_form_open(dialog, layer, feature):
             <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'treatment' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)" providerKey="postgres" name="Chambre de traitement (CT)" expanded="1" id="Réservoir__R__copier20180903140459108">
               <customproperties>
                 <Option type="Map">
+                  <Option value="Chambre de traitement (CT)" type="QString" name="cached_name"/>
                   <Option value="0,1,2" type="QString" name="legend/node-order"/>
                   <Option value="group" type="QString" name="legend/title-style"/>
                 </Option>
@@ -39976,6 +39968,7 @@ def my_form_open(dialog, layer, feature):
             <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry) sql=&quot;fk_function&quot; IN(101,102,103,4101,4105,4109,4110,4111,4151)" providerKey="postgres" name="Conduites par zone de consommation PDDE" expanded="1" id="vw_pipe_schema20180903104110130">
               <customproperties>
                 <Option type="Map">
+                  <Option value="Conduites par zone de consommation PDDE" type="QString" name="cached_name"/>
                   <Option value="Bagniège, Corsier" type="QString" name="legend/label-3"/>
                   <Option value="Baume, Panessière" type="QString" name="legend/label-4"/>
                   <Option value="Chaux, Sommet" type="QString" name="legend/label-5"/>
@@ -39989,6 +39982,7 @@ def my_form_open(dialog, layer, feature):
             <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;pipe&quot; (geometry) sql=&quot;fk_status&quot; = 1306" providerKey="postgres" name="Nouvelles conduites prévues PDDE" expanded="1" id="pipe_25d785af_ce40_4a62_9794_c6d1f3724f20">
               <customproperties>
                 <Option type="Map">
+                  <Option value="Nouvelles conduites prévues PDDE" type="QString" name="cached_name"/>
                   <Option value="0,1" type="QString" name="legend/node-order"/>
                   <Option value="group" type="QString" name="legend/title-style"/>
                 </Option>
@@ -39997,6 +39991,7 @@ def my_form_open(dialog, layer, feature):
             <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=allow key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry) sql=&quot;fk_status&quot; NOT IN (1303,1304,1305,1306,1307)" providerKey="postgres" name="Renouvellement conduites PDDE" expanded="1" id="vw_pipe_schema20190402105730089">
               <customproperties>
                 <Option type="Map">
+                  <Option value="Renouvellement conduites PDDE" type="QString" name="cached_name"/>
                   <Option value="0,1" type="QString" name="legend/node-order"/>
                   <Option value="group" type="QString" name="legend/title-style"/>
                 </Option>
@@ -40005,6 +40000,7 @@ def my_form_open(dialog, layer, feature):
             <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry)" providerKey="postgres" name="Conduites à désaffecter PDDE" expanded="1" id="vw_pipe_schema_9bc1596f_16a9_4b77_b187_0299e0e0996d">
               <customproperties>
                 <Option type="Map">
+                  <Option value="Conduites à désaffecter PDDE" type="QString" name="cached_name"/>
                   <Option value="group" type="QString" name="legend/title-style"/>
                 </Option>
               </customproperties>
@@ -40012,6 +40008,7 @@ def my_form_open(dialog, layer, feature):
             <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'chamber' OR &quot;installation_type&quot; = 'pressurecontrol' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306)" providerKey="postgres" name="Chambre de réseau" expanded="1" id="Réservoir__R__copier20180903140739634">
               <customproperties>
                 <Option type="Map">
+                  <Option value="Chambre de réseau" type="QString" name="cached_name"/>
                   <Option value="0,1,2,3,4,5,6,7" type="QString" name="legend/node-order"/>
                   <Option value="group" type="QString" name="legend/title-style"/>
                 </Option>
@@ -40020,6 +40017,7 @@ def my_form_open(dialog, layer, feature):
             <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="./data/Vannes/network_separation_zone_C.shp" providerKey="ogr" name="Vanne fermée" expanded="1" id="network_separation_zone_C_091f9d10_acdb_493b_9a8f_8ac23c34a48f">
               <customproperties>
                 <Option type="Map">
+                  <Option value="Vanne fermée" type="QString" name="cached_name"/>
                   <Option value="0,1,2" type="QString" name="legend/node-order"/>
                   <Option value="group" type="QString" name="legend/title-style"/>
                 </Option>
@@ -40028,6 +40026,7 @@ def my_form_open(dialog, layer, feature):
             <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=allow key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_element_subscriber&quot; (geometry) sql=&quot;fk_subscriber_type&quot; IN (9403,9405)" providerKey="postgres" name="Branchement spécial" expanded="1" id="vw_element_subscriber20180924091059730">
               <customproperties>
                 <Option type="Map">
+                  <Option value="Branchement spécial" type="QString" name="cached_name"/>
                   <Option value="group" type="QString" name="legend/title-style"/>
                 </Option>
               </customproperties>
@@ -40059,6 +40058,7 @@ def my_form_open(dialog, layer, feature):
             <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry) sql=&quot;fk_function&quot; IN(101,102,103,4101,4105,4109,4110,4111,4151)" providerKey="postgres" name="Conduites par zone de consommation PDDE" expanded="1" id="vw_pipe_schema20180903104110130">
               <customproperties>
                 <Option type="Map">
+                  <Option value="Interconnexions réseaux" type="QString" name="cached_name"/>
                   <Option value="12,13,14,15" type="QString" name="legend/node-order"/>
                   <Option value="Interconnexions réseaux" type="QString" name="legend/title-label"/>
                   <Option value="group" type="QString" name="legend/title-style"/>
@@ -40068,6 +40068,7 @@ def my_form_open(dialog, layer, feature):
             <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="./data/Zones PDDE/Zones PDDE.shp" providerKey="ogr" name="Zone PDDE" expanded="1" id="Zone_PDDE_2d90ebc7_c339_45a8_8cda_011183a3124f">
               <customproperties>
                 <Option type="Map">
+                  <Option value="Zone PDDE" type="QString" name="cached_name"/>
                   <Option value="5,6,7,8,9" type="QString" name="legend/node-order"/>
                   <Option value="group" type="QString" name="legend/title-style"/>
                 </Option>
@@ -40086,26 +40087,12 @@ def my_form_open(dialog, layer, feature):
               </layer-tree-layer>
             </layer-tree-group>
           </layer-tree-group>
-          <layer-tree-group checked="Qt::Checked" name="Gestion répartition colonnes" expanded="0" groupLayer="">
+          <layer-tree-group checked="Qt::Checked" name="Gestion répartition colonnes" expanded="1" groupLayer="">
             <customproperties>
               <Option type="Map">
                 <Option value="hidden" type="QString" name="legend/title-style"/>
               </Option>
             </customproperties>
-            <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="N:/06_BUREAU_ETUDES/02_CADASTRE/06_SIT/02_PRODUCTION/Basemaps/SMR10 MEAN resampled/SMR10_LV95_SIGE_M_resampled.tif" providerKey="gdal" name="Carte nationale 1:10'000 CN10" expanded="1" id="SMR10_LV95_clipped20180907142920682">
-              <customproperties>
-                <Option type="Map">
-                  <Option value="hidden" type="QString" name="legend/title-style"/>
-                </Option>
-              </customproperties>
-            </layer-tree-layer>
-            <layer-tree-layer legend_exp="" patch_size="0,0" legend_split_behavior="0" checked="Qt::Checked" source="contextualWMSLegend=0&amp;crs=EPSG:2056&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=ch.swisstopo.pixelkarte-farbe-pk25.noscale&amp;referer=http://map.geo.admin.ch&amp;styles=ch.swisstopo.pixelkarte-farbe-pk25.noscale&amp;tileDimensions=Time%3Dcurrent&amp;tileMatrixSet=2056_26&amp;url=http://wmts10.geo.admin.ch/EPSG/2056/1.0.0/WMTSCapabilities.xml" providerKey="wms" name="Carte nationale 1:25'000 | CN25" expanded="1" id="Carte_nationale_1_25_000___CN2520180903145534662">
-              <customproperties>
-                <Option type="Map">
-                  <Option value="hidden" type="QString" name="legend/title-style"/>
-                </Option>
-              </customproperties>
-            </layer-tree-layer>
           </layer-tree-group>
           <custom-order enabled="0"/>
         </layer-tree-group>
@@ -40193,7 +40180,7 @@ def my_form_open(dialog, layer, feature):
           <Layer provider="ogr" source="C:/qgis/PDDE/data/Zones PDDE/Zones PDDE.shp" name="Zone PDDE">Zone_PDDE_2d90ebc7_c339_45a8_8cda_011183a3124f</Layer>
           <Layer provider="postgres" source="service='qwat' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry)" name="Conduites à désaffecter PDDE">vw_pipe_schema_9bc1596f_16a9_4b77_b187_0299e0e0996d</Layer>
           <Layer provider="postgres" source="dbname='cadastre' service='cadastre' sslmode=disable key='cid' srid=2056 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;cadastre&quot;.&quot;lc_limites_commune&quot; (geom)" name="Limites communales">lc_limites_commune_aaa24756_e525_4148_97d0_8f65f723c1bd</Layer>
-          <Layer provider="postgres" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry) sql=&quot;fk_function&quot; IN(101,102,103,4101,4105,4109,4110,4111)" name="Conduites par zone de consommation PDDE">vw_pipe_schema20180903104110130</Layer>
+          <Layer provider="postgres" source="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry) sql=&quot;fk_function&quot; IN(101,102,103,4101,4105,4109,4110,4111,4151)" name="Conduites par zone de consommation PDDE">vw_pipe_schema20180903104110130</Layer>
           <Layer provider="wms" source="contextualWMSLegend=0&amp;crs=EPSG:2056&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=asitvd.fond_gris_sans_labels&amp;styles=default&amp;tileDimensions=ELEVATION%3D0;DIM1%3Ddefault&amp;tileMatrixSet=2056&amp;url=http://ows.asitvd.ch/wmts?contextualWMSLegend%3D0%26crs%3DEPSG:2056%26dpiMode%3D7%26featureCount%3D10%26format%3Dimage/png%26layers%3Dasitvd.fond_gris%26styles%3Ddefault%26tileDimensions%3DELEVATION%3D0;DIM1%3Ddefault%26tileMatrixSet%3D2056%26url%3Dhttp://ows.asitvd.ch/wmts" name="Fond ASIT VD - niveaux de gris sans labels">Fond_ASIT_VD___niveaux_de_gris_sans_labels_3e23d0f1_4610_4fcc_91e5_f123913abbb7</Layer>
         </LayerSet>
         <LayerStyles>
@@ -58836,7 +58823,7 @@ def my_form_open(dialog, layer, feature):
       <customproperties>
         <Option type="Map">
           <Option value="png" type="QString" name="atlasRasterFormat"/>
-          <Option value="1" type="QString" name="forceVector"/>
+          <Option value="false" type="bool" name="forceVector"/>
           <Option value="0" type="QString" name="pdfDisableRasterTiles"/>
           <Option value="0" type="QString" name="pdfIncludeMetadata"/>
           <Option value="0" type="QString" name="pdfTextFormat"/>
@@ -60655,7 +60642,7 @@ def my_form_open(dialog, layer, feature):
           </symbol>
         </fillSymbol2>
       </LayoutItem>
-      <LayoutItem positionOnPage="9.493,8.3949,mm" outlineWidthM="0.3,mm" referencePoint="0" position="9.493,8.3949,mm" itemRotation="0" frameJoinStyle="miter" mode="1" visibility="1" uuid="{91fe0a27-dec2-4605-9c72-9d7a3ec071e8}" templateUuid="{91fe0a27-dec2-4605-9c72-9d7a3ec071e8}" svgBorderWidth="0.2" pictureRotation="0" positionLock="false" anchorPoint="0" blendMode="0" svgFillColor="255,255,255,255" excludeFromExports="0" pictureWidth="81.5248" background="false" file="./composer/logo_sige_2.png" size="89.3023,21.6361,mm" groupUuid="" pictureHeight="21.6361" mapUuid="" zValue="11" northMode="0" frame="false" id="SIGE LOGO" resizeMode="0" svgBorderColor="0,0,0,255" northOffset="0" type="65640" opacity="1">
+      <LayoutItem positionOnPage="9.493,8.3949,mm" outlineWidthM="0.3,mm" referencePoint="0" position="9.493,8.3949,mm" itemRotation="0" frameJoinStyle="miter" mode="1" visibility="1" uuid="{91fe0a27-dec2-4605-9c72-9d7a3ec071e8}" templateUuid="{91fe0a27-dec2-4605-9c72-9d7a3ec071e8}" svgBorderWidth="0.2" pictureRotation="0" positionLock="false" anchorPoint="0" blendMode="0" svgFillColor="255,255,255,255" excludeFromExports="0" pictureWidth="21.5042" background="false" file="./composer/logo_sige_2.png" size="89.3023,21.6361,mm" groupUuid="" pictureHeight="21.6361" mapUuid="" zValue="11" northMode="0" frame="false" id="SIGE LOGO" resizeMode="0" svgBorderColor="0,0,0,255" northOffset="0" type="65640" opacity="1">
         <FrameColor alpha="255" red="0" green="0" blue="0"/>
         <BackgroundColor alpha="255" red="255" green="255" blue="255"/>
         <LayoutObject>
@@ -61410,7 +61397,7 @@ def my_form_open(dialog, layer, feature):
       </spatialrefsys>
     </CoordinateCustomCrs>
   </ProjectDisplaySettings>
-  <ProjectGpsSettings destinationLayerSource="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=LineStringZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_pipe_schema&quot; (geometry) sql=&quot;fk_function&quot; IN(101,102,103,4101,4105,4109,4110,4111)" destinationLayer="vw_pipe_schema20180903104110130" autoCommitFeatures="0" destinationLayerProvider="postgres" autoAddTrackVertices="0" destinationLayerName="Conduites par zone de consommation PDDE" destinationFollowsActiveLayer="1">
+  <ProjectGpsSettings destinationLayerSource="service='qwat' user='sige' sslmode=disable key='id' srid=2056 type=PointZ checkPrimaryKeyUnicity='1' table=&quot;qwat_od&quot;.&quot;vw_element_installation&quot; (geometry_alt2) sql=&quot;installation_type&quot; = 'source' AND (&quot;fk_status&quot; = 1301 OR &quot;fk_status&quot; = 1306 OR fk_status = 1302)" destinationLayer="Réservoir__R__copier20180903133008375" autoCommitFeatures="0" destinationLayerProvider="postgres" autoAddTrackVertices="0" destinationLayerName="Captage (S)" destinationFollowsActiveLayer="1">
     <timeStampFields/>
   </ProjectGpsSettings>
 </qgis>
